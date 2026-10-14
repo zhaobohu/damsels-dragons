@@ -1,0 +1,252 @@
+IQ-TREE 3.1.3 built Jul 26 2026
+
+Input file name: per_locus/23755/23755.best.fas
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 67
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 11 sequences with 2124 nucleotide sites
+Number of constant sites: 1214 (= 57.1563% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1214 (= 57.1563% of all sites)
+Number of parsimony informative sites: 659
+Number of distinct site patterns: 821
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TN+F+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TN+F+I+G4        -11276.316   22604.633 +    0.208   22605.302 +    0.214   22751.820 +    0.777
+TIM2+F+I+G4      -11274.818   22603.636 +    0.342   22604.357 +    0.343   22756.484 +   0.0754
+HKY+F+I+G4       -11282.543   22615.086 -  0.00111   22615.706 -  0.00118   22756.613 +   0.0707
+TIM3+F+I+G4      -11275.402   22604.805 +     0.19   22605.526 +    0.191   22757.653 -    0.042
+TIM+F+I+G4       -11276.111   22606.221 +   0.0938   22606.942 +   0.0941   22759.070 -   0.0207
+TPM2u+F+I+G4     -11280.843   22613.687 -  0.00224   22614.356 -  0.00231   22760.874 -   0.0084
+TPM3u+F+I+G4     -11281.634   22615.267 -  0.00102   22615.937 -  0.00105   22762.455 -  0.00381
+K3Pu+F+I+G4      -11282.333   22616.666 - 0.000506   22617.336 - 0.000521   22763.854 -  0.00189
+GTR+F+I+G4       -11273.574   22605.149 +     0.16   22605.980 +    0.152   22769.319 - 0.000123
+TVM+F+I+G4       -11279.577   22615.155 -  0.00108   22615.930 -  0.00105   22773.664 -  1.4e-05
+HKY+I+G4         -11310.308   22664.616 - 1.96e-14   22665.098 - 2.21e-14   22789.160 - 6.06e-09
+K2P+I+G4         -11310.317   22664.634 - 1.94e-14   22665.115 -  2.2e-14   22789.177 -    6e-09
+K2P+I+G4         -11310.317   22664.634 - 1.94e-14   22665.115 -  2.2e-14   22789.177 -    6e-09
+TN+I+G4          -11307.714   22661.427 - 9.65e-14   22661.953 - 1.07e-13   22791.632 - 1.76e-09
+TNe+I+G4         -11307.719   22661.438 -  9.6e-14   22661.964 - 1.06e-13   22791.642 - 1.75e-09
+TNe+I+G4         -11307.719   22661.438 -  9.6e-14   22661.964 - 1.06e-13   22791.642 - 1.75e-09
+TPM3u+I+G4       -11307.926   22661.853 -  7.8e-14   22662.378 - 8.63e-14   22792.057 - 1.42e-09
+TPM3+I+G4        -11307.928   22661.856 - 7.79e-14   22662.381 - 8.61e-14   22792.060 - 1.42e-09
+TPM3+I+G4        -11307.928   22661.856 - 7.79e-14   22662.381 - 8.61e-14   22792.060 - 1.42e-09
+K3Pu+I+G4        -11309.093   22664.187 - 2.43e-14   22664.713 - 2.69e-14   22794.391 - 4.43e-10
+K3P+I+G4         -11309.098   22664.197 - 2.42e-14   22664.722 - 2.67e-14   22794.401 - 4.41e-10
+K3P+I+G4         -11309.098   22664.197 - 2.42e-14   22664.722 - 2.67e-14   22794.401 - 4.41e-10
+TIM3+I+G4        -11305.306   22658.612 - 3.94e-13   22659.183 - 4.26e-13   22794.477 - 4.24e-10
+TIM3e+I+G4       -11305.307   22658.614 - 3.94e-13   22659.185 - 4.26e-13   22794.479 - 4.24e-10
+TIM3e+I+G4       -11305.307   22658.614 - 3.94e-13   22659.185 - 4.26e-13   22794.479 - 4.24e-10
+TPM2u+I+G4       -11309.882   22665.764 -  1.1e-14   22666.290 - 1.22e-14   22795.969 - 2.01e-10
+TPM2+I+G4        -11309.889   22665.777 -  1.1e-14   22666.303 - 1.21e-14   22795.981 -    2e-10
+TPM2+I+G4        -11309.889   22665.777 -  1.1e-14   22666.303 - 1.21e-14   22795.981 -    2e-10
+TIM+I+G4         -11306.530   22661.060 - 1.16e-13   22661.632 - 1.25e-13   22796.925 - 1.25e-10
+TIMe+I+G4        -11306.537   22661.074 - 1.15e-13   22661.646 - 1.24e-13   22796.940 - 1.24e-10
+TIMe+I+G4        -11306.537   22661.074 - 1.15e-13   22661.646 - 1.24e-13   22796.940 - 1.24e-10
+TIM2+I+G4        -11307.295   22662.590 - 5.39e-14   22663.162 - 5.83e-14   22798.456 -  5.8e-11
+TIM2e+I+G4       -11307.317   22662.634 - 5.28e-14   22663.206 -  5.7e-14   22798.500 - 5.68e-11
+TIM2e+I+G4       -11307.317   22662.634 - 5.28e-14   22663.206 -  5.7e-14   22798.500 - 5.68e-11
+TVM+I+G4         -11306.726   22663.453 -  3.5e-14   22664.072 -  3.7e-14   22804.979 - 2.22e-12
+TVMe+I+G4        -11306.729   22663.458 - 3.49e-14   22664.078 - 3.69e-14   22804.985 - 2.22e-12
+TVMe+I+G4        -11306.729   22663.458 - 3.49e-14   22664.078 - 3.69e-14   22804.985 - 2.22e-12
+GTR+I+G4         -11304.110   22660.221 - 1.76e-13   22660.891 - 1.82e-13   22807.408 -  6.6e-13
+SYM+I+G4         -11304.111   22660.222 - 1.76e-13   22660.891 - 1.81e-13   22807.409 -  6.6e-13
+SYM+I+G4         -11304.111   22660.222 - 1.76e-13   22660.891 - 1.81e-13   22807.409 -  6.6e-13
+F81+F+I+G4       -11438.468   22924.935 - 5.81e-71   22925.507 - 6.28e-71   23060.801 - 6.25e-68
+F81+I+G4         -11459.299   22960.597 - 1.05e-78   22961.037 - 1.21e-78   23079.480 -  5.5e-72
+JC+I+G4          -11459.434   22960.869 - 9.15e-79   22961.308 - 1.06e-78   23079.751 -  4.8e-72
+JC+I+G4          -11459.434   22960.869 - 9.15e-79   22961.308 - 1.06e-78   23079.751 -  4.8e-72
+JC+R2            -11466.334   22974.667 - 9.23e-82   22975.107 - 1.07e-81   23093.550 - 4.84e-75
+JC+R3            -11459.467   22964.935 -  1.2e-79   22965.460 - 1.33e-79   23095.139 - 2.19e-75
+JC+G4            -11471.479   22982.958 - 1.46e-83   22983.358 - 1.72e-83   23096.179 -  1.3e-75
+JC+I+R2          -11464.058   22972.116 - 3.31e-81   22972.598 - 3.74e-81   23096.659 - 1.02e-75
+JC+I+R3          -11460.054   22968.109 - 2.45e-80   22968.680 - 2.65e-80   23103.974 - 2.64e-77
+JC+I             -11492.143   23024.287 - 1.55e-92   23024.686 - 1.83e-92   23137.508 - 1.38e-84
+JC               -11989.787   24017.574 - 3.17e-308   24017.935 - 3.81e-308   24125.134 - 4.78e-299
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TN+F+I+G4
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 2.3574
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 3.2751
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2245
+  pi(C) = 0.2449
+  pi(G) = 0.299
+  pi(T) = 0.2316
+
+Rate matrix Q:
+
+  A   -0.9953    0.2064    0.5938    0.1952
+  C    0.1891     -1.08    0.2519    0.6392
+  G    0.4458    0.2064   -0.8473    0.1952
+  T    0.1891    0.6758    0.2519    -1.117
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.3617
+Gamma shape alpha: 1.479
+
+ Category  Relative_rate  Proportion
+  0         0              0.3617
+  1         0.348          0.1596
+  2         0.9167         0.1596
+  3         1.644          0.1596
+  4         3.358          0.1596
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -11276.3350 (s.e. 210.4137)
+Unconstrained log-likelihood (without tree): -10855.1351
+Number of free parameters (#branches + #model parameters): 26
+Akaike information criterion (AIC) score: 22604.6701
+Corrected Akaike information criterion (AICc) score: 22605.3396
+Bayesian information criterion (BIC) score: 22751.8575
+
+Total tree length (sum of branch lengths): 2.1094
+Sum of internal branch lengths: 0.9454 (44.8179% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Aeshna_juncea_neoX' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--Aeshna_juncea_neoX
+|
++--Aeshna_juncea_neoY
+|
+|    +---Anax_junius
++----| (100)
+     |                                  +-------------Ischnura_elegans
+     |                           +------| (100)
+     |                           |      +--------Platycnemis_pennipes
+     |              +------------| (100)
+     |              |            +----------------Archilestes_grandis
+     +--------------| (100)
+                    |    +-----Cordulegaster_boltonii
+                    +----| (99)
+                         |        +-----Somatochlora_arctica
+                         +--------| (100)
+                                  |      +---Sympetrum_striolatum
+                                  +------| (100)
+                                         |  +--Orthetrum_coerulescens
+                                         +--| (76)
+                                            +-------------Pantala_flavescens
+
+Tree in newick format:
+
+(Aeshna_juncea_neoX:0.0069163246,Aeshna_juncea_neoY:0.0080423130,(Anax_junius:0.0591716161,(((Ischnura_elegans:0.1994878415,Platycnemis_pennipes:0.1295928540)100:0.1131812123,Archilestes_grandis:0.2483526902)100:0.1914103157,(Cordulegaster_boltonii:0.0988800410,(Somatochlora_arctica:0.0924604729,(Sympetrum_striolatum:0.0699324624,(Orthetrum_coerulescens:0.0424049914,Pantala_flavescens:0.2087531539)76:0.0191100945)100:0.1061229223)100:0.1359714381)99:0.0835331674)100:0.2170065458)100:0.0790404792);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -11276.334963
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Aeshna_juncea_neoX
+|
++--Aeshna_juncea_neoY
+|
+|    +---Anax_junius
++----| (100)
+     |                                  +-------------Ischnura_elegans
+     |                           +------| (100)
+     |                           |      +--------Platycnemis_pennipes
+     |              +------------| (100)
+     |              |            +----------------Archilestes_grandis
+     +--------------| (100)
+                    |    +-----Cordulegaster_boltonii
+                    +----| (99)
+                         |        +-----Somatochlora_arctica
+                         +--------| (100)
+                                  |      +---Sympetrum_striolatum
+                                  +------| (100)
+                                         |  +--Orthetrum_coerulescens
+                                         +--| (76)
+                                            +-------------Pantala_flavescens
+
+
+Consensus tree in newick format: 
+
+(Aeshna_juncea_neoX:0.0069195958,Aeshna_juncea_neoY:0.0080414260,(Anax_junius:0.0593090192,(((Ischnura_elegans:0.1995260094,Platycnemis_pennipes:0.1295482769)100:0.1131793471,Archilestes_grandis:0.2482911055)100:0.1913736112,(Cordulegaster_boltonii:0.0988290236,(Somatochlora_arctica:0.0923939793,(Sympetrum_striolatum:0.0698992620,(Orthetrum_coerulescens:0.0423927809,Pantala_flavescens:0.2086576334)76:0.0191190172)100:0.1061581975)100:0.1359871259)99:0.0835527867)100:0.2169665729)100:0.0789450117);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t per_locus/23755/23755.treefile -m "TN{2.35735,3.27512}+F{0.224465,0.244926,0.298974,0.231635}+I{0.361739}+G4{1.47945}" --length 2124
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s per_locus/23755/23755.best.fas --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s per_locus/23755/23755.best.fas --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Aug 21 21:44:34 2026
+Total CPU time used: 3.445747 seconds (0h:0m:3s)
+Total wall-clock time used: 3.391037941 seconds (0h:0m:3s)
+

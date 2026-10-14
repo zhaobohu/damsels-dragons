@@ -1,0 +1,17 @@
+# BUSCO version is: 6.1.0 
+# The lineage dataset is: insecta_odb12.2 (Creation date: 2026-05-13, number of genomes: 76, number of BUSCOs: 2708)
+# Summarized benchmarking in BUSCO notation for file /path/to/project/runs/AeshJunc.gene.annot/aeshna.busco.aa
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:97.0%[S:93.8%,D:3.3%],F:0.3%,M:2.7%,n:2708	   
+	2628	Complete BUSCOs (C)			   
+	2539	Complete and single-copy BUSCOs (S)	   
+	89	Complete and duplicated BUSCOs (D)	   
+	8	Fragmented BUSCOs (F)			   
+	72	Missing BUSCOs (M)			   
+	2708	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.4

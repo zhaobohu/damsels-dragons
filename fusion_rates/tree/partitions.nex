@@ -1,0 +1,9 @@
+#nexus
+begin sets;
+  charset p1 = align/COI.trim.fasta: 1-658\3;
+  charset p2 = align/COI.trim.fasta: 2-658\3;
+  charset p3 = align/COI.trim.fasta: 3-658\3;
+  charset p4 = align/EF1a.trim.fasta: 1-783\3;
+  charset p5 = align/EF1a.trim.fasta: 2-783\3;
+  charset p6 = align/EF1a.trim.fasta: 3-783\3;
+end;

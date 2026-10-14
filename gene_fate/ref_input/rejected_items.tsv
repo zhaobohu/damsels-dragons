@@ -1,0 +1,15 @@
+level	item	segment	rejection_reason	rej_id	loss_status
+TRANSCRIPT	anax_g774.t1#anax_g774	0	Transcript is out of frame	OUT_OF_FRAME	N
+TRANSCRIPT	anax_g293.t1#anax_g293	0	Transcript is out of frame	OUT_OF_FRAME	N
+TRANSCRIPT	anax_g852.t1#anax_g852	0	Transcript is out of frame	OUT_OF_FRAME	N
+TRANSCRIPT	anax_g317.t1#anax_g317	0	Transcript is out of frame	OUT_OF_FRAME	N
+TRANSCRIPT	anax_g253.t1#anax_g253	0	Transcript is out of frame	OUT_OF_FRAME	N
+TRANSCRIPT	anax_g820.t1#anax_g820	0	Transcript is out of frame	OUT_OF_FRAME	N
+TRANSCRIPT	anax_g413.t1#anax_g413	0	Transcript is out of frame	OUT_OF_FRAME	N
+GENE	anax_g253	0	No (valid) transcripts found in the reference annotation	ZERO_TRANSCRIPT_INPUT	N
+GENE	anax_g293	0	No (valid) transcripts found in the reference annotation	ZERO_TRANSCRIPT_INPUT	N
+GENE	anax_g317	0	No (valid) transcripts found in the reference annotation	ZERO_TRANSCRIPT_INPUT	N
+GENE	anax_g413	0	No (valid) transcripts found in the reference annotation	ZERO_TRANSCRIPT_INPUT	N
+GENE	anax_g774	0	No (valid) transcripts found in the reference annotation	ZERO_TRANSCRIPT_INPUT	N
+GENE	anax_g820	0	No (valid) transcripts found in the reference annotation	ZERO_TRANSCRIPT_INPUT	N
+GENE	anax_g852	0	No (valid) transcripts found in the reference annotation	ZERO_TRANSCRIPT_INPUT	N

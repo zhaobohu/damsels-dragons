@@ -1,0 +1,132 @@
+ag	og	cls	proj_cls	status	para	retro	exons	ref_exons	juncea	chr	start	end	base
+anax_g13263	3206	different og	different og	FI	FALSE	FALSE	8	8	anax_g23278	OZ369555	90406734	90416438	anax_g13263.t1#anax_g13263#242
+anax_g13267	3201	different og	different og	FI	FALSE	FALSE	3	3	anax_g23268	OZ369555	90167119	90169889	anax_g13267.t1#anax_g13267#242
+anax_g13312	3080	different og	different og	FI	FALSE	FALSE	4	4	anax_g23093	OZ369555	79905463	79911449	anax_g13312.t1#anax_g13312#6377
+anax_g13313	3079	different og	different og	FI	FALSE	FALSE	4	4	anax_g23092	OZ369555	79883046	79895664	anax_g13313.t1#anax_g13313#6377
+anax_g13383	3160	different og	different og	I	FALSE	FALSE	4	4	anax_g22513,anax_g22515	OZ369555	32150776	32168720	anax_g13383.t1#anax_g13383#91
+anax_g13386	3155	different og	different og	FI	FALSE	FALSE	5	5	anax_g22529	OZ369555	33293549	33304387	anax_g13386.t1#anax_g13386#91
+anax_g13410	3146	different og	different og	FI	FALSE	FALSE	16	16	anax_g22546,anax_g22547,anax_g22551	OZ369555	33647569	33898597	anax_g13410.t3#anax_g13410#91
+anax_g13414	9600	different og	different og	FI	FALSE	FALSE	1	1	anax_g23433	OZ369555	105137092	105138078	anax_g13414.t1#anax_g13414#91
+anax_g13452	3003	different og	different og	I	FALSE	FALSE	7	7	anax_g23780,anax_g23781	OZ369555	124849210	124878699	anax_g13452.t1#anax_g13452#595
+anax_g13453	3004	different og	different og	FI	FALSE	FALSE	3	3	anax_g23779	OZ369555	124838825	124840378	anax_g13453.t1#anax_g13453#595
+anax_g13457	3008	different og	different og	FI	FALSE	FALSE	1	1	anax_g24550	OZ369555	165735702	165736100	anax_g13457.t1#anax_g13457#1248
+anax_g13458	3009	different og	different og	FI	FALSE	FALSE	1	1	anax_g24551	OZ369555	166024564	166026189	anax_g13458.t1#anax_g13458#1248
+anax_g13465	3011	different og	different og	FI	FALSE	FALSE	10	10	anax_g23539	OZ369555	112651868	112666727	anax_g13465.t1#anax_g13465#142
+anax_g13471	3017	different og	different og	FI	FALSE	FALSE	7	7	anax_g23087	OZ369555	79685940	79730135	anax_g13471.t1#anax_g13471#1880
+anax_g13472	3018	different og	different og	FI	FALSE	FALSE	4	4	anax_g23090	OZ369555	79738016	79738907	anax_g13472.t1#anax_g13472#1880
+anax_g13475	3021	different og	different og	FI	FALSE	FALSE	5	5	anax_g24416	OZ369555	152170844	152175093	anax_g13475.t1#anax_g13475#12598
+anax_g13477	3023	different og	different og	FI	FALSE	FALSE	3	3	anax_g23639	OZ369555	118064254	118066036	anax_g13477.t1#anax_g13477#13791
+anax_g13480	3026	different og	different og	FI	FALSE	FALSE	9	9	anax_g22832	OZ369555	59289166	59493370	anax_g13480.t1#anax_g13480#434
+anax_g13486	3032	different og	different og	FI	FALSE	FALSE	7	7	anax_g22892	OZ369555	65544514	65547958	anax_g13486.t1#anax_g13486#1139
+anax_g13499	8015	different og	different og	I	FALSE	FALSE	10	10	anax_g22799	OZ369555	55877246	55942167	anax_g13499.t1#anax_g13499#57
+anax_g13507	2996	different og	different og	FI	FALSE	FALSE	6	6	anax_g23330	OZ369555	96867913	96877404	anax_g13507.t1#anax_g13507#7932
+anax_g13551	2986	different og	different og	FI	FALSE	FALSE	11	11	anax_g23749	OZ369555	123869175	123957674	anax_g13551.t2#anax_g13551#403
+anax_g13558	2978	different og	different og	FI	FALSE	FALSE	10	10	anax_g23753	OZ369555	124010412	124032943	anax_g13558.t1#anax_g13558#91
+anax_g13559	2977	different og	different og	FI	FALSE	FALSE	2	2	anax_g23755	OZ369555	124045994	124046646	anax_g13559.t1#anax_g13559#91
+anax_g13564	3132	different og	different og	FI	FALSE	FALSE	5	5	anax_g23647	OZ369555	118653323	118654177	anax_g13564.t1#anax_g13564#7520
+anax_g13565	3134	different og	different og	FI	FALSE	FALSE	3	3	anax_g23649	OZ369555	118668632	118669141	anax_g13565.t1#anax_g13565#7520
+anax_g13587	3065	different og	different og	FI	FALSE	FALSE	13	13	anax_g23734	OZ369555	123455454	123503383	anax_g13587.t1#anax_g13587#403
+anax_g13591	3067	different og	different og	FI	FALSE	FALSE	1	1	anax_g24057	OZ369555	142879206	142880807	anax_g13591.t1#anax_g13591#1530
+anax_g13592	3068	different og	different og	FI	FALSE	FALSE	16	16	anax_g23542	OZ369555	112788498	112817647	anax_g13592.t2#anax_g13592#622
+anax_g13601	8102	different og	different og	FI	FALSE	FALSE	1	1	anax_g23218	OZ369555	85960646	85962271	anax_g13601.t1#anax_g13601#142
+anax_g13618	8261	different og	different og	FI	FALSE	FALSE	22	22	anax_g22912	OZ369555	65995629	66114422	anax_g13618.t1#anax_g13618#1223
+anax_g13626	3257	different og	different og	FI	FALSE	FALSE	4	4	anax_g24478	OZ369555	156390679	156421578	anax_g13626.t1#anax_g13626#3927
+anax_g13627	3256	different og	different og	FI	FALSE	FALSE	10	10	anax_g23700	OZ369555	122375117	122395882	anax_g13627.t2#anax_g13627#403
+anax_g13633	3249	different og	different og	FI	FALSE	FALSE	9	9	anax_g24422,anax_g24423	OZ369555	152397510	152417947	anax_g13633.t1#anax_g13633#91
+anax_g13636	3245	different og	different og	FI	FALSE	FALSE	5	5	anax_g24432	OZ369555	152967340	152977588	anax_g13636.t1#anax_g13636#91
+anax_g13637	3244	different og	different og	FI	FALSE	FALSE	7	7	anax_g24433	OZ369555	153181378	153213233	anax_g13637.t1#anax_g13637#91
+anax_g13638	3242	different og	different og	FI	FALSE	FALSE	8	8	anax_g24443	OZ369555	153926205	153980172	anax_g13638.t1#anax_g13638#91
+anax_g13642	3263	different og	different og	FI	FALSE	FALSE	4	4	anax_g22869	OZ369555	64385282	64390281	anax_g13642.t1#anax_g13642#184
+anax_g13644	3264	different og	different og	FI	FALSE	FALSE	1	1	anax_g22884	OZ369555	65247860	65250229	anax_g13644.t1#anax_g13644#184
+anax_g13678	3230	different og	different og	FI	FALSE	FALSE	1	1	anax_g22760	OZ369555	52878398	52879309	anax_g13678.t1#anax_g13678#1223
+anax_g13686	3238	different og	different og	I	FALSE	FALSE	17	17	anax_g22177	OZ369555	14502995	14543300	anax_g13686.t1#anax_g13686#10129
+anax_g13686	3238	different og	paralog only	I	TRUE	FALSE	17	17	anax_g22177	OZ369555	14506524	14543300	anax_g13686.t1#anax_g13686#161335
+anax_g13686	3238	different og	different og	FI	FALSE	FALSE	17	17	anax_g22181	OZ369555	14942838	14995046	anax_g13686.t1#anax_g13686#3085
+anax_g13690	8175	different og	different og	FI	FALSE	FALSE	8	8	anax_g22951	OZ369555	70863402	70966731	anax_g13690.t4#anax_g13690#184
+anax_g13694	3280	different og	different og	FI	FALSE	FALSE	6	6	anax_g24462	OZ369555	155214559	155224323	anax_g13694.t1#anax_g13694#91
+anax_g13696	8155	different og	different og	FI	FALSE	FALSE	2	2	anax_g24458	OZ369555	155061779	155062069	anax_g13696.t1#anax_g13696#134765
+anax_g13697	8156	different og	different og	FI	FALSE	FALSE	9	9	anax_g24457	OZ369555	155018338	155039338	anax_g13697.t1#anax_g13697#872
+anax_g13725	8395	different og	different og	FI	FALSE	FALSE	25	25	anax_g24505,anax_g24506,anax_g24507,anax_g24508,anax_g24527	OZ369555	163220333	163752191	anax_g13725.t4#anax_g13725#91
+anax_g13726	8396	different og	different og	FI	FALSE	FALSE	4	4	anax_g24531	OZ369555	164005127	164012334	anax_g13726.t1#anax_g13726#5065
+anax_g13733	3308	different og	different og	FI	FALSE	FALSE	20	20	anax_g23338	OZ369555	97101899	97255004	anax_g13733.t2#anax_g13733#133866
+anax_g13734	3307	different og	different og	FI	FALSE	FALSE	7	7	anax_g23336	OZ369555	97073066	97080140	anax_g13734.t1#anax_g13734#133866
+anax_g13735	3306	different og	different og	FI	FALSE	FALSE	4	4	anax_g23335	OZ369555	97062811	97063626	anax_g13735.t1#anax_g13735#133866
+anax_g13756	3291	different og	different og	FI	FALSE	FALSE	3	3	anax_g23010	OZ369555	73859509	74215083	anax_g13756.t1#anax_g13756#184
+anax_g13757	3290	different og	different og	FI	FALSE	FALSE	2	2	anax_g23013	OZ369555	74553148	74553485	anax_g13757.t1#anax_g13757#162558
+anax_g13763	3284	different og	different og	FI	FALSE	FALSE	2	2	anax_g23185	OZ369555	85185570	85193605	anax_g13763.t1#anax_g13763#6586
+anax_g13766	3302	different og	different og	FI	FALSE	FALSE	4	4	anax_g22594	OZ369555	35266501	35278076	anax_g13766.t1#anax_g13766#149
+anax_g13767	3301	different og	different og	FI	FALSE	FALSE	5	5	anax_g22599	OZ369555	35360327	35428166	anax_g13767.t1#anax_g13767#149
+anax_g13772	3052	different og	different og	FI	FALSE	FALSE	4	4	anax_g22739	OZ369555	51144884	51147301	anax_g13772.t1#anax_g13772#928
+anax_g13774	3050	different og	different og	FI	FALSE	FALSE	8	8	anax_g22740	OZ369555	51186313	51198494	anax_g13774.t1#anax_g13774#928
+anax_g13775	3048	different og	different og	FI	FALSE	FALSE	5	5	anax_g23313	OZ369555	96305921	96311897	anax_g13775.t3#anax_g13775#69505
+anax_g13780	8317	different og	different og	FI	FALSE	FALSE	5	5	anax_g23776	OZ369555	124654319	124658062	anax_g13780.t1#anax_g13780#14635
+anax_g13781	8110	different og	different og	FI	FALSE	FALSE	5	5	anax_g23775	OZ369555	124615220	124630934	anax_g13781.t1#anax_g13781#2914
+anax_g13789	10585	different og	different og	FI	FALSE	FALSE	12	12	anax_g22302	OZ369555	21749239	21894784	anax_g13789.t1#anax_g13789#57
+anax_g13792	3045	different og	different og	FI	FALSE	FALSE	4	4	anax_g22289	OZ369555	20796694	20805088	anax_g13792.t1#anax_g13792#57
+anax_g13794	8253	different og	different og	FI	FALSE	FALSE	16	16	anax_g23067	OZ369555	78631878	78683658	anax_g13794.t1#anax_g13794#1965
+anax_g13824	3104	different og	different og	FI	FALSE	FALSE	2	2	anax_g23510	OZ369555	110895291	110896694	anax_g13824.t1#anax_g13824#294
+anax_g13826	3105	different og	different og	FI	FALSE	FALSE	14	14	anax_g23618,anax_g23620	OZ369555	117631144	117780475	anax_g13826.t1#anax_g13826#20826
+anax_g13829	8100	different og	different og	FI	FALSE	FALSE	3	3	anax_g24068	OZ369555	143107601	143116870	anax_g13829.t1#anax_g13829#1708
+anax_g13878	2952	different og	different og	FI	FALSE	FALSE	1	1	anax_g22126	OZ369555	2198981	2201008	anax_g13878.t1#anax_g13878#57
+anax_g13878	2952	different og	paralog only	I	TRUE	FALSE	1	1	anax_g22125	OZ369555	2181982	2183952	anax_g13878.t1#anax_g13878#64189
+anax_g13886	2967	different og	different og	FI	FALSE	FALSE	4	4	anax_g22441	OZ369555	29197181	29199520	anax_g13886.t1#anax_g13886#13650
+anax_g13886	2967	different og	not in pangenes	FI	FALSE	FALSE	4	4	anax_g23079	OZ369555	79253463	79255802	anax_g13886.t1#anax_g13886#2386
+anax_g13887	2968	different og	different og	FI	FALSE	FALSE	2	2	anax_g22440	OZ369555	29066153	29100475	anax_g13887.t1#anax_g13887#13650
+anax_g13887	2968	different og	not in pangenes	FI	FALSE	FALSE	2	2	anax_g23077	OZ369555	79122435	79156757	anax_g13887.t1#anax_g13887#2386
+anax_g13910	8278	different og	different og	FI	FALSE	FALSE	8	8	anax_g23842	OZ369555	127466283	127475905	anax_g13910.t1#anax_g13910#622
+anax_g13912	8279	different og	different og	FI	FALSE	FALSE	21	21	anax_g23848	OZ369555	127909772	128132020	anax_g13912.t1#anax_g13912#622
+anax_g13965	8388	different og	different og	FI	FALSE	FALSE	8	8	anax_g24400	OZ369555	151430243	151475037	anax_g13965.t1#anax_g13965#5988
+anax_g13966	8389	different og	different og	I	FALSE	FALSE	19	19	anax_g23787,anax_g23791	OZ369555	125105339	125177181	anax_g13966.t4#anax_g13966#2265
+anax_g13973	8104	different og	different og	FI	FALSE	FALSE	8	8	anax_g23660	OZ369555	119673371	120132733	anax_g13973.t1#anax_g13973#420
+anax_g13259	3210	no gene model	no gene model	FI	FALSE	FALSE	6	6	""	OZ369555	90778289	90780484	anax_g13259.t2#anax_g13259#242
+anax_g13260	3209	no gene model	no gene model	FI	FALSE	FALSE	7	7	""	OZ369555	90687191	90773932	anax_g13260.t1#anax_g13260#242
+anax_g13265	3203	no gene model	no gene model	FI	FALSE	FALSE	5	5	""	OZ369555	90172771	90263354	anax_g13265.t1#anax_g13265#242
+anax_g13305	3086	no gene model	no gene model	FI	FALSE	FALSE	10	10	""	OZ369555	122647159	122694719	anax_g13305.t1#anax_g13305#57
+anax_g13338	8201	no gene model	no gene model	FI	FALSE	FALSE	5	5	""	OZ369555	115766826	115774472	anax_g13338.t1#anax_g13338#142
+anax_g13340	3148	no gene model	no gene model	FI	FALSE	FALSE	2	2	""	OZ369555	115331889	115340038	anax_g13340.t1#anax_g13340#142
+anax_g13346	3185	no gene model	no gene model	FI	FALSE	FALSE	2	2	""	OZ369555	125537898	125539969	anax_g13346.t1#anax_g13346#233
+anax_g13385	3154	no gene model	no gene model	FI	FALSE	FALSE	4	4	""	OZ369555	33157706	33168605	anax_g13385.t1#anax_g13385#91
+anax_g13435	8421	no gene model	no gene model	FI	FALSE	FALSE	8	8	""	OZ369555	113090043	113103512	anax_g13435.t1#anax_g13435#142
+anax_g13445	3216	no gene model	no gene model	FI	FALSE	FALSE	5	5	""	OZ369555	24840700	24890672	anax_g13445.t1#anax_g13445#237
+anax_g13446	3215	no gene model	no gene model	FI	FALSE	FALSE	10	10	""	OZ369555	24892024	24927745	anax_g13446.t1#anax_g13446#237
+anax_g13450	3001	no gene model	no gene model	FI	FALSE	FALSE	8	8	""	OZ369555	146136955	146139343	anax_g13450.t1#anax_g13450#1248
+anax_g13451	3002	no gene model	no gene model	I	FALSE	FALSE	11	11	""	OZ369555	124900822	124965743	anax_g13451.t1#anax_g13451#595
+anax_g13455	3006	no gene model	no gene model	FI	FALSE	FALSE	1	1	""	OZ369555	165435477	165436898	anax_g13455.t1#anax_g13455#1248
+anax_g13455	3006	no gene model	paralog only	FI	TRUE	FALSE	1	1	""	OZ369555	165346997	165348166	anax_g13455.t1#anax_g13455#494228
+anax_g13485	3031	no gene model	no gene model	FI	FALSE	FALSE	17	17	""	OZ369555	65418342	65468086	anax_g13485.t1#anax_g13485#1139
+anax_g13493	3039	no gene model	no gene model	FI	FALSE	FALSE	4	4	""	OZ369555	57686424	57763977	anax_g13493.t1#anax_g13493#184
+anax_g13494	3040	no gene model	no gene model	FI	FALSE	FALSE	2	2	""	OZ369555	57134262	57308411	anax_g13494.t1#anax_g13494#57
+anax_g13495	3041	no gene model	no gene model	I	FALSE	FALSE	1	1	""	OZ369555	56980778	56981189	anax_g13495.t1#anax_g13495#57
+anax_g13496	3042	no gene model	no gene model	FI	FALSE	FALSE	5	5	""	OZ369555	56454566	56631297	anax_g13496.t1#anax_g13496#57
+anax_g13497	8013	no gene model	no gene model	FI	FALSE	FALSE	16	16	""	OZ369555	55952286	56429279	anax_g13497.t1#anax_g13497#57
+anax_g13561	8097	no gene model	no gene model	FI	FALSE	FALSE	12	12	""	OZ369555	86751490	86786996	anax_g13561.t1#anax_g13561#5691
+anax_g13622	3262	no gene model	no gene model	FI	FALSE	FALSE	13	13	""	OZ369555	65662672	65717053	anax_g13622.t2#anax_g13622#1223
+anax_g13632	3250	no gene model	no gene model	FI	FALSE	FALSE	7	7	""	OZ369555	158423437	158467908	anax_g13632.t1#anax_g13632#920
+anax_g13635	3248	no gene model	no gene model	FI	FALSE	FALSE	8	8	""	OZ369555	152442244	152474258	anax_g13635.t3#anax_g13635#91
+anax_g13661	9574	no gene model	no gene model	FI	FALSE	FALSE	3	3	""	OZ369555	23948956	23951743	anax_g13661.t1#anax_g13661#1742
+anax_g13671	8213	no gene model	no gene model	FI	FALSE	FALSE	16	16	""	OZ369555	23652671	23733616	anax_g13671.t1#anax_g13671#57
+anax_g13681	3233	no gene model	no gene model	I	FALSE	FALSE	17	17	""	OZ369555	138342178	138408986	anax_g13681.t1#anax_g13681#255
+anax_g13687	8171	no gene model	no gene model	FI	FALSE	FALSE	5	5	""	OZ369555	138614981	138729956	anax_g13687.t1#anax_g13687#255
+anax_g13688	8172	no gene model	no gene model	I	FALSE	FALSE	9	9	""	OZ369555	139005267	139025411	anax_g13688.t1#anax_g13688#255
+anax_g13698	3279	no gene model	no gene model	FI	FALSE	FALSE	13	13	""	OZ369555	154854356	155008663	anax_g13698.t1#anax_g13698#872
+anax_g13700	3277	no gene model	no gene model	FI	FALSE	FALSE	31	31	""	OZ369555	31499480	31645065	anax_g13700.t1#anax_g13700#32779
+anax_g13703	3274	no gene model	no gene model	FI	FALSE	FALSE	16	16	""	OZ369555	82350367	82459848	anax_g13703.t1#anax_g13703#142
+anax_g13718	8291	no gene model	no gene model	FI	FALSE	FALSE	8	8	""	OZ369555	77953501	78115652	anax_g13718.t1#anax_g13718#16340
+anax_g13759	3288	no gene model	no gene model	FI	FALSE	FALSE	10	10	""	OZ369555	74858716	75055598	anax_g13759.t3#anax_g13759#184
+anax_g13768	3300	no gene model	no gene model	FI	FALSE	FALSE	3	3	""	OZ369555	35463808	35501191	anax_g13768.t1#anax_g13768#149
+anax_g13791	8010	no gene model	no gene model	FI	FALSE	FALSE	7	7	""	OZ369555	21002542	21200210	anax_g13791.t1#anax_g13791#57
+anax_g13791	8010	no gene model	no gene model	I	FALSE	FALSE	7	7	""	OZ369555	20889898	21066872	anax_g13791.t1#anax_g13791#7524
+anax_g13857	8402	no gene model	no gene model	I	FALSE	FALSE	3	3	""	OZ369555	118969088	118983562	anax_g13857.t1#anax_g13857#5964
+anax_g13936	8113	no gene model	no gene model	FI	FALSE	FALSE	2	2	""	OZ369555	131007110	131039630	anax_g13936.t1#anax_g13936#791
+anax_g13411	3147	not in pangenes	not in pangenes	FI	FALSE	FALSE	1	1	anax_g22557	OZ369555	33923597	33924052	anax_g13411.t1#anax_g13411#11454
+anax_g13411	3147	not in pangenes	not in pangenes	FI	FALSE	FALSE	1	1	anax_g22556	OZ369555	33904809	33905264	anax_g13411.t1#anax_g13411#91
+anax_g13412	8211	not in pangenes	not in pangenes	FI	FALSE	FALSE	9	9	anax_g22559	OZ369555	33958930	33982440	anax_g13412.t1#anax_g13412#91
+anax_g13476	3022	not in pangenes	not in pangenes	FI	FALSE	FALSE	6	6	anax_g23642	OZ369555	118222146	118225901	anax_g13476.t1#anax_g13476#15449
+anax_g13479	3025	not in pangenes	not in pangenes	FI	FALSE	FALSE	5	5	anax_g22830	OZ369555	59275751	59288626	anax_g13479.t1#anax_g13479#434
+anax_g13488	3034	not in pangenes	not in pangenes	FI	FALSE	FALSE	9	9	anax_g22893	OZ369555	65551140	65554417	anax_g13488.t1#anax_g13488#1139
+anax_g13530	3113	not in pangenes	not in pangenes	FI	FALSE	FALSE	3	3	anax_g24402	OZ369555	151564853	151567906	anax_g13530.t1#anax_g13530#715
+anax_g13662	8020	not in pangenes	not in pangenes	FI	FALSE	FALSE	3	3	anax_g22967	OZ369555	71271088	71272202	anax_g13662.t1#anax_g13662#5432
+anax_g13677	8149	not in pangenes	not in pangenes	FI	FALSE	FALSE	5	5	anax_g22767	OZ369555	53337824	53535769	anax_g13677.t1#anax_g13677#1223
+anax_g13800	8184	not in pangenes	not in pangenes	FI	FALSE	FALSE	6	6	anax_g23609	OZ369555	116735609	116779025	anax_g13800.t1#anax_g13800#2530
+anax_g13351	3181	paralog only	paralog only	I	TRUE	FALSE	1	1	""	OZ369555	125964137	125964574	anax_g13351.t1#anax_g13351#25355
+anax_g13583	3063	paralog only	paralog only	I	TRUE	FALSE	11	11	anax_g23877	OZ369555	128758884	128775302	anax_g13583.t1#anax_g13583#350313

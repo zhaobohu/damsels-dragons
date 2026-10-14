@@ -1,0 +1,260 @@
+excluded from all statistics: MT 
+X split at 103.357 Mb on OZ369554.1; neo-X arm is the left side
+
+== set sizes / dropout ==
+              set distinct_kmers
+           <char>          <num>
+ 1:    male_reads     3466972099
+ 2:     fem_reads     4061503082
+ 3:    male_solid     1585274045
+ 4:     fem_solid     1592961412
+ 5: male_specific      563319844
+ 6:  fem_specific      573766594
+ 7:          hap1     1334033701
+ 8:          hap2     1175455760
+ 9:       fem_asm     1315625213
+10:      hap1_1cp     1211823438
+11:       fem_1cp     1230611402
+12:          den1     1208375256
+13:          num1      390106617
+14:          denF     1223740442
+15:          numF      394278936
+16:       ms_hap1      419634827
+17:   ms_hap2only      136841908
+18:    ms_nothap1      143685017
+   individual asm_1cp_kmers unseen_in_own_reads     dropout
+       <char>         <int>               <int>       <num>
+1:       male    1211823438              486109 0.000401138
+2:        fem    1230611402              296663 0.000241070
+
+== male-specific proportion by class ==
+          track   wclass n_win median_prop pooled_prop auto_median fold_vs_auto
+         <char>   <char> <int>       <num>       <num>       <num>        <num>
+ 1:   all_kmers     auto 14764   0.2279551   0.2331132   0.2279551    1.0000000
+ 2:   all_kmers ancX_arm   811   0.2443973   0.2435247   0.2279551    1.0721293
+ 3:   all_kmers neoX_arm  1034   0.2658935   0.2636917   0.2279551    1.1664294
+ 4:   all_kmers     neoY  1668   0.3630474   0.4144218   0.2279551    1.5926272
+ 5:   all_kmers    micro   482   0.1926962   0.2156359   0.2279551    0.8453256
+ 6: single_copy     auto 14326   0.2909860   0.2992361   0.2909860    1.0000000
+ 7: single_copy ancX_arm   795   0.3125807   0.3121334   0.2909860    1.0742124
+ 8: single_copy neoX_arm   959   0.4046354   0.3959073   0.2909860    1.3905668
+ 9: single_copy     neoY   883   0.8465778   0.8196296   0.2909860    2.9093422
+10: single_copy    micro   343   0.4722125   0.4508147   0.2909860    1.6228017
+
+== per-chromosome (X shown as two arms) ==
+          track    label   wclass n_win median_prop auto_median fold_vs_auto
+         <char>   <char>   <char> <int>       <num>       <num>        <num>
+ 1:   all_kmers        1     auto  1847   0.2139569   0.2279551    0.9385927
+ 2:   all_kmers        2     auto  1564   0.2139932   0.2279551    0.9387518
+ 3:   all_kmers        3     auto  1450   0.2150798   0.2279551    0.9435186
+ 4:   all_kmers        4     auto  1375   0.2218686   0.2279551    0.9732998
+ 5:   all_kmers        5     auto  1363   0.2919700   0.2279551    1.2808226
+ 6:   all_kmers neoX_arm neoX_arm  1034   0.2658935   0.2279551    1.1664294
+ 7:   all_kmers ancX_arm ancX_arm   811   0.2443973   0.2279551    1.0721293
+ 8:   all_kmers        Y     neoY  1668   0.3630474   0.2279551    1.5926272
+ 9:   all_kmers       12    micro   482   0.1926962   0.2279551    0.8453256
+10: single_copy        1     auto  1776   0.2703654   0.2909860    0.9291356
+11: single_copy        2     auto  1511   0.2655933   0.2909860    0.9127359
+12: single_copy        3     auto  1412   0.2705284   0.2909860    0.9296956
+13: single_copy        4     auto  1347   0.2802115   0.2909860    0.9629726
+14: single_copy        5     auto  1310   0.3848969   0.2909860    1.3227336
+15: single_copy neoX_arm neoX_arm   959   0.4046354   0.2909860    1.3905668
+16: single_copy ancX_arm ancX_arm   795   0.3125807   0.2909860    1.0742124
+17: single_copy        Y     neoY   883   0.8465778   0.2909860    2.9093422
+18: single_copy       12    micro   343   0.4722125   0.2909860    1.6228017
+
+== block permutation vs autosomal windows ==
+         track   wclass n_win obs_median perm_median    p_block                                           note
+        <char>   <char> <int>      <num>       <num>      <num>                                         <char>
+1: single_copy    micro   343  0.4722125   0.2706546 0.00059994 10564 possible autosomal blocks of 343 windows
+2: single_copy     neoY   883  0.8465778   0.2662255 0.00009999  4624 possible autosomal blocks of 883 windows
+3: single_copy neoX_arm   959  0.4046354   0.2656223 0.00009999  3788 possible autosomal blocks of 959 windows
+4: single_copy ancX_arm   795  0.3125807   0.2671684 0.09579042  5592 possible autosomal blocks of 795 windows
+5:   all_kmers    micro   482  0.1926962   0.2199373 1.00000000  9473 possible autosomal blocks of 482 windows
+6:   all_kmers     neoY  1668  0.3630474   0.2113761 0.00009999  180 possible autosomal blocks of 1668 windows
+7:   all_kmers neoX_arm  1034  0.2658935   0.2185941 0.09989001 3401 possible autosomal blocks of 1034 windows
+8:   all_kmers ancX_arm   811  0.2443973   0.2197074 0.09519048  5854 possible autosomal blocks of 811 windows
+
+== read depth / autosomal median (male / female) ==
+   auto 1.0/1.0 | ancX_arm 0.5/1.0 | neoX_arm 0.5-1.0/1.0 | male-limited 0.5/~0 |
+   X-like (hemizygous in male) 0.5/1.0 | Z-like (hemizygous in female) 1.0/0.5 | mosaic: intermediate, uniform along the chromosome
+     wclass male_norm   fem_norm fem_over_male
+     <char>     <num>      <num>         <num>
+1:     auto 1.0000000 1.00000000    1.00000000
+2: ancX_arm 0.5699161 1.08716450    1.90758700
+3: neoX_arm 0.5333764 0.91642307    1.71815460
+4:     neoY 0.5052292 0.01089556    0.02156558
+5:    micro 0.7459006 0.39144300    0.52479246
+       label   wclass male_norm   fem_norm fem_over_male
+      <char>   <char>     <num>      <num>         <num>
+ 1:        1     auto 0.9923822 1.00770662    1.01544207
+ 2:        2     auto 1.0019367 1.01820356    1.01623538
+ 3:        3     auto 1.0061975 1.03056072    1.02421311
+ 4:        4     auto 1.0107166 1.03056072    1.01963372
+ 5:        5     auto 0.9908328 0.93675259    0.94541944
+ 6:        6     auto 0.9900581 1.01381876    1.02399926
+ 7:        7     auto 1.0153648 1.00239171    0.98722327
+ 8:        8     auto 1.0107166 1.01488174    1.00412099
+ 9:        9     auto 0.9980633 0.96013819    0.96200133
+10:       10     auto 0.9905746 0.96797768    0.97718810
+11:       11     auto 0.9931569 0.96997077    0.97665413
+12: neoX_arm neoX_arm 0.5333764 0.91642307    1.71815460
+13: ancX_arm ancX_arm 0.5699161 1.08716450    1.90758700
+14:        Y     neoY 0.5052292 0.01089556    0.02156558
+15:       12    micro 0.7459006 0.39144300    0.52479246
+
+== female-specific direction: proportion by assigned hap1 chromosome ==
+   'unaligned' and 'ambiguous' are bins to LOOK AT, not discard: a diverged W-like homolog lands there
+        label    class n_contigs pooled_prop auto_pooled fold_vs_auto
+       <char>   <char>     <int>       <num>       <num>        <num>
+ 1:         1     auto        30   0.2929569   0.3142937    0.9321120
+ 2:         2     auto        27   0.2968406   0.3142937    0.9444689
+ 3:         3     auto        28   0.2858415   0.3142937    0.9094727
+ 4:         4     auto        23   0.3043257   0.3142937    0.9682846
+ 5:         5     auto        28   0.3961336   0.3142937    1.2603931
+ 6:         6     auto        27   0.3069936   0.3142937    0.9767732
+ 7:         7     auto        19   0.3112429   0.3142937    0.9902934
+ 8:         8     auto        18   0.3075086   0.3142937    0.9784118
+ 9:         9     auto        33   0.3256334   0.3142937    1.0360800
+10:        10     auto        12   0.3202671   0.3142937    1.0190058
+11:        11     auto        15   0.3303005   0.3142937    1.0509296
+12:         Y     neoY        17   0.6833773   0.3142937    2.1743274
+13:        12    micro        26   0.4233332   0.3142937    1.3469352
+14:        Un unplaced         1   0.6374615   0.3142937    2.0282352
+15:        Un unplaced         2   0.8101537   0.3142937    2.5776966
+16:        Un unplaced         1   0.4424719   0.3142937    1.4078294
+17:        Un unplaced         1   0.6343432   0.3142937    2.0183138
+18:        Un unplaced         1   0.3505463   0.3142937    1.1153463
+19:         X     neoX        17   0.3512189   0.3142937    1.1174866
+20: ambiguous     <NA>        75   0.5298229   0.3142937    1.6857576
+        label    class n_contigs pooled_prop auto_pooled fold_vs_auto
+       <char>   <char>     <int>       <num>       <num>        <num>
+
+== female-specific: contig-level Wilcoxon vs autosome-assigned contigs ==
+          hap1_chrom     label n_contigs median_contig_prop auto_median p_wilcox_greater
+              <char>    <char>     <int>              <num>       <num>            <num>
+1: CDRUOM010000103.1        Un         1          0.6374615   0.4181061               NA
+2: CDRUOM010000168.1        Un         2          0.8084615   0.4181061               NA
+3: CDRUOM010000187.1        Un         1          0.4424719   0.4181061               NA
+4: CDRUOM010000238.1        Un         1          0.6343432   0.4181061               NA
+5: CDRUOM010000894.1        Un         1          0.3505463   0.4181061               NA
+6:        OZ369553.1        12        26          0.4789019   0.4181061     5.531001e-02
+7:        OZ369554.1         X        17          0.3437524   0.4181061     9.651682e-01
+8:        OZ369555.1         Y        17          0.7195720   0.4181061     3.301527e-08
+9:         ambiguous ambiguous        75          0.7743565   0.4181061     3.497043e-21
+
+== female contigs with the highest female-specific proportion (W candidates if they cluster) ==
+               contig hap1_chrom     label  class   kmers      prop
+               <char>     <char>    <char> <char>   <int>     <num>
+ 1: JBPZNW010000605.1  ambiguous ambiguous   <NA>   11922 0.9147794
+ 2: JBPZNW010000115.1  ambiguous ambiguous   <NA>   11811 0.9077978
+ 3: JBPZNW010001554.1 OZ369543.1         2   auto   13656 0.8991652
+ 4: JBPZNW010000794.1  ambiguous ambiguous   <NA>   11085 0.8780334
+ 5: JBPZNW010000417.1  ambiguous ambiguous   <NA>   13941 0.8741123
+ 6: JBPZNW010000480.1  ambiguous ambiguous   <NA>   13688 0.8713472
+ 7: JBPZNW010000317.1  ambiguous ambiguous   <NA>   18369 0.8689096
+ 8: JBPZNW010000335.1  ambiguous ambiguous   <NA>   12045 0.8680780
+ 9: JBPZNW010000053.1  ambiguous ambiguous   <NA>   25120 0.8675557
+10: JBPZNW010000218.1  ambiguous ambiguous   <NA>   10408 0.8669293
+11: JBPZNW010000494.1  ambiguous ambiguous   <NA>   21628 0.8630479
+12: JBPZNW010000311.1  ambiguous ambiguous   <NA>   18402 0.8620259
+13: JBPZNW010000319.1  ambiguous ambiguous   <NA>   14180 0.8605078
+14: JBPZNW010000397.1  ambiguous ambiguous   <NA>   17139 0.8589766
+15: JBPZNW010000713.1  ambiguous ambiguous   <NA>   12511 0.8557270
+16: JBPZNW010000243.1  ambiguous ambiguous   <NA>   44071 0.8525334
+17: JBPZNW010000029.1 OZ369545.1         4   auto 1022358 0.8524020
+18: JBPZNW010000161.1  ambiguous ambiguous   <NA>   16488 0.8487385
+19: JBPZNW010000443.1  ambiguous ambiguous   <NA>   24638 0.8423167
+20: JBPZNW010000455.1  ambiguous ambiguous   <NA>   15140 0.8371202
+               contig hap1_chrom     label  class   kmers      prop
+               <char>     <char>    <char> <char>   <int>     <num>
+
+== heterozygosity by class ==
+   het_per_kb_callable is the comparable statistic: het SNPs per 1000 sites inside the depth band,
+   so power is matched across classes of different depth. ratio_vs_auto ~0 = hemizygous, ~1 = diploid/mosaic.
+       sex   wclass n_callable   n_het het_per_kb_callable ratio_vs_auto het_per_mb frac_balanced mean_altfrac
+    <char>   <char>      <int>   <int>               <num>         <num>      <num>         <num>        <num>
+ 1:    fem     auto  203789309 2306393          11.3175368    1.00000000  4747.6184     0.8341727    0.4960750
+ 2:    fem ancX_arm   26387580  197605           7.4885609    0.66167763  2439.5679     0.7417373    0.4931106
+ 3:    fem neoX_arm   42881052  296687           6.9188368    0.61133769  2869.3133     0.7496891    0.5017040
+ 4:    fem     neoY    8986352  114303          12.7196219    1.12388607   685.6809     0.6371924    0.5188240
+ 5:    fem    micro   17595601  320352          18.2063687    1.60868651  6660.1247     0.7069786    0.4918332
+ 6:   male     auto  289254710 1962794           6.7856942    1.00000000  4040.3335     0.8930046    0.4626030
+ 7:   male ancX_arm   79211139   23254           0.2935698    0.04326305   287.0864     0.4689086    0.3180575
+ 8:   male neoX_arm   98449640   61149           0.6211196    0.09153368   591.3830     0.6534530    0.3804981
+ 9:   male     neoY  137953562  119225           0.8642401    0.12736208   715.2070     0.6020633    0.3611015
+10:   male    micro   34808818  243403           6.9925672    1.03048665  5060.3534     0.7119181    0.4000900
+
+== where each candidate aligns in the rest of hap1 ==
+      role  label    class n_aln aligned_bases
+    <char> <char>   <char> <int>         <int>
+ 1:  micro     Un unplaced    35       2267575
+ 2:  micro     Un unplaced   164       1368094
+ 3:  micro     Un unplaced    52       1169688
+ 4:  micro     Un unplaced   137       1096261
+ 5:  micro      Y     neoY   273        820959
+ 6:  micro     Un unplaced    17        783626
+ 7:  micro     Un unplaced    59        562616
+ 8:  micro     Un unplaced    44        547088
+ 9:   neoy      X     neoX  6801      33484165
+10:   neoy     Un unplaced    73       4758875
+11:   neoy      9     auto  1889       4248536
+12:   neoy     Un unplaced  1166       3774847
+13:   neoy     Un unplaced    57       3377904
+14:   neoy     Un unplaced    90       2517075
+15:   neoy      Y unplaced    79       2514798
+16:   neoy      1     auto   637       2421534
+
+== candidate alignments to the X, by arm (a true neo-Y should hit the neo-X arm) ==
+     role      arm n_aln aligned_bases median_identity observed_frac expected_frac_if_random
+   <char>   <char> <int>         <int>           <num>         <num>                   <num>
+1:  micro neoX_arm   216        383628       0.9361786    0.72371991               0.5603091
+2:  micro ancX_arm    95        146450       0.9488189    0.27628009               0.4396909
+3:   neoy neoX_arm  6539      32394294       0.8984199    0.96745115               0.5603091
+4:   neoy ancX_arm   262       1089871       0.9749364    0.03254885               0.4396909
+
+== assembly coverage of hap1 chromosomes ==
+         chrom frac_cov_fem_primary frac_cov_fem_all frac_cov_hap2_primary  label
+        <char>                <num>            <num>                 <num> <char>
+ 1: OZ369542.1            0.8914380        0.8985530             0.9135060      1
+ 2: OZ369543.1            0.8831910        0.8883980             0.9113180      2
+ 3: OZ369544.1            0.9067490        0.9109170             0.9279600      3
+ 4: OZ369545.1            0.8843210        0.8887210             0.9008130      4
+ 5: OZ369546.1            0.8242820        0.8336610             0.8607190      5
+ 6: OZ369547.1            0.8851920        0.8896900             0.9108750      6
+ 7: OZ369548.1            0.8808900        0.8886320             0.9069430      7
+ 8: OZ369549.1            0.9019480        0.9048160             0.9265110      8
+ 9: OZ369550.1            0.8617540        0.8705210             0.8978860      9
+10: OZ369551.1            0.8854320        0.8919590             0.9127540     10
+11: OZ369552.1            0.8837380        0.8932400             0.9058220     11
+12: OZ369554.1            0.8609240        0.8709970             0.0337961      X
+13: OZ369555.1            0.0786765        0.0989751             0.0695021      Y
+14: OZ369553.1            0.5024750        0.5476940             0.6607660     12
+
+== micro covered by diverged homology elsewhere ==
+              comparison      chrom       len   covered     frac
+                  <char>     <char>     <int>     <int>    <num>
+1: micro_vs_rest_of_hap1 OZ369553.1  48183092  23326021 0.484112
+2:         micro_vs_hap2 OZ369553.1  48183092  37310539 0.774349
+3:  neoy_vs_rest_of_hap1 OZ369555.1 166739284 114790636 0.688444
+4:          neoy_vs_hap2 OZ369555.1 166739284  93638083 0.561584
+
+== GC per chromosome ==
+     label       len    gc gc_z_vs_auto   flag
+    <char>     <int> <num>        <num> <char>
+ 1:      1 184691837 34.12  2.452494496       
+ 2:      2 156330079 33.52  0.007409349       
+ 3:      3 144998399 33.65  0.537177798       
+ 4:      4 137480837 33.47 -0.196347747       
+ 5:      5 136268635 33.71  0.781686312       
+ 6:      6 132228217 33.46 -0.237099166       
+ 7:      7 124071064 33.45 -0.277850585       
+ 8:      8 122840624 33.43 -0.359353423       
+ 9:      9 116054170 33.36 -0.644613357       
+10:     10 110932802 33.18 -1.378138901       
+11:     11 110015837 33.35 -0.685364776       
+12:      X 184464265 33.48 -0.155596328       
+13:      Y 166739284 33.87  1.433709018       
+14:     12  48183092 33.13 -1.581895997       
+
+wrote ./tables/report.pdf 

@@ -1,0 +1,10 @@
+0: Aeshna_juncea.fa
+1: Anax_junius.fa
+2: Archilestes_grandis.fa
+3: Cordulegaster_boltonii.fa
+4: Ischnura_elegans.fa
+5: Orthetrum_coerulescens.fa
+6: Pantala_flavescens.fa
+7: Platycnemis_pennipes.fa
+8: Somatochlora_arctica.fa
+9: Sympetrum_striolatum.fa

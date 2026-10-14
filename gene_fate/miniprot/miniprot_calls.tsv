@@ -1,0 +1,780 @@
+set	ag	og	jg	mp	cat_annot	cat_rescue	Y_call	Y_best	chr	start	end	cov	fs	st	ident	cls	toga_locus	y_model
+ancX_control	anax_g14636	10802	anax_g21957	intact, gametolog identity	conserved	""	intact	FI	OZ369555.1	142993042	143005580	1	0	0	1	intact	FI	anax_g24061
+ancX_control	anax_g14807	3424	anax_g21288	intact, lower identity	conserved	""	no_Y_copy	""	OZ369555.1	24892075	24927724	0.912052117263844	0	0	0.3947	intact		anax_g22378,anax_g22379
+ancX_control	anax_g14464	3528	anax_g21589	partial	conserved	""	no_Y_copy	""	OZ369555.1	82870943	82871164	0.167023554603854	0	0	0.4744	partial		
+ancX_control	anax_g14492	3473	anax_g21435	partial	conserved	""	no_Y_copy	""	OZ369555.1	9932172	9932612	0.106145251396648	0	0	0.2416	partial		
+ancX_control	anax_g14559	3580	anax_g21762	partial	conserved	""	no_Y_copy	""	OZ369555.1	24409634	24563638	0.346113989637306	0	0	0.3823	partial		anax_g22362,anax_g22363,anax_g22364,anax_g22365,anax_g22366,anax_g22367,anax_g22368,anax_g22369
+ancX_control	anax_g14641	7898	anax_g21952	partial	conserved	""	no_Y_copy	""	OZ369555.1	2494914	2495321	0.127868852459016	0	0	0.5693	partial		anax_g22128
+ancX_control	anax_g14660	3313	anax_g21048	partial	conserved	""	no_Y_copy	""	OZ369555.1	52609300	52609625	0.173913043478261	0	0	0.3765	partial		anax_g22749
+ancX_control	anax_g14661	3312	anax_g21047	partial	conserved	""	no_Y_copy	""	OZ369555.1	114697099	114697424	0.160919540229885	0	0	0.4	partial		
+ancX_control	anax_g14668	3311	anax_g21046	partial	conserved	""	no_Y_copy	""	OZ369555.1	114697099	114722465	0.330376940133038	0	0	0.34	partial		anax_g23580,anax_g23581,anax_g23582,anax_g23583
+ancX_control	anax_g14802	3430	anax_g21295	partial	conserved	""	no_Y_copy	""	OZ369555.1	52610569	52611808	0.156126482213439	0	0	0.3418	partial		anax_g22749
+ancX_control	anax_g14845	3366	anax_g21128	partial	conserved	""	no_Y_copy	""	OZ369555.1	57732159	57763743	0.735567970204842	0	0	0.3417	partial		
+ancX_control	anax_g14874	3346	anax_g21099	partial	conserved	""	no_Y_copy	""	OZ369555.1	165896713	165896838	0.368932038834951	0	0	0.2766	partial		
+ancX_control	anax_g15143	9557	anax_g22064	partial	conserved	""	no_Y_copy	""	OZ369555.1	146020732	146021604	0.548098434004474	0	0	0.3231	partial		
+ancX_control	anax_g15173	9538	anax_g21914	partial	conserved	""	no_Y_copy	""	OZ369555.1	22152703	22152816	0.207100591715976	0	0	0.5526	partial		anax_g22314
+ancX_control	anax_g15293	3385	anax_g21171	partial	conserved	""	no_Y_copy	""	OZ369555.1	24459101	24561625	0.37012987012987	0	0	0.3938	partial		anax_g22363,anax_g22364,anax_g22365,anax_g22366,anax_g22367,anax_g22368,anax_g22369
+ancX_control	anax_g14414	3394	anax_g21198	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14417	3392	anax_g21192	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14425	7926	anax_g21607	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14433	7835	anax_g21611	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14434	7834	anax_g21612	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14435	7834	anax_g21612	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14436	7833	anax_g21614	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14438	7832	anax_g21615	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14439	3534	anax_g21620	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14440	3537	anax_g21623	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14441	3538	anax_g21624	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14442	7965	anax_g21625	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14443	7964	anax_g21626	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14444	7963	anax_g21627	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14445	10739	anax_g21629	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14458	7921	anax_g21595	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14459	7919	anax_g21593	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14463	3530	anax_g21590	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14465	3527	anax_g21588	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14466	3526	anax_g21587	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14467	3525	anax_g21586	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14468	3524	anax_g21585	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14470	7884	anax_g21582	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14471	7882	anax_g21581	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14474	7881	anax_g21576	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14476	7968	anax_g21573	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14484	3480	anax_g21446	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14486	3479	anax_g21443	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14487	3478	anax_g21440	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14488	3477	anax_g21439	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14489	3476	anax_g21438	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14490	3474	anax_g21437	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14494	3472	anax_g21434	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14495	3471	anax_g21433	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14496	3470	anax_g21432	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14497	3469	anax_g21431	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14498	3468	anax_g21430	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14499	3466	anax_g21425	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14500	3465	anax_g21424	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14501	9516	anax_g21041	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14509	9519	anax_g21382	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14510	9520	anax_g21381	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14511	9521	anax_g21380	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14512	9522	anax_g21376	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14513	9523	anax_g21375	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14533	7775	anax_g21408	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14534	7776	anax_g21403	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14535	7777	anax_g21400	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14536	3456	anax_g21398	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14537	3455	anax_g21397	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14539	7873	anax_g21383	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14554	7908	anax_g21751	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14557	3578	anax_g21754	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14558	3579	anax_g21758	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14560	3581	anax_g21763	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14561	3582	anax_g21764	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14563	3583	anax_g21768	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14564	7825	anax_g21769	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14565	7824	anax_g21770	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14567	3558	anax_g21676	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14570	7945	anax_g21679	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14576	7947	anax_g21807	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14579	7946	anax_g21808	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14580	7953	anax_g21809	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14593	3458	anax_g21415	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14595	3459	anax_g21416	none	conserved	""	missing	M								none		
+ancX_control	anax_g14596	3460	anax_g21417	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14597	3461	anax_g21418	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14598	3462	anax_g21419	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14599	3464	anax_g21423	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14615	7871	anax_g21976	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14616	7872	anax_g21975	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14619	7910	anax_g21972	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14620	7909	anax_g21971	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14621	9553	anax_g21969	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14622	7912	anax_g21968	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14623	7870	anax_g21967	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14635	10803	anax_g21963	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14637	7840	anax_g21956	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14638	10801	anax_g21955	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14642	7842	anax_g21951	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14644	7844	anax_g21948	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14646	7799	anax_g21070	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14647	7798	anax_g21069	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14648	7795	anax_g21066	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14652	7828	anax_g21063	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14653	7829	anax_g21062	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14654	3321	anax_g21061	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14656	3320	anax_g21059	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14657	3319	anax_g21058	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14658	3318	anax_g21057	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14659	3316	anax_g21055	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14669	3555	anax_g21652	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14671	3554	anax_g21651	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14672	3552	anax_g21649	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14674	3550	anax_g21646	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14675	3549	anax_g21644	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14676	3548	anax_g21643	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14677	3547	anax_g21642	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14678	3545	anax_g21640	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14679	3544	anax_g21639	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14682	3542	anax_g21637	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14683	3541	anax_g21636	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14684	3540	anax_g21635	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14686	10741	anax_g21632	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14688	10740	anax_g21631	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14689	3634	anax_g22033	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14691	3635	anax_g22035	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14692	3636	anax_g22045	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14693	3638	anax_g22046	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14694	3639	anax_g22047	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14695	3640	anax_g22048	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14703	10721	anax_g21526	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14711	3506	anax_g21537	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14712	3507	anax_g21539	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14713	3509	anax_g21540	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14714	3510	anax_g21541	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14715	3511	anax_g21542	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14717	3512	anax_g21545	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14718	3513	anax_g21546	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14719	3514	anax_g21547	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14720	3515	anax_g21548	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14722	3518	anax_g21556	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14723	3519	anax_g21557	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14725	7948	anax_g21320	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14728	10684	anax_g21325	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14729	10685	anax_g21326	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14730	10686	anax_g21327	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14731	7895	anax_g21328	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14732	7896	anax_g21329	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14733	7897	anax_g21330	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14747	3372	anax_g21144	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14748	3373	anax_g21145	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14750	3491	anax_g21486	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14751	9530	anax_g21491	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14752	7847	anax_g21492	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14753	7848	anax_g21493	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14754	7849	anax_g21494	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14755	3492	anax_g21495	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14759	10717	anax_g21503	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14774	10750	anax_g21667	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14775	10749	anax_g21666	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14776	10748	anax_g21665	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14780	7867	anax_g21660	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14781	7814	anax_g21659	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14783	7781	anax_g21657	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14785	3444	anax_g21317	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14786	3443	anax_g21314	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14787	3442	anax_g21312	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14788	3441	anax_g21311	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14789	3440	anax_g21308	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14790	3439	anax_g21307	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14791	3438	anax_g21306	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14792	3437	anax_g21305	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14794	3434	anax_g21303	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14795	3433	anax_g21302	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14796	3432	anax_g21301	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14797	3431	anax_g21300	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14798	10681	anax_g21299	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14799	10680	anax_g21298	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14800	10679	anax_g21297	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14801	10678	anax_g21296	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14803	3429	anax_g21294	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14805	3426	anax_g21292	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14806	3425	anax_g21291	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14809	3423	anax_g21287	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14810	3422	anax_g21286	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14811	3421	anax_g21285	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14814	3420	anax_g21284	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14815	3418	anax_g21283	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14816	3417	anax_g21282	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14818	3416	anax_g21280	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14819	3415	anax_g21279	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14820	3414	anax_g21278	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14830	3412	anax_g21266	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14831	7856	anax_g21265	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14832	7854	anax_g21262	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14833	7853	anax_g21261	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14835	3410	anax_g21259	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14836	3409	anax_g21257	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14838	3375	anax_g21155	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14839	3376	anax_g21156	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14841	3377	anax_g21158	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14843	3368	anax_g21130	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14844	3367	anax_g21129	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14846	3365	anax_g21127	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14847	3364	anax_g21126	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14855	3324	anax_g21075	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14856	3325	anax_g21076	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14857	3326	anax_g21077	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14858	3327	anax_g21079	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14859	3328	anax_g21080	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14860	3329	anax_g21081	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14861	3330	anax_g21082	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14862	3331	anax_g21083	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14863	3333	anax_g21084	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14864	3334	anax_g21085	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14865	3335	anax_g21086	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14866	3336	anax_g21087	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14867	3337	anax_g21088	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14868	3339	anax_g21090	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14869	3340	anax_g21092	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14870	3341	anax_g21093	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14871	3343	anax_g21095	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14872	3344	anax_g21096	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14873	3345	anax_g21098	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14875	3347	anax_g21100	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14876	3349	anax_g21102	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14877	3350	anax_g21103	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14878	3352	anax_g21104	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14879	3353	anax_g21105	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14881	3354	anax_g21107	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14882	3355	anax_g21108	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14885	3357	anax_g21110	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14886	3358	anax_g21111	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14887	3359	anax_g21113	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14889	3361	anax_g21114	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14890	3362	anax_g21116	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14904	7905	anax_g21884	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14905	9548	anax_g21881	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14906	10786	anax_g21880	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14907	10785	anax_g21878	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14909	3609	anax_g21876	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14910	3607	anax_g21862	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14911	3606	anax_g21861	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14912	3605	anax_g21860	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14925	7939	anax_g21700	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14926	7940	anax_g21699	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14927	7941	anax_g21698	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14929	3604	anax_g21851	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14932	3603	anax_g21849	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14936	3602	anax_g21848	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14938	3601	anax_g21846	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14939	3600	anax_g21845	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14941	3599	anax_g21840	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14942	3598	anax_g21839	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14943	3597	anax_g21838	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14960	10701	anax_g21450	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14961	7803	anax_g21451	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14962	7801	anax_g21452	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14963	10702	anax_g21454	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14964	10703	anax_g21455	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14969	3482	anax_g21461	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14970	3483	anax_g21463	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14971	3484	anax_g21464	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14973	3485	anax_g21467	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14975	3486	anax_g21468	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14976	7880	anax_g21470	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14978	7879	anax_g21472	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14979	7878	anax_g21473	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14980	3487	anax_g21475	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14981	3488	anax_g21476	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14982	3489	anax_g21477	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14983	3490	anax_g21478	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14985	10711	anax_g21483	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14989	11550	anax_g21887	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14990	11551	anax_g21888	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14991	11552	anax_g21889	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g14993	3644	anax_g22058	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15000	10757	anax_g21721	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15001	7894	anax_g21722	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15008	10764	anax_g21732	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15009	10765	anax_g21733	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15010	3563	anax_g21734	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15011	3565	anax_g21735	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15012	3566	anax_g21736	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15013	3567	anax_g21737	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15014	3568	anax_g21738	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15017	3569	anax_g21739	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15018	3570	anax_g21740	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15019	3571	anax_g21741	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15020	3572	anax_g21742	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15021	3573	anax_g21744	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15022	3575	anax_g21745	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15023	3576	anax_g21746	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15025	3577	anax_g21748	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15029	3584	anax_g21771	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15030	3585	anax_g21772	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15031	3586	anax_g21773	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15032	3587	anax_g21774	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15033	3588	anax_g21775	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15035	7890	anax_g21805	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15036	7889	anax_g21804	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15038	7887	anax_g21802	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15040	7886	anax_g21800	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15041	7959	anax_g21797	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15042	7850	anax_g21794	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15054	9512	anax_g21791	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15056	10771	anax_g21789	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15057	9511	anax_g21788	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15059	7865	anax_g21787	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15060	10770	anax_g21786	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15061	7864	anax_g21785	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15062	3595	anax_g21784	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15063	3594	anax_g21783	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15064	3593	anax_g21782	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15065	3592	anax_g21781	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15066	3591	anax_g21780	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15067	3589	anax_g21777	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15070	9510	anax_g22092	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15072	9508	anax_g22091	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15073	9509	anax_g22090	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15075	3631	anax_g22030	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15076	3632	anax_g22031	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15077	3633	anax_g22032	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15116	3396	anax_g21206	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15117	3399	anax_g21209	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15118	3400	anax_g21210	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15120	3402	anax_g21215	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15121	7922	anax_g21221	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15122	10665	anax_g21222	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15123	10666	anax_g21223	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15124	9537	anax_g21226	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15125	9536	anax_g21227	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15126	9535	anax_g21228	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15127	9534	anax_g21232	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15135	10819	anax_g22076	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15136	10818	anax_g22075	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15137	10817	anax_g22074	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15138	7817	anax_g22073	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15139	7917	anax_g22072	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15140	7916	anax_g22071	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15142	9558	anax_g22066	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15144	9556	anax_g22062	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15145	9555	anax_g22061	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15148	7863	anax_g22007	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15149	7862	anax_g22006	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15150	7861	anax_g22004	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15152	7773	anax_g22003	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15153	7772	anax_g22002	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15154	7771	anax_g21998	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15155	7770	anax_g21997	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15170	7885	anax_g21922	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15172	9539	anax_g21915	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15178	11563	anax_g21569	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15182	12053	anax_g21567	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15183	7782	anax_g21563	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15186	7970	anax_g21564	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15187	7969	anax_g21565	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15188	12448	anax_g21566	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15191	3496	anax_g21509	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15194	3497	anax_g21511	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15195	3498	anax_g21515	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15198	3499	anax_g21516	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15199	3500	anax_g21519	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15200	3502	anax_g21521	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15203	3503	anax_g21522	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15204	3504	anax_g21523	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15206	9518	anax_g21984	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15209	3622	anax_g21987	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15210	3623	anax_g21988	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15211	3624	anax_g21989	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15212	3625	anax_g21990	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15214	3628	anax_g21993	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15215	3629	anax_g21994	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15232	7875	anax_g21384	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15233	7876	anax_g21385	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15234	7877	anax_g21386	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15247	7778	anax_g21346	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15248	7779	anax_g21347	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15249	7780	anax_g21348	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15252	3445	anax_g21349	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15253	3446	anax_g21350	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15256	3447	anax_g21352	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15257	3448	anax_g21353	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15258	3449	anax_g21354	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15259	7971	anax_g21355	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15261	3451	anax_g21358	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15267	3374	anax_g21149	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15270	3378	anax_g21160	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15271	3379	anax_g21161	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15273	3380	anax_g21162	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15274	3381	anax_g21163	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15275	3382	anax_g21164	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15276	3383	anax_g21165	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15278	3384	anax_g21166	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15300	3388	anax_g21176	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15301	3389	anax_g21177	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15303	3390	anax_g21179	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15324	3453	anax_g21360	none	conserved	""	no_Y_copy	""								none		
+ancX_control	anax_g15325	3452	anax_g21359	none	conserved	""	no_Y_copy	""								none		
+conserved_Y	anax_g13272	3194	anax_g20712	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	136476942	136885272	1	0	0	0.9866	intact	FI	anax_g23974,anax_g23975,anax_g23976,anax_g23977,anax_g23978,anax_g23979,anax_g23980,anax_g23981,anax_g23982,anax_g23983
+conserved_Y	anax_g13274	3193	anax_g20711	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	136342137	136473124	1	0	0	0.9854	intact	FI	anax_g23969,anax_g23970,anax_g23971,anax_g23972,anax_g23973
+conserved_Y	anax_g13283	8058	anax_g20221	intact, gametolog identity	conserved	conserved	intact	I	OZ369555.1	30278277	30280070	1	0	0	0.9732	intact	I	anax_g22464
+conserved_Y	anax_g13285	8057	anax_g20218	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	30350393	30351856	1	0	0	0.9836	intact	FI	anax_g22465
+conserved_Y	anax_g13287	8054	anax_g20216	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	30393473	30439390	1	0	0	0.9717	intact	FI	anax_g22470
+conserved_Y	anax_g13297	3094	anax_g20308	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	123349900	123350127	1	0	0	1	intact	FI	anax_g23730
+conserved_Y	anax_g13298	3093	anax_g20307	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	123313174	123339219	1	0	0	0.9872	intact	FI	anax_g23728
+conserved_Y	anax_g13300	3091	anax_g20305	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	123137875	123155287	1	0	0	0.9665	intact	FI	anax_g23724
+conserved_Y	anax_g13301	3089	anax_g20304	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	122935634	123136302	1	0	0	0.9926	intact	FI	anax_g23721,anax_g23722,anax_g23723
+conserved_Y	anax_g13302	3088	anax_g20303	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	122923386	122924338	1	0	0	0.9594	intact	FI	anax_g23720
+conserved_Y	anax_g13306	3085	anax_g20300	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	122638272	122644908	1	0	0	0.983	intact	FI	anax_g23706
+conserved_Y	anax_g13307	3084	anax_g20295	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	122001608	122014874	1	0	0	0.9942	intact	FI	anax_g23691
+conserved_Y	anax_g13310	3082	anax_g20293	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	122260608	122268634	1	0	0	1	intact	FI	anax_g23699
+conserved_Y	anax_g13347	3184	anax_g20625	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	125572065	125572757	1	0	0	0.9351	intact	FI	anax_g23799
+conserved_Y	anax_g13374	3171	anax_g20594	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	126209994	126216729	1	0	0	0.9796	intact	FI	anax_g23819
+conserved_Y	anax_g13375	3169	anax_g20592	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	121187155	121235789	1	0	0	0.9911	intact	FI	anax_g23678,anax_g23679,anax_g23680,anax_g23681
+conserved_Y	anax_g13376	3167	anax_g20591	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	120991231	120992525	0.973684210526316	0	0	0.9369	intact	FI	anax_g23674
+conserved_Y	anax_g13377	3166	anax_g20590	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	120971996	120990096	1	0	0	0.9894	intact	FI	anax_g23673
+conserved_Y	anax_g13378	3165	anax_g20589	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	120924425	120971815	1	0	0	0.9974	intact	FI	anax_g23671,anax_g23672
+conserved_Y	anax_g13401	3139	anax_g20516	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	28531181	28562763	1	0	0	0.9974	intact	FI	anax_g22435
+conserved_Y	anax_g13402	3140	anax_g20517	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	28565707	28566607	1	0	0	0.9761	intact	FI	anax_g22436
+conserved_Y	anax_g13404	3142	anax_g20520	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	28942034	29017498	1	0	0	0.9764	intact	FI	anax_g22439
+conserved_Y	anax_g13439	3223	anax_g20748	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	24491284	24525458	1	0	0	0.968	intact	FI	anax_g22367
+conserved_Y	anax_g13440	3222	anax_g20747	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	24526106	24528391	1	0	0	0.9867	intact	FI	anax_g22368
+conserved_Y	anax_g13442	3219	anax_g20744	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	24611329	24614559	1	0	0	0.977	intact	FI	anax_g22372
+conserved_Y	anax_g13443	3218	anax_g20743	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	24625836	24723897	1	0	0	0.9922	intact	FI	anax_g22373
+conserved_Y	anax_g13444	3217	anax_g20742	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	24827614	24838037	1	0	0	0.9905	intact	FI	anax_g22375
+conserved_Y	anax_g13448	3212	anax_g20736	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	25321310	25339166	1	0	0	0.9905	intact	FI	anax_g22384
+conserved_Y	anax_g13466	3012	anax_g19988	intact, gametolog identity	conserved	conserved	inactivated	UL	OZ369555.1	54623021	54623947	1	0	0	0.9614	intact	UL	anax_g22798
+conserved_Y	anax_g13467	3013	anax_g19992	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	54067916	54154625	1	0	0	0.9927	intact	FI	anax_g22787,anax_g22788,anax_g22789
+conserved_Y	anax_g13470	3016	anax_g19996	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	53957551	53987729	1	0	0	0.9885	intact	FI	anax_g22781
+conserved_Y	anax_g13544	8108	anax_g20377	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	66224922	66256646	1	0	0	0.9917	intact	FI	anax_g22917
+conserved_Y	anax_g13554	2983	anax_g19847	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	67985170	67989743	1	0	0	0.9712	intact	FI	anax_g22925
+conserved_Y	anax_g13555	2982	anax_g19846	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	67962633	67984598	1	0	0	0.9956	intact	FI	anax_g22924
+conserved_Y	anax_g13556	2981	anax_g19845	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	67809590	67890966	1	0	0	0.9818	intact	FI	anax_g22922
+conserved_Y	anax_g13562	8098	anax_g20494	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	84933382	84960108	1	0	0	0.9971	intact	FI	anax_g23177
+conserved_Y	anax_g13563	3131	anax_g20496	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	84682045	84718066	1	0	0	0.9938	intact	FI	anax_g23171,anax_g23172
+conserved_Y	anax_g13568	3136	anax_g20502	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	89810855	89813277	0.932885906040269	0	0	0.9928	intact	FI	anax_g23254
+conserved_Y	anax_g13573	8275	anax_g20509	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	109294026	109310563	1	0	0	0.9805	intact	FI	anax_g23481
+conserved_Y	anax_g13574	8276	anax_g20510	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	109333504	109336580	1	0	0	0.9956	intact	FI	anax_g23485
+conserved_Y	anax_g13598	8101	anax_g20492	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	86727128	86744059	1	0	0	0.9842	intact	FI	anax_g23240
+conserved_Y	anax_g13645	3266	anax_g20885	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	81723057	81723782	1	0	0	0.987	intact	FI	anax_g23111
+conserved_Y	anax_g13648	3269	anax_g20893	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	81783176	81794215	0.996108949416342	0	0	0.9961	intact	FI	anax_g23117
+conserved_Y	anax_g13649	3270	anax_g20894	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	81848635	81855705	1	0	0	0.9972	intact	FI	anax_g23121
+conserved_Y	anax_g13650	3272	anax_g20895	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	81995754	82077078	1	0	0	0.9872	intact	FI	anax_g23122,anax_g23123
+conserved_Y	anax_g13672	9601	anax_g20782	intact, gametolog identity	conserved	conserved	intact	I	OZ369555.1	22377018	22378022	1	0	0	0.9672	intact	I	anax_g22316
+conserved_Y	anax_g13673	8214	anax_g20783	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	22144706	22159358	1	0	0	0.9872	intact	FI	anax_g22314
+conserved_Y	anax_g13701	3276	anax_g20900	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	82495482	82623115	1	0	0	0.9845	intact	FI	anax_g23132,anax_g23133,anax_g23134,anax_g23135,anax_g23136,anax_g23137
+conserved_Y	anax_g13720	8289	anax_g21032	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	20474647	20479856	1	0	0	0.9963	intact	FI	anax_g22273
+conserved_Y	anax_g13749	8286	anax_g20963	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	91064095	91081685	1	0	0	0.9939	intact	FI,M	anax_g23290
+conserved_Y	anax_g13762	3285	anax_g20927	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	85243679	85272467	1	0	0	0.9859	intact	FI	anax_g23190
+conserved_Y	anax_g13764	3289	anax_g20925	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	85129486	85180110	0.992443324937028	0	0	0.934	intact	FI	anax_g23184
+conserved_Y	anax_g13797	8186	anax_g20649	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	116815144	116815737	0.966442953020134	0	0	0.9931	intact	FI	anax_g23613
+conserved_Y	anax_g13798	8187	anax_g20650	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	116798412	116814504	1	0	0	0.9879	intact	FI	anax_g23612
+conserved_Y	anax_g13837	8296	anax_g20675	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	95794362	95799888	1	0	0	0.9909	intact	FI	anax_g23302
+conserved_Y	anax_g13838	8295	anax_g20676	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	95809467	95821881	1	0	0	0.9921	intact	FI	anax_g23303
+conserved_Y	anax_g13844	8265	anax_g20682	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	128967356	128977376	1	0	0	0.9892	intact	FI	anax_g23880
+conserved_Y	anax_g13846	8264	anax_g19738	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	3982320	3988120	1	0	0	1	intact	FI	anax_g22137
+conserved_Y	anax_g13847	9625	anax_g19739	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	3999827	4039004	1	0	0	0.9962	intact	FI	anax_g22138
+conserved_Y	anax_g13848	9624	anax_g19740	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	4050444	4051239	1	0	0	1	intact	FI	anax_g22139
+conserved_Y	anax_g13849	9623	anax_g19741	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	4051826	4053142	1	0	0	0.9977	intact	FI	anax_g22140
+conserved_Y	anax_g13872	2960	anax_g19737	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	3353135	3368978	1	0	0	1	intact	FI	anax_g22134
+conserved_Y	anax_g13874	2957	anax_g19735	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	3249837	3269450	1	0	0	0.9918	intact	FI	anax_g22132
+conserved_Y	anax_g13875	2956	anax_g19732	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	3188005	3228390	1	0	0	1	intact	FI	anax_g22130
+conserved_Y	anax_g13876	2954	anax_g19726	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	2475697	2539179	1	0	0	1	intact	FI	anax_g22128
+conserved_Y	anax_g13877	2953	anax_g19725	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	2369235	2473260	1	0	0	1	intact	FI	anax_g22127
+conserved_Y	anax_g13880	8209	anax_g19721	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	2173152	2173742	1	0	0	0.9898	intact	PI	
+conserved_Y	anax_g13882	2949	anax_g19711	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	159054	174791	1	0	0	1	intact	FI	anax_g22109
+conserved_Y	anax_g13923	8111	anax_g20697	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	131623465	131624129	1	0	0	0.9692	intact	FI	anax_g23931
+conserved_Y	anax_g13933	8112	anax_g20693	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	131205249	131207686	1	0	0	0.9774	intact	FI	anax_g23919
+conserved_Y	anax_g13940	8313	anax_g20686	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	130687309	130899187	1	0	0	0.9956	intact	FI	anax_g23910,anax_g23911,anax_g23912,anax_g23913,anax_g23914
+conserved_Y	anax_g13941	8312	anax_g20685	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	130594464	130597007	1	0	0	0.9849	intact	FI	anax_g23906
+conserved_Y	anax_g14019	8047	anax_g20214	intact, gametolog identity	conserved	conserved	intact	FI	OZ369555.1	30988214	31027160	1	0	0	0.9967	intact	FI	anax_g22485
+conserved_Y	anax_g13286	8055	anax_g20217	intact, lower identity	conserved	conserved	intact	FI	OZ369555.1	30374051	30385444	1	0	0	0.9327	intact	FI	anax_g22469
+conserved_Y	anax_g13325	2994	anax_g19929	intact, lower identity	conserved	conserved	intact	I	OZ369555.1	149872450	149937662	1	0	0	0.8391	intact	I	anax_g24077
+conserved_Y	anax_g13354	3178	anax_g20615	intact, lower identity	conserved	conserved	partially_intact	PI	OZ369555.1	125683829	125685087	1	0	0	0.9245	intact	UL	anax_g23804
+conserved_Y	anax_g13358	3176	anax_g20611	intact, lower identity	conserved	conserved	inactivated	UL	OZ369555.1	125771207	125771812	1	0	0	0.933	intact	UL	anax_g23806
+conserved_Y	anax_g13345	3186	anax_g20627	broken	conserved	conserved	inactivated	UL	OZ369555.1	125512976	125533277	1	3	0	0.9354	broken	UL	anax_g23798
+conserved_Y	anax_g13373	3170	anax_g20593	broken	conserved	conserved	inactivated	UL	OZ369555.1	126217205	126264864	0.547300908605024	1	1	0.9639	broken	UL	anax_g23820,anax_g23821,anax_g23822,anax_g23823,anax_g23824
+conserved_Y	anax_g13441	3220	anax_g20745	broken	conserved	conserved	inactivated	UL	OZ369555.1	24606139	24608340	1	1	0	0.9804	broken	UL	anax_g22370,anax_g22371
+conserved_Y	anax_g13569	3137	anax_g20503	broken	conserved	conserved	intact	I	OZ369555.1	89799230	89806057	1	0	1	0.9766	broken	I	anax_g23253
+conserved_Y	anax_g13572	8274	anax_g20508	broken	conserved	conserved	inactivated	UL	OZ369555.1	108965421	109290632	1	1	1	0.9836	broken	UL	anax_g23472,anax_g23473,anax_g23474,anax_g23475,anax_g23476,anax_g23477,anax_g23478,anax_g23479,anax_g23480
+conserved_Y	anax_g13646	3267	anax_g20886	broken	conserved	conserved	inactivated	UL	OZ369555.1	81723951	81725743	1	1	0	0.9716	broken	UL	anax_g23112
+conserved_Y	anax_g13651	3273	anax_g20896	broken	conserved	conserved	inactivated	UL	OZ369555.1	82082380	82092960	1	0	1	0.9776	broken	UL	anax_g23124,anax_g23125
+conserved_Y	anax_g13658	8023	anax_g20769	broken	conserved	conserved	inactivated	L	OZ369555.1	23820380	23835287	0.817901234567901	1	0	0.7039	broken	L,M	anax_g22340
+conserved_Y	anax_g13799	8185	anax_g20651	broken	conserved	conserved	inactivated	UL	OZ369555.1	116780319	116788179	1	1	0	0.9635	broken	UL	anax_g23610,anax_g23611
+conserved_Y	anax_g13832	8319	anax_g20670	broken	conserved	conserved	inactivated	UL	OZ369555.1	115856155	115915291	1	0	1	0.9622	broken	UL	anax_g23607
+conserved_Y	anax_g13833	8318	anax_g20671	broken	conserved	conserved	inactivated	UL	OZ369555.1	115850983	115852407	1	0	1	0.9747	broken	UL	anax_g23606
+conserved_Y	anax_g13840	8298	anax_g20678	broken	conserved	conserved	inactivated	UL	OZ369555.1	128579332	128639874	0.731218697829716	0	3	0.9292	broken	UL	anax_g23870,anax_g23871,anax_g23872,anax_g23873,anax_g23874,anax_g23875,anax_g23876
+conserved_Y	anax_g13841	8268	anax_g20679	broken	conserved	conserved	intact	I	OZ369555.1	128684592	128775318	1	1	0	0.9891	broken	I	anax_g23877
+conserved_Y	anax_g13323	2991	anax_g19927	partial	conserved	conserved	intact	I	OZ369555.1	149831212	149840604	0.646153846153846	0	0	0.9603	partial	I	anax_g24074
+conserved_Y	anax_g13436	3225	anax_g20750	partial	conserved	conserved	intact	I	OZ369555.1	24341692	24344246	0.854132901134522	0	0	0.9791	partial	I	anax_g22358
+conserved_Y	anax_g13468	3014	anax_g19993	partial	conserved	conserved	missing	M	OZ369555.1	54066309	54067350	0.453763440860215	0	0	0.9384	partial	M	anax_g22786
+conserved_Y	anax_g13469	3015	anax_g19994	partial	conserved	conserved	missing	M	OZ369555.1	54062112	54063041	0.425051334702259	0	0	1	partial	M	anax_g22785
+conserved_Y	anax_g13621	8258	anax_g20839	partial	conserved	conserved	inactivated	UL	OZ369555.1	63441288	63461006	0.672985781990521	0	0	0.9842	partial	UL	anax_g22860
+conserved_Y	anax_g13666	8328	anax_g20777	partial	conserved	conserved	no_Y_copy	""	OZ369555.1	23795202	23795393	0.110726643598616	0	0	0.9531	partial		
+conserved_Y	anax_g13674	8212	anax_g20786	partial	conserved	conserved	intact	I	OZ369555.1	22040826	22083436	0.550898203592814	0	0	0.9804	partial	I	anax_g22304,anax_g22305
+conserved_Y	anax_g14017	8048	anax_g20211	partial	conserved	conserved	inactivated	UL	OZ369555.1	31266259	31292776	0.605015673981191	0	0	0.9689	partial	UL	anax_g22489
+conserved_Y	anax_g13806	8181	anax_g20669	none	conserved	conserved	no_Y_copy	""								none		
+conserved_Y	anax_g13937	8114	anax_g20690	none	conserved	conserved	no_Y_copy	""								none		
+degenerated	anax_g13259	3210	anax_g20730	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	90778292	90780484	1	0	0	0.9933	intact	FI	
+degenerated	anax_g13260	3209	anax_g20729	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	90527873	90773929	1	0	0	0.9902	intact	FI	anax_g23283
+degenerated	anax_g13261	3208	anax_g20728	intact, gametolog identity	degenerated	degenerated	inactivated	UL	OZ369555.1	90443381	90448427	1	0	0	0.9965	intact	UL	anax_g23282
+degenerated	anax_g13263	3206	anax_g20726	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	90406734	90416435	1	0	0	0.9979	intact	FI	anax_g23278
+degenerated	anax_g13265	3203	anax_g20724	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	90172771	90263351	1	0	0	0.995	intact	FI	anax_g23269,anax_g23270,anax_g23271,anax_g23272
+degenerated	anax_g13267	3201	anax_g20722	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	90167119	90169886	1	0	0	0.9867	intact	FI	anax_g23268
+degenerated	anax_g13305	3086	anax_g20301	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	122647162	122694719	1	0	0	0.9965	intact	FI	
+degenerated	anax_g13312	3080	anax_g20291	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	79905466	79911449	1	0	0	0.9932	intact	FI	anax_g23093
+degenerated	anax_g13313	3079	anax_g20289	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	79883046	79895661	1	0	0	0.9947	intact	FI	anax_g23092
+degenerated	anax_g13338	8201	anax_g20539	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	115766826	115774469	1	0	0	0.9843	intact	FI	
+degenerated	anax_g13340	3148	anax_g20537	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	115331889	115340035	1	0	0	1	intact	FI	anax_g23600
+degenerated	anax_g13346	3185	anax_g20626	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	125537901	125539990	1	0	0	0.9619	intact	FI	
+degenerated	anax_g13384	3153	anax_g20572	intact, gametolog identity	degenerated	degenerated	missing	M	OZ369555.1	33068642	33153396	1	0	0	0.9973	intact	M	anax_g22525,anax_g22526
+degenerated	anax_g13385	3154	anax_g20573	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	33157706	33168602	1	0	0	0.9843	intact	FI	
+degenerated	anax_g13410	3146	anax_g20531	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	33647569	33898594	1	0	0	0.9807	intact	FI	anax_g22546,anax_g22547,anax_g22548,anax_g22549,anax_g22550,anax_g22551,anax_g22552,anax_g22553,anax_g22554,anax_g22555
+degenerated	anax_g13411	3147	anax_g20532	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	33904812	33905264	1	0	0	1	intact	FI	anax_g22556
+degenerated	anax_g13412	8211	anax_g20533	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	33958930	33982437	1	0	0	1	intact	FI	anax_g22559
+degenerated	anax_g13414	9600	anax_g20563	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	105137095	105138078	1	0	0	0.9695	intact	FI	anax_g23433
+degenerated	anax_g13435	8421	anax_g19886	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	113090043	113103230	1	0	0	0.9822	intact	FI	
+degenerated	anax_g13445	3216	anax_g20741	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	24840703	24890672	1	0	0	0.9945	intact	FI	anax_g22376,anax_g22377
+degenerated	anax_g13450	3001	anax_g19951	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	146136955	146139340	1	0	0	0.9496	intact	FI	
+degenerated	anax_g13451	3002	anax_g19952	intact, gametolog identity	degenerated	conserved	intact	I	OZ369555.1	124900825	124935533	0.970558375634518	0	0	0.9833	intact	I	
+degenerated	anax_g13453	3004	anax_g19954	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	124838825	124840375	1	0	0	0.9972	intact	FI	anax_g23779
+degenerated	anax_g13454	3005	anax_g19956	intact, gametolog identity	degenerated	degenerated	inactivated	UL	OZ369555.1	164298594	164331369	0.977099236641221	0	0	0.99	intact	UL	
+degenerated	anax_g13457	3008	anax_g19963	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	165735705	165736100	1	0	0	0.9848	intact	FI	anax_g24550
+degenerated	anax_g13458	3009	anax_g19977	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	166024567	166026189	1	0	0	0.9619	intact	FI	anax_g24551
+degenerated	anax_g13465	3011	anax_g19987	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	112651868	112666724	1	0	0	0.9963	intact	FI	anax_g23539
+degenerated	anax_g13471	3017	anax_g19997	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	79685943	79730135	1	0	0	0.9772	intact	FI	anax_g23086,anax_g23087,anax_g23088,anax_g23089
+degenerated	anax_g13475	3021	anax_g20001	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	152170847	152175093	1	0	0	0.9784	intact	FI	anax_g24416
+degenerated	anax_g13476	3022	anax_g20002	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	118222238	118225901	1	0	0	0.9859	intact	FI	anax_g23642
+degenerated	anax_g13477	3023	anax_g20003	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	118064257	118066036	1	0	0	0.9699	intact	FI	anax_g23639
+degenerated	anax_g13479	3025	anax_g20006	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	59275985	59288623	1	0	0	0.9714	intact	FI	anax_g22830,anax_g22831
+degenerated	anax_g13480	3026	anax_g20007	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	59289166	59493367	1	0	0	0.9823	intact	FI	anax_g22832
+degenerated	anax_g13482	3028	anax_g20009	intact, gametolog identity	degenerated	degenerated	inactivated	UL	OZ369555.1	59567036	59577480	1	0	0	0.978	intact	UL	anax_g22834,anax_g22835,anax_g22836,anax_g22837
+degenerated	anax_g13485	3031	anax_g20012	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	65418342	65468083	1	0	0	0.9926	intact	FI	
+degenerated	anax_g13486	3032	anax_g20013	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	65544514	65547955	1	0	0	0.9891	intact	FI	anax_g22892
+degenerated	anax_g13488	3034	anax_g20015	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	65551140	65554234	0.990588235294118	0	0	1	intact	FI	anax_g22893
+degenerated	anax_g13493	3039	anax_g20026	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	57686424	57763974	1	0	0	0.9805	intact	FI	
+degenerated	anax_g13494	3040	anax_g20032	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	57134262	57308408	1	0	0	0.9681	intact	FI	anax_g22816,anax_g22817
+degenerated	anax_g13496	3042	anax_g20034	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	56454569	56631297	1	0	0	0.9905	intact	FI	
+degenerated	anax_g13499	8015	anax_g20037	intact, gametolog identity	degenerated	conserved	intact	I	OZ369555.1	55905141	55942164	0.979416809605489	0	0	0.9825	intact	I	anax_g22799,anax_g22800,anax_g22801
+degenerated	anax_g13507	2996	anax_g19933	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	96867916	96877407	1	0	0	0.9562	intact	FI	anax_g23330
+degenerated	anax_g13530	3113	anax_g20408	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	151564853	151567903	1	0	0	1	intact	FI	anax_g24402
+degenerated	anax_g13551	2986	anax_g19853	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	123869178	123957674	1	0	0	0.9782	intact	FI	anax_g23746,anax_g23747,anax_g23748,anax_g23749
+degenerated	anax_g13558	2978	anax_g19842	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	124010412	124032940	1	0	0	0.9983	intact	FI,PI	anax_g23753
+degenerated	anax_g13559	2977	anax_g19841	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	124045994	124046643	1	0	0	0.9733	intact	FI	anax_g23755
+degenerated	anax_g13561	8097	anax_g20493	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	86757795	86786999	0.982391782831988	0	0	0.9836	intact	FI	
+degenerated	anax_g13564	3132	anax_g20497	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	118653326	118654101	1	0	0	0.9859	intact	FI	anax_g23647
+degenerated	anax_g13565	3134	anax_g20499	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	118668635	118669141	1	0	0	0.9664	intact	FI	anax_g23649
+degenerated	anax_g13587	3065	anax_g20196	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	123455454	123503380	1	0	0	0.9966	intact	FI	anax_g23734
+degenerated	anax_g13591	3067	anax_g20204	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	142879206	142880804	1	0	0	0.9944	intact	FI	anax_g24057
+degenerated	anax_g13592	3068	anax_g20206	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	112788501	112903378	1	0	0	0.9857	intact	FI	anax_g23542,anax_g23543
+degenerated	anax_g13601	8102	anax_g20487	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	85960646	85962268	1	0	0	0.9852	intact	FI	anax_g23218
+degenerated	anax_g13618	8261	anax_g20835	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	65995629	66114419	1	0	0	0.991	intact	FI	anax_g22912
+degenerated	anax_g13622	3262	anax_g20879	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	65662672	65717050	1	0	0	0.9904	intact	FI	anax_g22897,anax_g22898,anax_g22899
+degenerated	anax_g13626	3257	anax_g20874	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	156390682	156421578	1	0	0	0.9965	intact	FI	anax_g24478,anax_g24479
+degenerated	anax_g13627	3256	anax_g20873	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	122346015	122395879	1	0	0	0.989	intact	FI	anax_g23700
+degenerated	anax_g13632	3250	anax_g20867	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	158423440	158467908	1	0	0	0.9871	intact	FI	
+degenerated	anax_g13633	3249	anax_g20866	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	152397510	152417944	1	0	0	0.9785	intact	FI	anax_g24422,anax_g24423
+degenerated	anax_g13635	3248	anax_g20865	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	152442247	152474258	1	0	0	0.9939	intact	FI	
+degenerated	anax_g13636	3245	anax_g20856	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	152967343	152977588	1	0	0	0.9847	intact	FI	anax_g24432
+degenerated	anax_g13637	3244	anax_g20855	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	153181381	153213233	1	0	0	0.9723	intact	FI,PI	anax_g24433
+degenerated	anax_g13638	3242	anax_g20852	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	153926205	153980169	1	0	0	0.9916	intact	FI	anax_g24443,anax_g24444,anax_g24445,anax_g24446,anax_g24447,anax_g24448,anax_g24449,anax_g24450,anax_g24451
+degenerated	anax_g13644	3264	anax_g20884	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	65247863	65250229	1	0	0	0.9899	intact	FI	anax_g22884
+degenerated	anax_g13661	9574	anax_g20773	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	23948959	23951743	1	0	0	0.9539	intact	FI	
+degenerated	anax_g13662	8020	anax_g20774	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	71271088	71272199	1	0	0	1	intact	FI	anax_g22967
+degenerated	anax_g13671	8213	anax_g20780	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	23670878	23733613	1	0	0	0.9716	intact	FI	
+degenerated	anax_g13677	8149	anax_g20792	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	53337827	53535769	1	0	0	1	intact	FI	anax_g22767,anax_g22768,anax_g22769
+degenerated	anax_g13678	3230	anax_g20794	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	52878401	52879309	1	0	0	0.9934	intact	FI	anax_g22760
+degenerated	anax_g13681	3233	anax_g20797	intact, gametolog identity	degenerated	conserved	intact	I	OZ369555.1	138348374	138408983	0.98547215496368	0	0	0.9693	intact	I	
+degenerated	anax_g13686	3238	anax_g20803	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	14942841	14995046	1	0	0	0.9932	intact	FI	anax_g22181
+degenerated	anax_g13687	8171	anax_g20768	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	138614984	138729956	1	0	0	0.9967	intact	FI	
+degenerated	anax_g13690	8175	anax_g20765	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	70863402	70966728	1	0	0	0.992	intact	FI	anax_g22951,anax_g22952
+degenerated	anax_g13694	3280	anax_g20911	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	155214559	155224320	1	0	0	0.969	intact	FI	anax_g24462
+degenerated	anax_g13696	8155	anax_g20906	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	155061779	155062066	1	0	0	0.9701	intact	FI	anax_g24458
+degenerated	anax_g13697	8156	anax_g20905	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	155018341	155039338	1	0	0	0.9908	intact	FI	anax_g24457
+degenerated	anax_g13698	3279	anax_g20903	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	154854356	155008660	1	0	0	0.9803	intact	FI	
+degenerated	anax_g13700	3277	anax_g20901	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	31499480	31645062	1	0	0	0.9905	intact	FI	anax_g22491,anax_g22492,anax_g22493,anax_g22494,anax_g22495
+degenerated	anax_g13703	3274	anax_g20898	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	82350370	82459848	1	0	0	0.9889	intact	FI	
+degenerated	anax_g13718	8291	anax_g21019	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	77953501	78115649	1	0	0	0.9978	intact	FI	anax_g23047
+degenerated	anax_g13725	8395	anax_g21008	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	163220336	163752191	1	0	0	0.9892	intact	FI	anax_g24505,anax_g24506,anax_g24507,anax_g24508,anax_g24509,anax_g24510,anax_g24511,anax_g24512,anax_g24513,anax_g24514,anax_g24515,anax_g24516,anax_g24517,anax_g24518,anax_g24519,anax_g24520,anax_g24521,anax_g24522,anax_g24523,anax_g24524,anax_g24525,anax_g24526,anax_g24527
+degenerated	anax_g13726	8396	anax_g20994	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	164005130	164012334	1	0	0	0.9948	intact	FI	anax_g24531
+degenerated	anax_g13733	3308	anax_g20985	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	97101899	97255001	1	0	0	0.9954	intact	FI	anax_g23338,anax_g23339
+degenerated	anax_g13734	3307	anax_g20984	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	97073066	97080137	1	0	0	0.9804	intact	FI	anax_g23336
+degenerated	anax_g13735	3306	anax_g20983	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	97062814	97063626	1	0	0	0.9605	intact	FI	anax_g23335
+degenerated	anax_g13752	3296	anax_g20955	intact, gametolog identity	degenerated	degenerated	inactivated	UL	OZ369555.1	79050711	79077418	1	0	0	0.991	intact	UL	anax_g23074,anax_g23075,anax_g23076
+degenerated	anax_g13756	3291	anax_g20948	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	73859512	74215083	1	0	0	0.9804	intact	FI	anax_g23005,anax_g23006,anax_g23007,anax_g23008,anax_g23009,anax_g23010
+degenerated	anax_g13757	3290	anax_g20944	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	74553151	74553485	1	0	0	0.9487	intact	FI	anax_g23013
+degenerated	anax_g13759	3288	anax_g20939	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	74858719	75055598	1	0	0	0.966	intact	FI	anax_g23016,anax_g23017,anax_g23018
+degenerated	anax_g13763	3284	anax_g20926	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	85185573	85193605	1	0	0	0.9504	intact	FI	anax_g23185
+degenerated	anax_g13766	3302	anax_g20975	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	35266501	35278073	1	0	0	0.979	intact	FI	anax_g22594
+degenerated	anax_g13767	3301	anax_g20974	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	35360327	35428163	1	0	0	0.979	intact	FI	anax_g22599
+degenerated	anax_g13768	3300	anax_g20973	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	35463811	35501191	1	0	0	0.9787	intact	FI	
+degenerated	anax_g13772	3052	anax_g20090	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	51144884	51147298	1	0	0	0.986	intact	FI	anax_g22739
+degenerated	anax_g13774	3050	anax_g20088	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	51186316	51198494	1	0	0	0.9946	intact	FI	anax_g22740
+degenerated	anax_g13775	3048	anax_g20086	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	96305924	96311897	1	0	0	0.9902	intact	FI	anax_g23313
+degenerated	anax_g13780	8317	anax_g20072	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	124654319	124658059	1	0	0	0.9826	intact	FI	anax_g23776
+degenerated	anax_g13781	8110	anax_g20071	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	124615220	124630931	1	0	0	0.9838	intact	FI	anax_g23775
+degenerated	anax_g13789	10585	anax_g20056	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	21749239	21894781	1	0	0	0.9936	intact	FI	anax_g22300,anax_g22301,anax_g22302
+degenerated	anax_g13791	8010	anax_g20053	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	21002545	21200210	1	0	0	0.9963	intact	FI,I,L	anax_g22291,anax_g22292
+degenerated	anax_g13792	3045	anax_g20052	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	20796697	20805088	1	0	0	0.9858	intact	FI	anax_g22289
+degenerated	anax_g13794	8253	anax_g20048	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	78631878	78683655	1	0	0	0.9879	intact	FI	anax_g23067,anax_g23068
+degenerated	anax_g13800	8184	anax_g20652	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	116735612	116779025	1	0	0	1	intact	FI	anax_g23609
+degenerated	anax_g13826	3105	anax_g20362	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	117631144	117780472	1	0	0	0.983	intact	FI	anax_g23618,anax_g23619,anax_g23620,anax_g23621,anax_g23622,anax_g23623,anax_g23624,anax_g23625,anax_g23626,anax_g23627
+degenerated	anax_g13829	8100	anax_g20365	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	143107604	143116870	1	0	0	0.9928	intact	FI	anax_g24068
+degenerated	anax_g13878	2952	anax_g19724	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	2198984	2201008	1	0	0	0.9941	intact	FI	anax_g22126
+degenerated	anax_g13886	2967	anax_g19797	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	29197184	29199520	1	0	0	0.9946	intact	FI	anax_g22441
+degenerated	anax_g13887	2968	anax_g19798	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	79122438	79156757	1	0	0	0.9529	intact	FI	anax_g23077,anax_g23078
+degenerated	anax_g13910	8278	anax_g20438	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	127466286	127475905	1	0	0	0.9847	intact	FI	anax_g23842
+degenerated	anax_g13912	8279	anax_g20439	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	127909784	128132017	0.949550794747754	0	0	0.9956	intact	FI	anax_g23848,anax_g23849,anax_g23850,anax_g23851,anax_g23852,anax_g23853
+degenerated	anax_g13936	8113	anax_g20691	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	131007116	131039630	1	0	0	0.9408	intact	FI	
+degenerated	anax_g13965	8388	anax_g20108	intact, gametolog identity	degenerated	conserved	intact	FI	OZ369555.1	151430243	151475034	1	0	0	0.9801	intact	FI	anax_g24400
+degenerated	anax_g13966	8389	anax_g20107	intact, gametolog identity	degenerated	conserved	intact	I	OZ369555.1	125124180	125177178	0.925675675675676	0	0	0.9958	intact	I	anax_g23787,anax_g23788,anax_g23789,anax_g23790,anax_g23791
+degenerated	anax_g13308	3083	anax_g20294	intact, lower identity	degenerated	degenerated	inactivated	L	OZ369555.1	122079170	122118470	1	0	0	0.3963	intact	L	anax_g23694
+degenerated	anax_g13351	3181	anax_g20620	intact, lower identity	degenerated	degenerated	intact	I	OZ369555.1	125865257	125865670	1	0	0	0.5177	intact		anax_g23811
+degenerated	anax_g13352	3180	anax_g20619	intact, lower identity	degenerated	degenerated	no_Y_copy	""	OZ369555.1	125970158	125970481	1	0	0	0.4955	intact		anax_g23813
+degenerated	anax_g13455	3006	anax_g19959	intact, lower identity	degenerated	conserved	intact	FI	OZ369555.1	165347000	165348205	0.990147783251231	0	0	0.7794	intact	FI	
+degenerated	anax_g13472	3018	anax_g19998	intact, lower identity	degenerated	conserved	intact	FI	OZ369555.1	79738019	79738907	1	0	0	0.8645	intact	FI	anax_g23090
+degenerated	anax_g13495	3041	anax_g20033	intact, lower identity	degenerated	conserved	intact	I	OZ369555.1	56980778	56981074	1	0	0	0.9293	intact	I	
+degenerated	anax_g13583	3063	anax_g20190	intact, lower identity	degenerated	degenerated	intact	I	OZ369555.1	128684592	128775290	1	0	0	0.583	intact	I	anax_g23877
+degenerated	anax_g13824	3104	anax_g20359	intact, lower identity	degenerated	conserved	intact	FI	OZ369555.1	110895204	110896691	1	0	0	0.9235	intact	FI	anax_g23510
+degenerated	anax_g13909	8277	anax_g20437	intact, lower identity	degenerated	degenerated	inactivated	UL	OZ369555.1	127242543	127462658	0.950695322376738	0	0	0.5271	intact	UL	anax_g23838,anax_g23839,anax_g23840,anax_g23841
+degenerated	anax_g13262	3207	anax_g20727	broken	degenerated	degenerated	inactivated	UL	OZ369555.1	90420695	90442109	0.973684210526316	0	1	0.973	broken	UL	anax_g23279,anax_g23280,anax_g23281
+degenerated	anax_g13264	3204	anax_g20725	broken	degenerated	degenerated	inactivated	UL	OZ369555.1	90314940	90385449	1	1	0	0.9804	broken	UL	
+degenerated	anax_g13266	3202	anax_g20723	broken	degenerated	degenerated	inactivated	L	OZ369555.1	90170115	90172335	1	3	1	0.8986	broken	L	
+degenerated	anax_g13278	3192	anax_g20703	broken	degenerated	degenerated	inactivated	UL	OZ369555.1	131840861	132172879	1	1	1	0.9537	broken	UL	anax_g23934,anax_g23935
+degenerated	anax_g13324	2993	anax_g19928	broken	degenerated	degenerated	inactivated	L	OZ369555.1	149846673	149849741	0.557228915662651	1	0	0.9784	broken	L	anax_g24075
+degenerated	anax_g13382	3161	anax_g20584	broken	degenerated	degenerated	inactivated	UL	OZ369555.1	32008288	32129122	1	0	1	0.9802	broken	M,UL	anax_g22509,anax_g22510,anax_g22511
+degenerated	anax_g13386	3155	anax_g20574	broken	degenerated	conserved	intact	FI	OZ369555.1	33291626	33304384	1	1	0	0.9712	broken	FI	anax_g22529
+degenerated	anax_g13446	3215	anax_g20740	broken	degenerated	conserved	intact	FI	OZ369555.1	24892024	24927758	1	1	0	0.996	broken	FI	anax_g22378,anax_g22379
+degenerated	anax_g13447	3213	anax_g20738	broken	degenerated	degenerated	inactivated	L	OZ369555.1	25263542	25263829	0.50261780104712	0	1	0.9688	broken	L	
+degenerated	anax_g13452	3003	anax_g19953	broken	degenerated	conserved	intact	I	OZ369555.1	124849213	124878699	1	0	1	0.9923	broken	I	anax_g23780,anax_g23781
+degenerated	anax_g13473	3019	anax_g19999	broken	degenerated	degenerated	inactivated	UL	OZ369555.1	79366309	79442205	1	1	0	0.8566	broken	UL	
+degenerated	anax_g13481	3027	anax_g20008	broken	degenerated	degenerated	inactivated	L	OZ369555.1	59496348	59556119	1	1	1	0.773	broken	L	anax_g22833
+degenerated	anax_g13491	3037	anax_g20018	broken	degenerated	degenerated	inactivated	L	OZ369555.1	117238635	117242557	1	2	0	0.9268	broken	L	anax_g23614
+degenerated	anax_g13498	8014	anax_g20036	broken	degenerated	degenerated	inactivated	UL	OZ369555.1	55945869	55951938	1	1	0	0.9472	broken	UL	
+degenerated	anax_g13505	2999	anax_g19941	broken	degenerated	degenerated	inactivated	L	OZ369555.1	96879977	96908932	1	1	0	0.9668	broken	L	anax_g23331
+degenerated	anax_g13529	3114	anax_g20409	broken	degenerated	degenerated	inactivated	L	OZ369555.1	151572326	151607751	0.917674600078034	4	0	0.9736	broken	L	anax_g24403
+degenerated	anax_g13566	3135	anax_g20500	broken	degenerated	degenerated	inactivated	UL	OZ369555.1	89880541	89916148	0.657187993680885	0	1	0.9808	broken	UL	
+degenerated	anax_g13585	3064	anax_g20193	broken	degenerated	degenerated	inactivated	UL	OZ369555.1	123548384	123626544	0.917824074074074	1	2	0.9668	broken	UL	anax_g23736,anax_g23737
+degenerated	anax_g13593	3069	anax_g20207	broken	degenerated	degenerated	inactivated	UL	OZ369555.1	123732304	123793379	1	0	1	0.987	broken	UL	anax_g23740,anax_g23741
+degenerated	anax_g13631	3251	anax_g20868	broken	degenerated	degenerated	inactivated	UL	OZ369555.1	158468543	158498502	1	0	1	0.9759	broken	UL	
+degenerated	anax_g13659	8022	anax_g20771	broken	degenerated	degenerated	inactivated	L	OZ369555.1	23922750	23932008	1	2	0	0.8093	broken	L	anax_g22342
+degenerated	anax_g13691	8177	anax_g20764	broken	degenerated	degenerated	inactivated	L	OZ369555.1	71005345	71082242	0.9800796812749	0	1	0.593	broken	L	anax_g22956,anax_g22957,anax_g22958,anax_g22959,anax_g22960,anax_g22961
+degenerated	anax_g13692	8177	anax_g20764	broken	degenerated	degenerated	no_Y_copy	""	OZ369555.1	71005345	71082242	0.9800796812749	0	1	0.593	broken		anax_g22956,anax_g22957,anax_g22958,anax_g22959,anax_g22960,anax_g22961
+degenerated	anax_g13702	3275	anax_g20899	broken	degenerated	degenerated	inactivated	UL	OZ369555.1	82460396	82492030	1	0	1	0.9888	broken	UL	
+degenerated	anax_g13719	8290	anax_g21031	broken	degenerated	degenerated	inactivated	UL	OZ369555.1	20501331	20502464	1	1	1	0.9496	broken	UL	
+degenerated	anax_g13721	8288	anax_g21034	broken	degenerated	degenerated	inactivated	L	OZ369555.1	20148885	20359158	0.927631578947368	0	1	0.8608	broken	L	anax_g22252,anax_g22253,anax_g22254,anax_g22255,anax_g22256,anax_g22257,anax_g22258,anax_g22259,anax_g22260,anax_g22261,anax_g22262,anax_g22263,anax_g22264,anax_g22265
+degenerated	anax_g13728	8397	anax_g20992	broken	degenerated	degenerated	inactivated	UL	OZ369555.1	163032084	163094087	1	0	1	0.9749	broken	UL	anax_g24500,anax_g24501
+degenerated	anax_g13739	3303	anax_g20979	broken	degenerated	degenerated	inactivated	UL	OZ369555.1	34411193	34706977	0.91210447011552	5	3	0.8453	broken	UL	anax_g22574,anax_g22575,anax_g22576,anax_g22577,anax_g22578,anax_g22579,anax_g22580,anax_g22581,anax_g22582,anax_g22583,anax_g22584
+degenerated	anax_g13773	3051	anax_g20089	broken	degenerated	degenerated	inactivated	L	OZ369555.1	51149846	51172323	1	3	0	0.5074	broken	L	
+degenerated	anax_g13834	8007	anax_g20672	broken	degenerated	degenerated	inactivated	L	OZ369555.1	115832491	115840884	0.629482071713147	1	1	0.9747	broken	L	
+degenerated	anax_g13842	8267	anax_g20680	broken	degenerated	degenerated	inactivated	UL	OZ369555.1	128851651	128909879	1	0	1	0.9856	broken	UL	anax_g23879
+degenerated	anax_g13843	8266	anax_g20681	broken	degenerated	degenerated	inactivated	UL	OZ369555.1	128911509	128913285	1	0	1	0.976	broken	UL	
+degenerated	anax_g14016	8060	anax_g20210	broken	degenerated	degenerated	inactivated	L	OZ369555.1	29649416	29650713	1	1	1	0.9586	broken	L	
+degenerated	anax_g13293	8273	anax_g20314	partial	degenerated	degenerated	no_Y_copy	""	OZ369555.1	55918759	55942110	0.740445859872612	0	0	0.3271	partial		anax_g22799,anax_g22801
+degenerated	anax_g13304	3087	anax_g20302	partial	degenerated	degenerated	inactivated	L	OZ369555.1	122706023	122706142	0.102564102564103	0	0	0.95	partial	L	
+degenerated	anax_g13316	3078	anax_g20288	partial	degenerated	degenerated	inactivated	UL	OZ369555.1	152273929	152274048	0.275862068965517	0	0	1	partial	M	
+degenerated	anax_g13383	3160	anax_g20582	partial	degenerated	conserved	intact	I	OZ369555.1	32164578	32168717	0.555160142348754	0	0	0.984	partial	I	anax_g22515
+degenerated	anax_g13403	3141	anax_g20518	partial	degenerated	degenerated	inactivated	L	OZ369555.1	28566886	28669271	0.413145539906103	1	2	0.8256	partial	L,M	
+degenerated	anax_g13437	3224	anax_g20749	partial	degenerated	degenerated	inactivated	UL	OZ369555.1	24346357	24346701	0.443349753694581	0	0	0.8778	partial	UL	
+degenerated	anax_g13463	8052	anax_g19985	partial	degenerated	degenerated	missing	M	OZ369555.1	142471572	142473719	0.122913505311077	0	0	0.9938	partial	M	
+degenerated	anax_g13474	3020	anax_g20000	partial	degenerated	degenerated	inactivated	L	OZ369555.1	79449856	79450037	0.191358024691358	2	0	0.9305	partial	L	
+degenerated	anax_g13483	3029	anax_g20010	partial	degenerated	degenerated	no_Y_copy	""	OZ369555.1	59575764	59577462	0.719546742209632	0	0	0.3885	partial		anax_g22837
+degenerated	anax_g13484	3030	anax_g20011	partial	degenerated	degenerated	no_Y_copy	""	OZ369555.1	59575794	59577510	0.740112994350282	0	0	0.4216	partial		anax_g22837
+degenerated	anax_g13497	8013	anax_g20035	partial	degenerated	conserved	intact	FI	OZ369555.1	56312892	56429276	0.881767955801105	0	0	0.9912	partial	FI	anax_g22810,anax_g22811,anax_g22812
+degenerated	anax_g13504	3000	anax_g19942	partial	degenerated	degenerated	inactivated	UL	OZ369555.1	157525667	157655703	0.887029288702929	0	0	0.9953	partial	UL	anax_g24487,anax_g24488,anax_g24489
+degenerated	anax_g13521	8143	anax_g20555	partial	degenerated	degenerated	partially_intact	PI	OZ369555.1	26622543	26623199	0.680412371134021	0	0	0.947	partial	UL	anax_g22417
+degenerated	anax_g13542	8106	anax_g20375	partial	degenerated	degenerated	inactivated	L	OZ369555.1	66168447	66181966	0.28062015503876	0	0	1	partial	L	anax_g22914
+degenerated	anax_g13550	2987	anax_g19854	partial	degenerated	degenerated	inactivated	UL	OZ369555.1	123964460	123964793	0.26578073089701	0	1	0.9125	partial	UL	
+degenerated	anax_g13557	2979	anax_g19844	partial	degenerated	degenerated	missing	M	OZ369555.1	67807003	67807167	0.116033755274262	0	0	0.9636	partial	M	
+degenerated	anax_g13575	10623	anax_g20512	partial	degenerated	degenerated	inactivated	L	OZ369555.1	109426439	109426906	0.40625	0	1	0.9615	partial		
+degenerated	anax_g13600	13891	anax_g20491	partial	degenerated	degenerated	no_Y_copy	""	OZ369555.1	86321478	86322172	0.894736842105263	0	0	0.9902	partial		
+degenerated	anax_g13625	3259	anax_g20876	partial	degenerated	degenerated	inactivated	L	OZ369555.1	156511497	156523812	0.446194225721785	0	0	0.9882	partial	L	anax_g24480
+degenerated	anax_g13629	3252	anax_g20870	partial	degenerated	degenerated	missing	M	OZ369555.1	101508196	101509105	0.219387755102041	0	0	0.9767	partial	M	
+degenerated	anax_g13642	3263	anax_g20880	partial	degenerated	conserved	intact	FI	OZ369555.1	64385285	64413244	0.564495530012771	0	0	0.9729	partial	FI	anax_g22869
+degenerated	anax_g13647	3268	anax_g20887	partial	degenerated	degenerated	inactivated	L	OZ369555.1	81730872	81731111	0.193704600484262	0	0	0.9625	partial	L	
+degenerated	anax_g13660	8021	anax_g20772	partial	degenerated	degenerated	inactivated	L	OZ369555.1	23932571	23935191	0.327702702702703	0	1	0.9536	partial	L	
+degenerated	anax_g13679	3231	anax_g20795	partial	degenerated	degenerated	inactivated	UL	OZ369555.1	52841533	52858726	0.582066869300912	0	0	0.9948	partial	UL	
+degenerated	anax_g13688	8172	anax_g20767	partial	degenerated	conserved	intact	I	OZ369555.1	139005604	139025414	0.847980997624703	0	0	0.9888	partial	I	
+degenerated	anax_g13693	3281	anax_g20913	partial	degenerated	degenerated	inactivated	L	OZ369555.1	155097255	155163174	0.234972677595628	0	0	1	partial	L	anax_g24460
+degenerated	anax_g13699	3278	anax_g20902	partial	degenerated	degenerated	inactivated	L	OZ369555.1	154800668	154801015	0.30952380952381	0	0	0.913	partial	L	
+degenerated	anax_g13716	8292	anax_g21020	partial	degenerated	degenerated	inactivated	UL	OZ369555.1	20582845	20622557	0.490530303030303	0	0	0.9228	partial	UL	
+degenerated	anax_g13717	8293	anax_g21021	partial	degenerated	degenerated	inactivated	L	OZ369555.1	20651663	20668621	0.525821596244132	0	0	0.9732	partial	L	
+degenerated	anax_g13730	8398	anax_g20991	partial	degenerated	degenerated	missing	M	OZ369555.1	163032084	163081268	0.562962962962963	0	0	0.6875	partial	M	anax_g24500
+degenerated	anax_g13738	3304	anax_g20981	partial	degenerated	degenerated	inactivated	UL	OZ369555.1	164177198	164191342	0.709677419354839	0	0	0.9654	partial	UL	anax_g24538
+degenerated	anax_g13751	3297	anax_g20956	partial	degenerated	degenerated	inactivated	L	OZ369555.1	79079769	79084832	0.412993039443156	0	0	0.956	partial	L	
+degenerated	anax_g13753	3295	anax_g20954	partial	degenerated	degenerated	inactivated	UL	OZ369555.1	79020655	79049170	0.80625	0	0	0.9656	partial	UL	
+degenerated	anax_g13755	3293	anax_g20951	partial	degenerated	degenerated	no_Y_copy	""	OZ369555.1	113918393	113918635	0.26517571884984	0	0	0.4048	partial		
+degenerated	anax_g13857	8402	anax_g19770	partial	degenerated	conserved	intact	I	OZ369555.1	118969091	118983348	0.706349206349206	0	0	0.9551	partial	I	
+degenerated	anax_g13863	8031	anax_g19786	partial	degenerated	degenerated	no_Y_copy	""	OZ369555.1	124895927	124935392	0.12291052114061	0	0	0.2682	partial		anax_g23782
+degenerated	anax_g13908	8250	anax_g20436	partial	degenerated	degenerated	inactivated	UL	OZ369555.1	127228014	127242383	0.480263157894737	0	0	0.9205	partial	UL	
+degenerated	anax_g13942	8311	anax_g20684	partial	degenerated	degenerated	inactivated	L	OZ369555.1	130669103	130679256	0.454545454545455	0	0	0.9733	partial	L	anax_g23908
+degenerated	anax_g13970	8399	anax_g20096	partial	degenerated	degenerated	partially_intact	PI	OZ369555.1	52841533	52858747	0.549435028248588	0	0	0.5615	partial	PI	
+degenerated	anax_g13973	8104	anax_g20100	partial	degenerated	conserved	intact	FI	OZ369555.1	120033227	120132733	0.82716049382716	0	0	0.9723	partial	FI	
+degenerated	anax_g14015	8061	anax_g20209	partial	degenerated	degenerated	missing	M	OZ369555.1	29650753	29650911	0.325153374233129	0	0	0.9245	partial	M	
+degenerated	anax_g13268	3200	anax_g20721	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13269	3199	anax_g20716	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13270	3198	anax_g20715	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13271	3196	anax_g20714	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13299	3092	anax_g20306	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13311	3081	anax_g20292	none	degenerated	degenerated	missing	M								none		
+degenerated	anax_g13388	3156	anax_g20575	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13389	3157	anax_g20576	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13390	3158	anax_g20579	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13406	3143	anax_g20523	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13407	3144	anax_g20524	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13409	3145	anax_g20526	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13430	8392	anax_g19894	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13456	3007	anax_g19961	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13459	8309	anax_g19981	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13478	3024	anax_g20004	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13487	3033	anax_g20014	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13489	3035	anax_g20016	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13490	3036	anax_g20017	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13492	3038	anax_g20019	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13500	8017	anax_g20038	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13506	2997	anax_g19934	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13515	8141	anax_g20547	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13516	8140	anax_g20546	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13519	8138	anax_g20552	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13520	8142	anax_g20554	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13531	3112	anax_g20407	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13532	3111	anax_g20406	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13533	3110	anax_g20404	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13534	3109	anax_g20385	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13535	3106	anax_g20368	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13536	3107	anax_g20369	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13537	8038	anax_g20370	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13538	3108	anax_g20371	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13539	8003	anax_g20372	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13545	8109	anax_g20378	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13552	2985	anax_g19851	none	degenerated	degenerated	inactivated	L								none		
+degenerated	anax_g13553	2984	anax_g19848	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13588	3066	anax_g20197	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13603	8103	anax_g20483	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13619	8259	anax_g20837	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13620	8260	anax_g20838	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13623	3261	anax_g20878	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13624	3260	anax_g20877	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13628	3254	anax_g20872	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13664	8330	anax_g20776	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13680	3232	anax_g20796	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13682	3234	anax_g20798	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13684	3236	anax_g20801	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13685	3237	anax_g20802	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13695	8153	anax_g20909	none	degenerated	degenerated	missing	M								none		
+degenerated	anax_g13715	9615	anax_g21011	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13724	8394	anax_g21002	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13736	3305	anax_g20982	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13745	8284	anax_g20967	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13747	8285	anax_g20966	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13754	3294	anax_g20953	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13770	8012	anax_g20092	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13778	8254	anax_g20074	none	degenerated	degenerated	inactivated	L								none		
+degenerated	anax_g13779	8255	anax_g20073	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13793	3044	anax_g20051	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13795	8252	anax_g20047	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13796	3043	anax_g20046	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13809	10603	anax_g20319	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13811	10604	anax_g20323	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13831	8033	anax_g20383	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13835	8320	anax_g20673	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13836	8297	anax_g20674	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13839	8294	anax_g20677	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13861	8262	anax_g19775	none	degenerated	degenerated	inactivated	L								none		
+degenerated	anax_g13862	8263	anax_g19785	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13864	8032	anax_g19787	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13883	8206	anax_g19858	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13885	2966	anax_g19796	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13888	2969	anax_g19799	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13889	2970	anax_g19800	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13890	2971	anax_g19801	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13891	2972	anax_g19802	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13915	8281	anax_g20447	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13921	8245	anax_g20459	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13938	8315	anax_g20689	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13939	8314	anax_g20688	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13969	8400	anax_g20095	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13987	3123	anax_g20420	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13988	3121	anax_g20419	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13990	3120	anax_g20416	none	degenerated	degenerated	no_Y_copy	""								none		
+degenerated	anax_g13992	3119	anax_g20415	none	degenerated	degenerated	no_Y_copy	""								none		

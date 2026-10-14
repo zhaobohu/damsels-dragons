@@ -1,0 +1,6 @@
+#NEXUS
+BEGIN TREES;
+
+	UTREE 1 = ((((Aeshna_juncea_neoX: 0.857271, Aeshna_juncea_neoY: 0.857271) [&95%HPD={2.09e-05, 2.23424}]: 0.786009, Anax_junius: 1.643279) [&95%HPD={0.146938, 2.80263}]: 0.885922, (Cordulegaster_boltonii: 2.123417, (Somatochlora_arctica: 1.574181, ((Pantala_flavescens: 0.439454, Orthetrum_coerulescens: 0.439454) [&95%HPD={6.7e-06, 1.19469}]: 0.454744, Sympetrum_striolatum: 0.894197) [&95%HPD={0.167949, 1.81768}]: 0.679984) [&95%HPD={0.83215, 2.396}]: 0.549236) [&95%HPD={1.52131, 2.79738}]: 0.405785) [&95%HPD={1.88585, 3.16268}]: 0.394829, ((Ischnura_elegans: 0.924734, Platycnemis_pennipes: 0.924734) [&95%HPD={4.79e-05, 2.31516}]: 0.955556, Archilestes_grandis: 1.880290) [&95%HPD={0.695872, 2.9587}]: 1.043740) [&95%HPD={2.43272, 3.25103}];
+
+END;

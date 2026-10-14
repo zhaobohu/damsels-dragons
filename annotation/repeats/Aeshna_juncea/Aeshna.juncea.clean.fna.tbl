@@ -1,0 +1,58 @@
+==================================================
+file name: Aeshna.juncea.clean.fna  
+sequences:          3919
+total length: 2202933384 bp  (2202442184 bp excl N/X-runs)
+GC level:         33.50 %
+bases masked: 1036262421 bp ( 47.04 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements       1099782    374740752 bp   17.01 %
+   SINEs:             6189       982845 bp    0.04 %
+   Penelope:             0            0 bp    0.00 %
+   LINEs:           825281    286711465 bp   13.01 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex     198599     80262605 bp    3.64 %
+     R1/LOA/Jockey   26842     18752938 bp    0.85 %
+     R2/R4/NeSL        624       589248 bp    0.03 %
+     RTE/Bov-B      268816    105194249 bp    4.78 %
+     L1/CIN4             0            0 bp    0.00 %
+   LTR elements:    268312     87046442 bp    3.95 %
+     BEL/Pao         11597      3272398 bp    0.15 %
+     Ty1/Copia       68430     21815326 bp    0.99 %
+     Gypsy/DIRS1     72085     28309610 bp    1.29 %
+       Retroviral     3998      5150509 bp    0.23 %
+
+DNA transposons     266896    143727225 bp    6.52 %
+   hobo-Activator    73377     31203090 bp    1.42 %
+   Tc1-IS630-Pogo    79356     42072642 bp    1.91 %
+   En-Spm                0            0 bp    0.00 %
+   MULE-MuDR          2966       527907 bp    0.02 %
+   PiggyBac          36859     17233501 bp    0.78 %
+   Tourist/Harbinger  2421      1582271 bp    0.07 %
+   Other (Mirage,    10630      7584665 bp    0.34 %
+    P-element, Transib)
+
+Rolling-circles      45158     20900797 bp    0.95 %
+
+Unclassified:       1396512    410791005 bp   18.65 %
+
+Total interspersed repeats:   929258982 bp   42.18 %
+
+
+Small RNA:            9013     12706459 bp    0.58 %
+
+Satellites:              1         3649 bp    0.00 %
+Simple repeats:     917508     65576373 bp    2.98 %
+Low complexity:     129490      7816161 bp    0.35 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+RepeatMasker version 4.2.3 , default mode                                         
+run with rmblastn version 2.14.1+
+The query was compared to classified sequences in "Aeshna.juncea.wgs.repeats.fna"
+FamDB: 

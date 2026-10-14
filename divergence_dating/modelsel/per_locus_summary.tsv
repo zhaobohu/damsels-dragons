@@ -1,0 +1,10 @@
+# per-locus ModelFinder selections
+scheme	TIM2	14
+scheme	TPM2u	9
+scheme	TN	6
+scheme	TVM	1
+scheme	TPM3u	1
+scheme	K3Pu	1
+with +I		17
+with +R		3
+HKY85		0

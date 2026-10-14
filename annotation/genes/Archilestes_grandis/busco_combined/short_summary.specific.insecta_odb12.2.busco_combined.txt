@@ -1,0 +1,17 @@
+# BUSCO version is: 6.1.0 
+# The lineage dataset is: insecta_odb12.2 (Creation date: 2026-05-13, number of genomes: 76, number of BUSCOs: 2708)
+# Summarized benchmarking in BUSCO notation for file /path/to/project/runs/ArchGran.gene.annot/archilestes.busco.aa
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:93.4%[S:92.5%,D:0.9%],F:0.7%,M:5.9%,n:2708	   
+	2528	Complete BUSCOs (C)			   
+	2504	Complete and single-copy BUSCOs (S)	   
+	24	Complete and duplicated BUSCOs (D)	   
+	20	Fragmented BUSCOs (F)			   
+	160	Missing BUSCOs (M)			   
+	2708	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.4

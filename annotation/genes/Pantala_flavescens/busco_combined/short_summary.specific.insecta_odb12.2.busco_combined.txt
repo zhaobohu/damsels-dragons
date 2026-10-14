@@ -1,0 +1,17 @@
+# BUSCO version is: 6.1.0 
+# The lineage dataset is: insecta_odb12.2 (Creation date: 2026-05-13, number of genomes: 76, number of BUSCOs: 2708)
+# Summarized benchmarking in BUSCO notation for file /path/to/project/runs/PantFlav.gene.annot/pantala.busco.aa
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:96.7%[S:94.3%,D:2.4%],F:0.1%,M:3.1%,n:2708	   
+	2619	Complete BUSCOs (C)			   
+	2553	Complete and single-copy BUSCOs (S)	   
+	66	Complete and duplicated BUSCOs (D)	   
+	4	Fragmented BUSCOs (F)			   
+	85	Missing BUSCOs (M)			   
+	2708	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.4

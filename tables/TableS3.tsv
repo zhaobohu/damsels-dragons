@@ -1,0 +1,11 @@
+Node	Clade	Fossil	Calibration	Minimum (Mya)	Maximum (Mya)	Prior mean (Mya)	Prior 2.5-97.5% (Mya)	Prior 95% HPD (Mya)
+t_n12	crown Odonata	Triassolestodes	B(2.284, 3.199, 0.025, 0.025)	228.4	319.9	292.5	237.4-322.3	243.3-325.1
+t_n13	crown Anisoptera	Sinacymatophlebia	B(1.581, 3.199, 0.025, 0.025)	158.1	319.9	253.0	181.0-311.1	188.6-316.3
+t_n14	Aeshna + Anax					164.3	19.0-286.3	14.7-280.3
+t_n15	neo-X / neo-Y gametologs					85.3	1.9-245.7	0.0-223.4
+t_n16	Cavilabiata	Juralibellula	B(1.581, 3.199, 0.025, 0.025)	158.1	319.9	212.2	156.9-287.8	152.1-279.7
+t_n17	Libellulidae + Corduliidae	Palaeolibellula	B(0.895, 3.199, 0.025, 0.025)	89.5	319.9	157.3	88.6-250.5	83.2-239.6
+t_n18	crown Libellulidae	Tauriphila	B(0.292, 3.199, 0.025, 0.025)	29.2	319.9	89.6	22.6-196.2	16.8-181.8
+t_n19	Pantala + Orthetrum					44.0	1.6-140.7	0.0-119.5
+t_n20	crown Zygoptera	Mersituria	B(0.719, 3.199, 0.025, 0.025)	71.9	319.9	188.5	72.3-300.0	69.6-295.9
+t_n21	Ischnura + Platycnemis					92.3	2.6-252.6	0.0-231.5

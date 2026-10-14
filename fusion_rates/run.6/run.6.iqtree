@@ -1,0 +1,984 @@
+IQ-TREE 3.1.3 built Jul 26 2026
+
+Partition file name: tree/partitions.nex
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 6
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 426 taxa with 5 partitions and 1441 total sites (38.8938% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	DNA	413	220	220	220	0	0	p1
+   2	DNA	413	219	180	82	98	98	p2
+   3	DNA	413	219	148	28	144	144	p3
+   4	DNA	132	522	143	72	406	406	p4+p5
+   5	DNA	132	261	247	223	22	22	p6
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: GTR+F+ASC+R8:p1,GTR+F+I+R5:p2,TIM3+F+I+R2:p3,TIM2+R5:p4+p5,GTR+F+I+R5:p6
+
+List of best-fit models per partition:
+
+  ID  Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+   1  GTR+F+ASC+R8     -51038.051  102122.102 + 6.95e-310  102127.734 + 6.95e-310  102200.155 + 6.9e-310
+   2  GTR+F+I+R5       -10041.553   20119.107 + 6.95e-310   20122.527 + 6.95e-310   20180.110 + 6.9e-310
+   3  TIM3+F+I+R2       -1615.729    3251.457 + 6.95e-310    3252.515 + 6.95e-310    3285.348 + 6.9e-310
+   4  TIM2+R5           -6130.351   12284.703 + 6.95e-310   12285.316 + 6.95e-310   12335.795 + 6.9e-310
+   5  GTR+F+I+R5       -16268.809   32573.618 + 6.95e-310   32576.444 + 6.95e-310   32637.779 + 6.9e-310
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  GTR+F+ASC+R8   5.4569  GTR{0.139088,6.96081,0.266759,0.0717429,10.7419}+F{0.485243,0.0968793,0.0510275,0.36685}+ASC+R8{0.0337378,0.0535476,0.108059,0.118199,0.170846,0.196375,0.147746,0.311902,0.0805819,0.664274,0.183334,1.19275,0.207598,1.98209,0.0680969,3.26168}
+   2  GTR+F+I+R5     0.3924  GTR{1.5605,1.58781,1.35958,0.049697,100}+F{0.276134,0.175814,0.31322,0.234832}+I{0.215472}+R5{0.32868,0.018594,0.118693,0.357706,0.20349,1.68351,0.106429,3.00082,0.0272355,10.6287}
+   3  TIM3+F+I+R2    0.0121  TIM3{3.06429,8.27405,2.19502}+F{0.144838,0.265975,0.15915,0.430037}+I{0.478836}+R2{0.490814,1.26663,0.03035,12.4652}
+   4  TIM2+F+R5      0.1119  TIM2{1.67547,1.96717,3.57632}+F{0.290876,0.220361,0.267713,0.221049}+R5{0.85595,0.0325458,0.0355071,0.77124,0.0334939,3.41782,0.0423531,8.46399,0.0326959,14.4301}
+   5  GTR+F+I+R5     0.3582  GTR{1.45457,6.97996,3.58336,0.738771,7.76845}+F{0.204196,0.261058,0.209306,0.325439}+I{0.0251361}+R5{0.211763,0.165948,0.388799,0.560755,0.266254,1.4329,0.0901385,3.01682,0.01791,5.21442}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -78161.2729 (s.e. 3471.7136)
+Unconstrained log-likelihood (without tree): -6534.6926
+Number of free parameters (#branches + #model parameters): 932
+Akaike information criterion (AIC) score: 158186.5457
+Corrected Akaike information criterion (AICc) score: 161609.9946
+Bayesian information criterion (BIC) score: 163101.0680
+
+Marginal log-likelihood of the tree: -79562.3551
+Marginal Akaike information criterion (mAIC) score: 160988.7103
+
+Total tree length (sum of branch lengths): 77.3069
+Sum of internal branch lengths: 24.9347 (32.2542% of tree length)
+
+WARNING: 14 near-zero internal branches (<0.0007) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Aeshna_caerulea' is drawn at root
+
++--Aeshna_caerulea
+|
+|        +--Aeshna_canadensis
+|     +--|
+|     |  |  +--Aeshna_clepsydra
+|     |  +--|
+|     |     |     +--Aeshna_crenata
+|     |     |  +--|
+|     |     |  |  |     +--Aeshna_grandis
+|     |     |  |  |  +--|
+|     |     |  |  |  |  +--Aeshna_viridis
+|     |     |  |  +--|
+|     |     |  |     +--Aeshna_serrata
+|     |     +--|
+|     |        +--Aeshna_verticalis
+|  +--|
+|  |  |  +--Aeshna_juncea
+|  |  +--|
+|  |     +--Aeshna_subarctica
++--|
+|  |     +--Aeshna_cyanea
+|  |  +--|
+|  |  |  |     +--Aeshna_palmata
+|  |  |  |  +--|
+|  |  |  |  |  +--Aeshna_walkeri
+|  |  |  +--|
+|  |  |     +--Aeshna_umbrosa
+|  +--|
+|     +--Aeshna_mixta
+|
+|           +--Anaciaeschna_jaspidea
+|        +--|
+|        |  |     +--Rhionaeschna_bonariensis
+|        |  |  +--|
+|        |  |  |  +--Rhionaeschna_diffinis
+|        |  +--|
+|        |     +--Rhionaeschna_californica
+|     +--|
+|     |  |     +--Caliaeschna_microstigma
+|     |  |  +--|
+|     |  |  |  +--Cephalaeschna_orbifrons
+|     |  +--|
+|     |     +--Planaeschna_milnei
+|  +--|
+|  |  |              +--Anax_amazili
+|  |  |           +--|
+|  |  |           |  |           +--Anax_concolor
+|  |  |           |  |        +--|
+|  |  |           |  |        |  +--Anax_immaculifrons
+|  |  |           |  |     +--|
+|  |  |           |  |     |  +--Staurophlebia_reticulata
+|  |  |           |  |  +--|
+|  |  |           |  |  |  +--Anax_ephippiger
+|  |  |           |  +--|
+|  |  |           |     |     +--Anax_guttatus
+|  |  |           |     |  +--|
+|  |  |           |     |  |  |  +**Anax_junius
+|  |  |           |     |  |  +--|
+|  |  |           |     |  |     +--Anax_longipes
+|  |  |           |     +--|
+|  |  |           |        |     +--Anax_imperator
+|  |  |           |        |  +--|
+|  |  |           |        |  |  +--Anax_parthenope
+|  |  |           |        +--|
+|  |  |           |           +--Anax_nigrofasciatus
+|  |  |        +--|
+|  |  |        |  +--Anax_papuensis
+|  |  |     +**|
+|  |  |     |  |  +---Austroaeschna_multipunctata
+|  |  |     |  +--|
+|  |  |     |     |  +--Boyeria_maclachlani
+|  |  |     |     +--|
+|  |  |     |        +--Boyeria_vinosa
+|  |  |  +--|
+|  |  |  |  |     +--Gynacantha_bayadera
+|  |  |  |  |  +--|
+|  |  |  |  |  |  |  +--Gynacantha_hyalina
+|  |  |  |  |  |  +--|
+|  |  |  |  |  |     +--Gynacantha_japonica
+|  |  |  |  +--|
+|  |  |  |     |  +--Gynacantha_interioris
+|  |  |  |     +--|
+|  |  |  |        |                                               +--Atrocalopteryx_atrata
+|  |  |  |        |                                            +--|
+|  |  |  |        |                                            |  +--Matrona_basilaris
+|  |  |  |        |                                         +--|
+|  |  |  |        |                                         |  +-----Neurobasis_chinensis
+|  |  |  |        |                                      +--|
+|  |  |  |        |                                      |  +--Calopteryx_virgo
+|  |  |  |        |                                   +--|
+|  |  |  |        |                                   |  |  +----Calopteryx_cornelia
+|  |  |  |        |                                   |  +--|
+|  |  |  |        |                                   |     +--Calopteryx_japonica
+|  |  |  |        |                             +-----|
+|  |  |  |        |                             |     +--Calopteryx_splendens
+|  |  |  |        |                          +--|
+|  |  |  |        |                          |  +----Hetaerina_charca
+|  |  |  |        |                       +--|
+|  |  |  |        |                       |  |  +-----------------------------------------Hetaerina_vulnerata
+|  |  |  |        |                       |  +--|
+|  |  |  |        |                       |     |  +--Mnais_costalis
+|  |  |  |        |                       |     +--|
+|  |  |  |        |                       |        +**Mnais_pruinosa
+|  |  |  |        |                    +--|
+|  |  |  |        |                    |  |                    +--Aristocypha_fenestrella
+|  |  |  |        |                    |  |                 +--|
+|  |  |  |        |                    |  |                 |  +--Aristocypha_trifasciata
+|  |  |  |        |                    |  |              +--|
+|  |  |  |        |                    |  |              |  +--Aristocypha_quadrimaculata
+|  |  |  |        |                    |  |           +--|
+|  |  |  |        |                    |  |           |  +--Heliocypha_biforata
+|  |  |  |        |                    |  |        +--|
+|  |  |  |        |                    |  |        |  +--Rhinocypha_unimaculata
+|  |  |  |        |                    |  |  +-----|
+|  |  |  |        |                    |  |  |     +----Libellago_lineata
+|  |  |  |        |                    |  +**|
+|  |  |  |        |                    |     +-----Vestalis_gracilis
+|  |  |  |        |                 +--|
+|  |  |  |        |                 |  +-----Allopodagrion_contortum
+|  |  |  |        |              +--|
+|  |  |  |        |              |  |                                      +--Acanthagrion_gracile
+|  |  |  |        |              |  |                                   +--|
+|  |  |  |        |              |  |                                   |  +----Homeoura_chelifera
+|  |  |  |        |              |  |                                +--|
+|  |  |  |        |              |  |                                |  +---Tigriagrion_aurantinigrum
+|  |  |  |        |              |  |                             +**|
+|  |  |  |        |              |  |                             |  +---Oxyagrion_hempeli
+|  |  |  |        |              |  |                          +--|
+|  |  |  |        |              |  |                          |  +---Oxyagrion_terminale
+|  |  |  |        |              |  |                       +--|
+|  |  |  |        |              |  |                       |  |              +-----Amphiagrion_abbreviatum
+|  |  |  |        |              |  |                       |  |           +--|
+|  |  |  |        |              |  |                       |  |           |  |              +--Enallagma_aspersum
+|  |  |  |        |              |  |                       |  |           |  |           +--|
+|  |  |  |        |              |  |                       |  |           |  |           |  +--Enallagma_ebrium
+|  |  |  |        |              |  |                       |  |           |  |        +--|
+|  |  |  |        |              |  |                       |  |           |  |        |  +--Enallagma_boreale
+|  |  |  |        |              |  |                       |  |           |  |     +--|
+|  |  |  |        |              |  |                       |  |           |  |     |  +--Enallagma_cyathigerum
+|  |  |  |        |              |  |                       |  |           |  |  +--|
+|  |  |  |        |              |  |                       |  |           |  |  |  +**Enallagma_circulatum
+|  |  |  |        |              |  |                       |  |           |  +--|
+|  |  |  |        |              |  |                       |  |           |     |  +--Enallagma_carunculatum
+|  |  |  |        |              |  |                       |  |           |     +--|
+|  |  |  |        |              |  |                       |  |           |        +--Enallagma_praevarum
+|  |  |  |        |              |  |                       |  |        +--|
+|  |  |  |        |              |  |                       |  |        |  +--Zoniagrion_exclamationis
+|  |  |  |        |              |  |                       |  |     +--|
+|  |  |  |        |              |  |                       |  |     |  |  +--Ischnura_aurora
+|  |  |  |        |              |  |                       |  |     |  +--|
+|  |  |  |        |              |  |                       |  |     |     +----Ischnura_capreolus
+|  |  |  |        |              |  |                       |  |  +--|
+|  |  |  |        |              |  |                       |  |  |  |           +**Ischnura_cervula
+|  |  |  |        |              |  |                       |  |  |  |        +--|
+|  |  |  |        |              |  |                       |  |  |  |        |  +**Ischnura_perparva
+|  |  |  |        |              |  |                       |  |  |  |     +--|
+|  |  |  |        |              |  |                       |  |  |  |     |  +--Ischnura_verticalis
+|  |  |  |        |              |  |                       |  |  |  |  +--|
+|  |  |  |        |              |  |                       |  |  |  |  |  +--Ischnura_ultima
+|  |  |  |        |              |  |                       |  |  |  +--|
+|  |  |  |        |              |  |                       |  |  |     |           +--Ischnura_elegans
+|  |  |  |        |              |  |                       |  |  |     |        +--|
+|  |  |  |        |              |  |                       |  |  |     |        |  +--Ischnura_fluviatilis
+|  |  |  |        |              |  |                       |  |  |     |     +--|
+|  |  |  |        |              |  |                       |  |  |     |     |  |  +--Ischnura_rufostigma
+|  |  |  |        |              |  |                       |  |  |     |     |  +--|
+|  |  |  |        |              |  |                       |  |  |     |     |     +--Ischnura_senegalensis
+|  |  |  |        |              |  |                       |  |  |     |  +--|
+|  |  |  |        |              |  |                       |  |  |     |  |  +--Ischnura_ramburii
+|  |  |  |        |              |  |                       |  |  |     +--|
+|  |  |  |        |              |  |                       |  |  |        +--Ischnura_nursei
+|  |  |  |        |              |  |                       |  +--|
+|  |  |  |        |              |  |                       |     |  +--Ischnura_forcipata
+|  |  |  |        |              |  |                       |     +--|
+|  |  |  |        |              |  |                       |        +--Ischnura_pumilio
+|  |  |  |        |              |  |                    +--|
+|  |  |  |        |              |  |                    |  +--Proischnura_subfurcata
+|  |  |  |        |              |  |                 +--|
+|  |  |  |        |              |  |                 |  +------Megalagrion_oahuense
+|  |  |  |        |              |  |              +--|
+|  |  |  |        |              |  |              |  |  +---Amphiallagma_parvum
+|  |  |  |        |              |  |              |  +--|
+|  |  |  |        |              |  |              |     +---Mortonagrion_selenion
+|  |  |  |        |              |  |           +--|
+|  |  |  |        |              |  |           |  |        +---Erythromma_lindenii
+|  |  |  |        |              |  |           |  |     +--|
+|  |  |  |        |              |  |           |  |     |  |  +--Erythromma_najas
+|  |  |  |        |              |  |           |  |     |  +--|
+|  |  |  |        |              |  |           |  |     |     |  +**Paracercion_hieroglyphicum
+|  |  |  |        |              |  |           |  |     |     +--|
+|  |  |  |        |              |  |           |  |     |        +--Paracercion_melanotum
+|  |  |  |        |              |  |           |  |  +--|
+|  |  |  |        |              |  |           |  |  |  +---Pseudagrion_pruinosum
+|  |  |  |        |              |  |           |  +--|
+|  |  |  |        |              |  |           |     |              +--Pseudagrion_acaciae
+|  |  |  |        |              |  |           |     |           +--|
+|  |  |  |        |              |  |           |     |           |  +--Pseudagrion_hamoni
+|  |  |  |        |              |  |           |     |        +--|
+|  |  |  |        |              |  |           |     |        |  |     +--Pseudagrion_kersteni
+|  |  |  |        |              |  |           |     |        |  +-----|
+|  |  |  |        |              |  |           |     |        |        +--Pseudagrion_salisburyense
+|  |  |  |        |              |  |           |     |     +**|
+|  |  |  |        |              |  |           |     |     |  |  +--Pseudagrion_australasiae
+|  |  |  |        |              |  |           |     |     |  +--|
+|  |  |  |        |              |  |           |     |     |     +--Pseudagrion_decorum
+|  |  |  |        |              |  |           |     |  +--|
+|  |  |  |        |              |  |           |     |  |  |  +--Pseudagrion_microcephalum
+|  |  |  |        |              |  |           |     |  |  +--|
+|  |  |  |        |              |  |           |     |  |     +--Pseudagrion_rubriceps
+|  |  |  |        |              |  |           |     +--|
+|  |  |  |        |              |  |           |        +----Pseudagrion_spencei
+|  |  |  |        |              |  |        +--|
+|  |  |  |        |              |  |        |  |              +--Coenagrion_armatum
+|  |  |  |        |              |  |        |  |           +--|
+|  |  |  |        |              |  |        |  |           |  +--Coenagrion_lunulatum
+|  |  |  |        |              |  |        |  |        +--|
+|  |  |  |        |              |  |        |  |        |  +--Coenagrion_hastulatum
+|  |  |  |        |              |  |        |  |     +--|
+|  |  |  |        |              |  |        |  |     |  +--Coenagrion_hylas
+|  |  |  |        |              |  |        |  |  +--|
+|  |  |  |        |              |  |        |  |  |  +--Coenagrion_resolutum
+|  |  |  |        |              |  |        |  +--|
+|  |  |  |        |              |  |        |     |  +--Coenagrion_puella
+|  |  |  |        |              |  |        |     +--|
+|  |  |  |        |              |  |        |        +**Coenagrion_pulchellum
+|  |  |  |        |              |  |     +--|
+|  |  |  |        |              |  |     |  |      +--Agriocnemis_femina
+|  |  |  |        |              |  |     |  |  +---|
+|  |  |  |        |              |  |     |  |  |   +--Agriocnemis_pygmaea
+|  |  |  |        |              |  |     |  +--|
+|  |  |  |        |              |  |     |     |                 +--Argia_apicalis
+|  |  |  |        |              |  |     |     |              +--|
+|  |  |  |        |              |  |     |     |              |  +--Argia_tibialis
+|  |  |  |        |              |  |     |     |           +--|
+|  |  |  |        |              |  |     |     |           |  +---Argia_sedula
+|  |  |  |        |              |  |     |     |        +--|
+|  |  |  |        |              |  |     |     |        |  +--Argia_immunda
+|  |  |  |        |              |  |     |     |     +--|
+|  |  |  |        |              |  |     |     |     |  |     +--Argia_fumipennis
+|  |  |  |        |              |  |     |     |     |  |  +--|
+|  |  |  |        |              |  |     |     |     |  |  |  +--Argia_nahuana
+|  |  |  |        |              |  |     |     |     |  +--|
+|  |  |  |        |              |  |     |     |     |     +--Argia_vivida
+|  |  |  |        |              |  |     |     |  +--|
+|  |  |  |        |              |  |     |     |  |  +--Argia_moesta
+|  |  |  |        |              |  |     |     +--|
+|  |  |  |        |              |  |     |        +--Argia_translata
+|  |  |  |        |              |  |  +--|
+|  |  |  |        |              |  |  |  |  +-----Aeolagrion_inca
+|  |  |  |        |              |  |  |  +--|
+|  |  |  |        |              |  |  |     |           +--Ceriagrion_auranticum
+|  |  |  |        |              |  |  |     |        +--|
+|  |  |  |        |              |  |  |     |        |  |     +--Ceriagrion_azureum
+|  |  |  |        |              |  |  |     |        |  |  +--|
+|  |  |  |        |              |  |  |     |        |  |  |  |     +--Ceriagrion_coromandelianum
+|  |  |  |        |              |  |  |     |        |  |  |  |  +--|
+|  |  |  |        |              |  |  |     |        |  |  |  |  |  +--Ceriagrion_fallax
+|  |  |  |        |              |  |  |     |        |  |  |  +--|
+|  |  |  |        |              |  |  |     |        |  |  |     +--Ceriagrion_rubiae
+|  |  |  |        |              |  |  |     |        |  +--|
+|  |  |  |        |              |  |  |     |        |     |  +--Ceriagrion_glabrum
+|  |  |  |        |              |  |  |     |        |     +--|
+|  |  |  |        |              |  |  |     |        |        +------Leptagrion_macrurum
+|  |  |  |        |              |  |  |     |     +--|
+|  |  |  |        |              |  |  |     |     |  +--Ceriagrion_cerinorubellum
+|  |  |  |        |              |  |  |     |  +--|
+|  |  |  |        |              |  |  |     |  |  |     +--Chromagrion_conditum
+|  |  |  |        |              |  |  |     |  |  |  +--|
+|  |  |  |        |              |  |  |     |  |  |  |  +--Pyrrhosoma_nymphula
+|  |  |  |        |              |  |  |     |  |  +--|
+|  |  |  |        |              |  |  |     |  |     |   +--Nehalennia_irene
+|  |  |  |        |              |  |  |     |  |     +---|
+|  |  |  |        |              |  |  |     |  |         +--Nehalennia_speciosa
+|  |  |  |        |              |  |  |     +**|
+|  |  |  |        |              |  |  |        +--Ceriagrion_tenellum
+|  |  |  |        |              |  +--|
+|  |  |  |        |              |     |                 +**Coeliccia_chromothorax
+|  |  |  |        |              |     |              +--|
+|  |  |  |        |              |     |              |  +--Coeliccia_renifera
+|  |  |  |        |              |     |           +--|
+|  |  |  |        |              |     |           |  |  +--Coeliccia_didyma
+|  |  |  |        |              |     |           |  +--|
+|  |  |  |        |              |     |           |     +--Coeliccia_fraseri
+|  |  |  |        |              |     |        +--|
+|  |  |  |        |              |     |        |  +---Platycnemis_pennipes
+|  |  |  |        |              |     |     +--|
+|  |  |  |        |              |     |     |  |  +--Esme_cyaneovittata
+|  |  |  |        |              |     |     |  +--|
+|  |  |  |        |              |     |     |     |  +--Esme_longistyla
+|  |  |  |        |              |     |     |     +--|
+|  |  |  |        |              |     |     |        +-------Pseudocopera_annulata
+|  |  |  |        |              |     |  +--|
+|  |  |  |        |              |     |  |  +------Onychargia_atrocyana
+|  |  |  |        |              |     +**|
+|  |  |  |        |              |        |  +--Disparoneura_quadrimaculata
+|  |  |  |        |              |        +--|
+|  |  |  |        |              |           |  +**Prodasineura_autumnalis
+|  |  |  |        |              |           +--|
+|  |  |  |        |              |              +--Prodasineura_verticalis
+|  |  |  |        |           +--|
+|  |  |  |        |           |  |   +---Bayadera_indica
+|  |  |  |        |           |  +---|
+|  |  |  |        |           |      +---Epallage_fatime
+|  |  |  |        |        +--|
+|  |  |  |        |        |  +---Heteragrion_inca
+|  |  |  |        |     +--|
+|  |  |  |        |     |  |          +--Chalcolestes_viridis
+|  |  |  |        |     |  |       +--|
+|  |  |  |        |     |  |       |  +--Indolestes_cyaneus
+|  |  |  |        |     |  |    +--|
+|  |  |  |        |     |  |    |  |  +--Sympecma_fusca
+|  |  |  |        |     |  |    |  +--|
+|  |  |  |        |     |  |    |     +--Sympecma_paedisca
+|  |  |  |        |     |  +----|
+|  |  |  |        |     |       |           +--Lestes_barbarus
+|  |  |  |        |     |       |        +--|
+|  |  |  |        |     |       |        |  +--Lestes_congener
+|  |  |  |        |     |       |     +--|
+|  |  |  |        |     |       |     |  +--Lestes_virens
+|  |  |  |        |     |       |  +--|
+|  |  |  |        |     |       |  |  |        +**Lestes_disjunctus
+|  |  |  |        |     |       |  |  |     +--|
+|  |  |  |        |     |       |  |  |     |  +**Lestes_forcipatus
+|  |  |  |        |     |       |  |  |  +--|
+|  |  |  |        |     |       |  |  |  |  |  +**Lestes_rectangularis
+|  |  |  |        |     |       |  |  |  |  +--|
+|  |  |  |        |     |       |  |  |  |     +--Lestes_sponsa
+|  |  |  |        |     |       |  |  +--|
+|  |  |  |        |     |       |  |     +--Lestes_dryas
+|  |  |  |        |     |       +--|
+|  |  |  |        |     |          +--Lestes_forficula
+|  |  |  |        |  +--|
+|  |  |  |        |  |  +-------Epiophlebia_superstes
+|  |  |  |        +--|
+|  |  |  |           |                     +--Anotogaster_kuchenbeiseri
+|  |  |  |           |                  +--|
+|  |  |  |           |                  |  +--Cordulegaster_brevistigma
+|  |  |  |           |               +--|
+|  |  |  |           |               |  |  +--Cordulegaster_diastatops
+|  |  |  |           |               |  +--|
+|  |  |  |           |               |     +--Cordulegaster_maculata
+|  |  |  |           |            +--|
+|  |  |  |           |            |  |  +--Cordulegaster_boltonii
+|  |  |  |           |            |  +--|
+|  |  |  |           |            |     +--Anotogaster_sieboldii
+|  |  |  |           |     +------|
+|  |  |  |           |     |      +--Cordulegaster_dorsalis
+|  |  |  |           |  +--|
+|  |  |  |           |  |  |                     +--Cordulia_aenea
+|  |  |  |           |  |  |                  +--|
+|  |  |  |           |  |  |                  |  +--Cordulia_shurtleffii
+|  |  |  |           |  |  |               +--|
+|  |  |  |           |  |  |               |  +--Dorocordulia_libera
+|  |  |  |           |  |  |            +--|
+|  |  |  |           |  |  |            |  |        +--Epitheca_bimaculata
+|  |  |  |           |  |  |            |  |     +--|
+|  |  |  |           |  |  |            |  |     |  |           +--Epitheca_canis
+|  |  |  |           |  |  |            |  |     |  |        +**|
+|  |  |  |           |  |  |            |  |     |  |        |  +--Epitheca_cynosura
+|  |  |  |           |  |  |            |  |     |  |     +--|
+|  |  |  |           |  |  |            |  |     |  |     |  +--Epitheca_semiaquea
+|  |  |  |           |  |  |            |  |     |  |  +--|
+|  |  |  |           |  |  |            |  |     |  |  |  +--Epitheca_petechialis
+|  |  |  |           |  |  |            |  |     |  +--|
+|  |  |  |           |  |  |            |  |     |     +--Epitheca_princeps
+|  |  |  |           |  |  |            |  |  +--|
+|  |  |  |           |  |  |            |  |  |  +--Rialla_villosa
+|  |  |  |           |  |  |            |  +--|
+|  |  |  |           |  |  |            |     |  +--Procordulia_grayi
+|  |  |  |           |  |  |            |     +--|
+|  |  |  |           |  |  |            |        +--Procordulia_smithii
+|  |  |  |           |  |  |        +---|
+|  |  |  |           |  |  |        |   |        +--Somatochlora_alpestris
+|  |  |  |           |  |  |        |   |     +--|
+|  |  |  |           |  |  |        |   |     |  |  +--Somatochlora_arctica
+|  |  |  |           |  |  |        |   |     |  +--|
+|  |  |  |           |  |  |        |   |     |     +--Somatochlora_semicircularis
+|  |  |  |           |  |  |        |   |  +--|
+|  |  |  |           |  |  |        |   |  |  |  +--Somatochlora_flavomaculata
+|  |  |  |           |  |  |        |   |  |  +--|
+|  |  |  |           |  |  |        |   |  |     |     +--Somatochlora_meridionalis
+|  |  |  |           |  |  |        |   |  |     |  +--|
+|  |  |  |           |  |  |        |   |  |     |  |  +**Somatochlora_metallica
+|  |  |  |           |  |  |        |   |  |     +--|
+|  |  |  |           |  |  |        |   |  |        +--Somatochlora_viridiaenea
+|  |  |  |           |  |  |        |   +--|
+|  |  |  |           |  |  |        |      |  +--Somatochlora_graeseri
+|  |  |  |           |  |  |        |      +--|
+|  |  |  |           |  |  |        |         +--Somatochlora_uchidai
+|  |  |  |           |  |  |     +**|
+|  |  |  |           |  |  |     |  +--------Epitheca_spinigera
+|  |  |  |           |  |  |  +--|
+|  |  |  |           |  |  |  |  |                    +----Acisoma_panorpoides
+|  |  |  |           |  |  |  |  |                 +--|
+|  |  |  |           |  |  |  |  |                 |  +----Nannothemis_bella
+|  |  |  |           |  |  |  |  |              +--|
+|  |  |  |           |  |  |  |  |              |  +----Rhodothemis_rufa
+|  |  |  |           |  |  |  |  |           +--|
+|  |  |  |           |  |  |  |  |           |  |        +-----Elasmothemis_cannacrioides
+|  |  |  |           |  |  |  |  |           |  |     +--|
+|  |  |  |           |  |  |  |  |           |  |     |  |  +--Erythemis_collocata
+|  |  |  |           |  |  |  |  |           |  |     |  +--|
+|  |  |  |           |  |  |  |  |           |  |     |     +--Erythemis_simplicicollis
+|  |  |  |           |  |  |  |  |           |  |  +--|
+|  |  |  |           |  |  |  |  |           |  |  |  +----Rhodopygia_cardinalis
+|  |  |  |           |  |  |  |  |           |  +--|
+|  |  |  |           |  |  |  |  |           |     |        +--Erythemis_peruviana
+|  |  |  |           |  |  |  |  |           |     |     +--|
+|  |  |  |           |  |  |  |  |           |     |     |  +--Erythemis_plebeja
+|  |  |  |           |  |  |  |  |           |     |  +--|
+|  |  |  |           |  |  |  |  |           |     |  |  +----Pantala_hymenaea
+|  |  |  |           |  |  |  |  |           |     +--|
+|  |  |  |           |  |  |  |  |           |        +--Erythemis_vesiculosa
+|  |  |  |           |  |  |  |  |        +--|
+|  |  |  |           |  |  |  |  |        |  |        +--Crocothemis_erythraea
+|  |  |  |           |  |  |  |  |        |  |     +--|
+|  |  |  |           |  |  |  |  |        |  |     |  |  +--Crocothemis_servilia
+|  |  |  |           |  |  |  |  |        |  |     |  +--|
+|  |  |  |           |  |  |  |  |        |  |     |     +**Orthetrum_testaceum
+|  |  |  |           |  |  |  |  |        |  |  +--|
+|  |  |  |           |  |  |  |  |        |  |  |  +---Micrathyria_hesperis
+|  |  |  |           |  |  |  |  |        |  +--|
+|  |  |  |           |  |  |  |  |        |     |           +--Diplacodes_bipunctata
+|  |  |  |           |  |  |  |  |        |     |        +--|
+|  |  |  |           |  |  |  |  |        |     |        |  +--Diplacodes_trivialis
+|  |  |  |           |  |  |  |  |        |     |     +--|
+|  |  |  |           |  |  |  |  |        |     |     |  +--Diplacodes_haematodes
+|  |  |  |           |  |  |  |  |        |     |  +--|
+|  |  |  |           |  |  |  |  |        |     |  |  |        +--Neurothemis_fulvia
+|  |  |  |           |  |  |  |  |        |     |  |  |     +--|
+|  |  |  |           |  |  |  |  |        |     |  |  |     |  +--Neurothemis_tullia
+|  |  |  |           |  |  |  |  |        |     |  |  |  +--|
+|  |  |  |           |  |  |  |  |        |     |  |  |  |  +--Neurothemis_terminata
+|  |  |  |           |  |  |  |  |        |     |  |  +--|
+|  |  |  |           |  |  |  |  |        |     |  |     +--Neurothemis_intermedia
+|  |  |  |           |  |  |  |  |        |     +--|
+|  |  |  |           |  |  |  |  |        |        |        +--Diplacodes_lefebvrii
+|  |  |  |           |  |  |  |  |        |        |     +--|
+|  |  |  |           |  |  |  |  |        |        |     |  +--Diplacodes_nebulosa
+|  |  |  |           |  |  |  |  |        |        |  +--|
+|  |  |  |           |  |  |  |  |        |        |  |  +---Bradinopyga_cornuta
+|  |  |  |           |  |  |  |  |        |        +--|
+|  |  |  |           |  |  |  |  |        |           |           +--Erythrodiplax_basalis
+|  |  |  |           |  |  |  |  |        |           |        +--|
+|  |  |  |           |  |  |  |  |        |           |        |  |  +--Erythrodiplax_connata
+|  |  |  |           |  |  |  |  |        |           |        |  +--|
+|  |  |  |           |  |  |  |  |        |           |        |     |  +--Erythrodiplax_fusca
+|  |  |  |           |  |  |  |  |        |           |        |     +--|
+|  |  |  |           |  |  |  |  |        |           |        |        +--Erythrodiplax_paraguayensis
+|  |  |  |           |  |  |  |  |        |           |     +--|
+|  |  |  |           |  |  |  |  |        |           |     |  |  +--Palpopleura_jucunda
+|  |  |  |           |  |  |  |  |        |           |     |  +--|
+|  |  |  |           |  |  |  |  |        |           |     |     +--Palpopleura_sexmaculata
+|  |  |  |           |  |  |  |  |        |           |  +--|
+|  |  |  |           |  |  |  |  |        |           |  |  +--Erythrodiplax_unimaculata
+|  |  |  |           |  |  |  |  |        |           +--|
+|  |  |  |           |  |  |  |  |        |              +--Erythrodiplax_umbrata
+|  |  |  |           |  |  |  |  |     +--|
+|  |  |  |           |  |  |  |  |     |  |                    +-----Aethriamanta_brevipennis
+|  |  |  |           |  |  |  |  |     |  |                 +--|
+|  |  |  |           |  |  |  |  |     |  |                 |  +--Uracis_imbuta
+|  |  |  |           |  |  |  |  |     |  |              +--|
+|  |  |  |           |  |  |  |  |     |  |              |  |     +--Miathyria_marcella
+|  |  |  |           |  |  |  |  |     |  |              |  |  +--|
+|  |  |  |           |  |  |  |  |     |  |              |  |  |  +-----Scapanea_frontalis
+|  |  |  |           |  |  |  |  |     |  |              |  +--|
+|  |  |  |           |  |  |  |  |     |  |              |     +--Perithemis_lais
+|  |  |  |           |  |  |  |  |     |  |           +--|
+|  |  |  |           |  |  |  |  |     |  |           |  |     +-----Brachythemis_contaminata
+|  |  |  |           |  |  |  |  |     |  |           |  |  +**|
+|  |  |  |           |  |  |  |  |     |  |           |  |  |  +---Zyxomma_petiolatum
+|  |  |  |           |  |  |  |  |     |  |           |  +--|
+|  |  |  |           |  |  |  |  |     |  |           |     |  +---Pseudothemis_zonata
+|  |  |  |           |  |  |  |  |     |  |           |     +--|
+|  |  |  |           |  |  |  |  |     |  |           |        +---Tholymis_tillarga
+|  |  |  |           |  |  |  |  |     |  |        +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |              +-----Cannaphila_vibex
+|  |  |  |           |  |  |  |  |     |  |        |  |           +**|
+|  |  |  |           |  |  |  |  |     |  |        |  |           |  +--Lathrecista_asiatica
+|  |  |  |           |  |  |  |  |     |  |        |  |        +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |        |  +----Oligoclada_pachystigma
+|  |  |  |           |  |  |  |  |     |  |        |  |     +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |     +---Nesciothemis_farinosa
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |              +--Orthetrum_abbotti
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |           +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |           |  |  +**Orthetrum_japonicum
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |           |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |           |     +--Orthetrum_luzonicum
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |        +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |        |  +-------Zenithoptera_fasciata
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |     +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |     |  |        +**Orthetrum_brunneum
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |     |  |     +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |     |  |     |  +**Orthetrum_coerulescens
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |     |  |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |     |  |  |  |     +--Orthetrum_melania
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |     |  |  |  |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |     |  |  |  |  |  +--Orthetrum_triangulare
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |     |  |  |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |     |  |  |     +--Orthetrum_pruinosum
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |     |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |     |     |         +--Potamarcha_congener
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |     |     +---------|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |     |               +-----------Tholymis_citrina
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |  |  |        +--Orthetrum_albistylum
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |  |  |     +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |  |  |     |  +--Orthetrum_cancellatum
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |  |  |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |  |  |  |  +--Orthetrum_glaucum
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |  |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |  |     |        +**Orthetrum_brachiale
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |  |     |     +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |  |     |     |  +**Orthetrum_chrysostigma
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |  |     |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |  |     |  |  +--Orthetrum_julia
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |  |     +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  |  |        +--Orthetrum_taeniolatum
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  |  |     +--Orthetrum_poecilops
+|  |  |  |           |  |  |  |  |     |  |        |  |     |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |     |     +--Orthemis_aequilibris
+|  |  |  |           |  |  |  |  |     |  |        |  |     |     |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |     |  |  |  +--Orthemis_discolor
+|  |  |  |           |  |  |  |  |     |  |        |  |     |     |  |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |     |  |     +--Orthemis_ferruginea
+|  |  |  |           |  |  |  |  |     |  |        |  |     |     +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |     |        +--Orthemis_cultriformis
+|  |  |  |           |  |  |  |  |     |  |        |  |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |  |  |        +--Ladona_julia
+|  |  |  |           |  |  |  |  |     |  |        |  |  |  |     +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |  |  |     |  +--Plathemis_lydia
+|  |  |  |           |  |  |  |  |     |  |        |  |  |  |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |  |  |  |  |     +--Libellula_depressa
+|  |  |  |           |  |  |  |  |     |  |        |  |  |  |  |  |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |  |  |  |  |  |  +--Libellula_quadrimaculata
+|  |  |  |           |  |  |  |  |     |  |        |  |  |  |  |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |  |  |  |     +--Libellula_fulva
+|  |  |  |           |  |  |  |  |     |  |        |  |  |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     |     +--Libellula_angelina
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     |  |  |                 +--Libellula_auripennis
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     |  |  |              +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     |  |  |              |  |     +--Libellula_axilena
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     |  |  |              |  |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     |  |  |              |  |  |  +--Libellula_vibrans
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     |  |  |              |  +**|
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     |  |  |              |     +--Libellula_incesta
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     |  |  |           +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     |  |  |           |  |  +--Libellula_flavida
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     |  |  |           |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     |  |  |           |     +--Libellula_luctuosa
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     |  |  |        +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     |  |  |        |  +--Libellula_cyanea
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     |  |  |     +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     |  |  |     |  |  +**Libellula_forensis
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     |  |  |     |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     |  |  |     |     +--Libellula_pulchella
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     |  |  |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     |  |  |  |  +--Libellula_composita
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     |  |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     |  |     +--Libellula_saturata
+|  |  |  |           |  |  |  |  |     |  |        |  |  |     +--|
+|  |  |  |           |  |  |  |  |     |  |        |  |  |        +--Libellula_semifasciata
+|  |  |  |           |  |  |  |  |     |  |        |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |     |     +---Dasythemis_esmeralda
+|  |  |  |           |  |  |  |  |     |  |        |     |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |     |  |  +--Rhyothemis_variegata
+|  |  |  |           |  |  |  |  |     |  |        |     +--|
+|  |  |  |           |  |  |  |  |     |  |        |        |     +--Lyriothemis_pachygastra
+|  |  |  |           |  |  |  |  |     |  |        |        |  +--|
+|  |  |  |           |  |  |  |  |     |  |        |        |  |  +--Orthetrum_sabina
+|  |  |  |           |  |  |  |  |     |  |        |        +--|
+|  |  |  |           |  |  |  |  |     |  |        |           +--Rhyothemis_fuliginosa
+|  |  |  |           |  |  |  |  |     |  |     +--|
+|  |  |  |           |  |  |  |  |     |  |     |  |     +----Brachydiplax_chalybea
+|  |  |  |           |  |  |  |  |     |  |     |  |  +--|
+|  |  |  |           |  |  |  |  |     |  |     |  |  |  |  +--Brachydiplax_farinosa
+|  |  |  |           |  |  |  |  |     |  |     |  |  |  +--|
+|  |  |  |           |  |  |  |  |     |  |     |  |  |     +--Brachydiplax_sobrina
+|  |  |  |           |  |  |  |  |     |  |     |  +--|
+|  |  |  |           |  |  |  |  |     |  |     |     +----Zygonyx_iris
+|  |  |  |           |  |  |  |  |     |  |  +--|
+|  |  |  |           |  |  |  |  |     |  |  |  |  +---Brechmorhoga_mendax
+|  |  |  |           |  |  |  |  |     |  |  |  +--|
+|  |  |  |           |  |  |  |  |     |  |  |     |        +--Micrathyria_laevigata
+|  |  |  |           |  |  |  |  |     |  |  |     |     +--|
+|  |  |  |           |  |  |  |  |     |  |  |     |     |  |  +--Micrathyria_ocellata
+|  |  |  |           |  |  |  |  |     |  |  |     |     |  +--|
+|  |  |  |           |  |  |  |  |     |  |  |     |     |     +--Micrathyria_atra
+|  |  |  |           |  |  |  |  |     |  |  |     |  +--|
+|  |  |  |           |  |  |  |  |     |  |  |     |  |  +--Micrathyria_stawiarskii
+|  |  |  |           |  |  |  |  |     |  |  |     +--|
+|  |  |  |           |  |  |  |  |     |  |  |        +---Pachydiplax_longipennis
+|  |  |  |           |  |  |  |  |     |  +--|
+|  |  |  |           |  |  |  |  |     |     |              +--Brachymesia_furcata
+|  |  |  |           |  |  |  |  |     |     |           +--|
+|  |  |  |           |  |  |  |  |     |     |           |  +--Brachymesia_herbida
+|  |  |  |           |  |  |  |  |     |     |        +--|
+|  |  |  |           |  |  |  |  |     |     |        |  |  +---Perithemis_tenera
+|  |  |  |           |  |  |  |  |     |     |        |  +--|
+|  |  |  |           |  |  |  |  |     |     |        |     +----Brachymesia_gravida
+|  |  |  |           |  |  |  |  |     |     |     +**|
+|  |  |  |           |  |  |  |  |     |     |     |  +-------Dythemis_fugax
+|  |  |  |           |  |  |  |  |     |     |  +--|
+|  |  |  |           |  |  |  |  |     |     |  |  |           +--Celithemis_elisa
+|  |  |  |           |  |  |  |  |     |     |  |  |        +--|
+|  |  |  |           |  |  |  |  |     |     |  |  |        |  +--Celithemis_ornata
+|  |  |  |           |  |  |  |  |     |     |  |  |     +--|
+|  |  |  |           |  |  |  |  |     |     |  |  |     |  +--Leucorrhinia_albifrons
+|  |  |  |           |  |  |  |  |     |     |  |  |  +--|
+|  |  |  |           |  |  |  |  |     |     |  |  |  |  |              +--Leucorrhinia_dubia
+|  |  |  |           |  |  |  |  |     |     |  |  |  |  |           +--|
+|  |  |  |           |  |  |  |  |     |     |  |  |  |  |           |  +--Leucorrhinia_rubicunda
+|  |  |  |           |  |  |  |  |     |     |  |  |  |  |        +--|
+|  |  |  |           |  |  |  |  |     |     |  |  |  |  |        |  +--Leucorrhinia_pectoralis
+|  |  |  |           |  |  |  |  |     |     |  |  |  |  |     +--|
+|  |  |  |           |  |  |  |  |     |     |  |  |  |  |     |  |     +--Leucorrhinia_glacialis
+|  |  |  |           |  |  |  |  |     |     |  |  |  |  |     |  |  +--|
+|  |  |  |           |  |  |  |  |     |     |  |  |  |  |     |  |  |  |  +--Leucorrhinia_intacta
+|  |  |  |           |  |  |  |  |     |     |  |  |  |  |     |  |  |  +--|
+|  |  |  |           |  |  |  |  |     |     |  |  |  |  |     |  |  |     +--Leucorrhinia_proxima
+|  |  |  |           |  |  |  |  |     |     |  |  |  |  |     |  +--|
+|  |  |  |           |  |  |  |  |     |     |  |  |  |  |     |     +--Leucorrhinia_hudsonica
+|  |  |  |           |  |  |  |  |     |     |  |  |  |  |  +--|
+|  |  |  |           |  |  |  |  |     |     |  |  |  |  |  |  +--Leucorrhinia_frigida
+|  |  |  |           |  |  |  |  |     |     |  |  |  |  +--|
+|  |  |  |           |  |  |  |  |     |     |  |  |  |     +------Macrothemis_imitans
+|  |  |  |           |  |  |  |  |     |     |  |  +--|
+|  |  |  |           |  |  |  |  |     |     |  |     |     +---Sympetrum_corruptum
+|  |  |  |           |  |  |  |  |     |     |  |     |  +--|
+|  |  |  |           |  |  |  |  |     |     |  |     |  |  +--Sympetrum_fonscolombii
+|  |  |  |           |  |  |  |  |     |     |  |     +--|
+|  |  |  |           |  |  |  |  |     |     |  |        |                 +--Sympetrum_croceolum
+|  |  |  |           |  |  |  |  |     |     |  |        |              +--|
+|  |  |  |           |  |  |  |  |     |     |  |        |              |  +--Sympetrum_frequens
+|  |  |  |           |  |  |  |  |     |     |  |        |           +--|
+|  |  |  |           |  |  |  |  |     |     |  |        |           |  |           +--Sympetrum_eroticum
+|  |  |  |           |  |  |  |  |     |     |  |        |           |  |        +--|
+|  |  |  |           |  |  |  |  |     |     |  |        |           |  |        |  +--Sympetrum_parvulum
+|  |  |  |           |  |  |  |  |     |     |  |        |           |  |     +**|
+|  |  |  |           |  |  |  |  |     |     |  |        |           |  |     |  +--Sympetrum_semicinctum
+|  |  |  |           |  |  |  |  |     |     |  |        |           |  |  +--|
+|  |  |  |           |  |  |  |  |     |     |  |        |           |  |  |  +--Sympetrum_infuscatum
+|  |  |  |           |  |  |  |  |     |     |  |        |           |  +--|
+|  |  |  |           |  |  |  |  |     |     |  |        |           |     |  +--Sympetrum_pedemontanum
+|  |  |  |           |  |  |  |  |     |     |  |        |           |     +--|
+|  |  |  |           |  |  |  |  |     |     |  |        |           |        +--Sympetrum_danae
+|  |  |  |           |  |  |  |  |     |     |  |        |        +--|
+|  |  |  |           |  |  |  |  |     |     |  |        |        |  |        +--Sympetrum_flaveolum
+|  |  |  |           |  |  |  |  |     |     |  |        |        |  |     +--|
+|  |  |  |           |  |  |  |  |     |     |  |        |        |  |     |  |     +--Sympetrum_internum
+|  |  |  |           |  |  |  |  |     |     |  |        |        |  |     |  |  +--|
+|  |  |  |           |  |  |  |  |     |     |  |        |        |  |     |  |  |  +--Sympetrum_obtrusum
+|  |  |  |           |  |  |  |  |     |     |  |        |        |  |     |  +--|
+|  |  |  |           |  |  |  |  |     |     |  |        |        |  |     |     +--Sympetrum_rubicundulum
+|  |  |  |           |  |  |  |  |     |     |  |        |        |  |  +--|
+|  |  |  |           |  |  |  |  |     |     |  |        |        |  |  |  +--Sympetrum_madidum
+|  |  |  |           |  |  |  |  |     |     |  |        |        |  +--|
+|  |  |  |           |  |  |  |  |     |     |  |        |        |     +--Sympetrum_costiferum
+|  |  |  |           |  |  |  |  |     |     |  |        |     +--|
+|  |  |  |           |  |  |  |  |     |     |  |        |     |  |        +--Sympetrum_meridionale
+|  |  |  |           |  |  |  |  |     |     |  |        |     |  |     +--|
+|  |  |  |           |  |  |  |  |     |     |  |        |     |  |     |  +--Sympetrum_sanguineum
+|  |  |  |           |  |  |  |  |     |     |  |        |     |  |  +--|
+|  |  |  |           |  |  |  |  |     |     |  |        |     |  |  |  |  +--Sympetrum_striolatum
+|  |  |  |           |  |  |  |  |     |     |  |        |     |  |  |  +--|
+|  |  |  |           |  |  |  |  |     |     |  |        |     |  |  |     +--Sympetrum_vulgatum
+|  |  |  |           |  |  |  |  |     |     |  |        |     |  +--|
+|  |  |  |           |  |  |  |  |     |     |  |        |     |     +--Sympetrum_vicinum
+|  |  |  |           |  |  |  |  |     |     |  |        |  +--|
+|  |  |  |           |  |  |  |  |     |     |  |        |  |  +--Sympetrum_illotum
+|  |  |  |           |  |  |  |  |     |     |  |        +--|
+|  |  |  |           |  |  |  |  |     |     |  |           +--Nesogonia_blackburni
+|  |  |  |           |  |  |  |  |     |     +--|
+|  |  |  |           |  |  |  |  |     |        |           +--Tramea_abdominalis
+|  |  |  |           |  |  |  |  |     |        |        +--|
+|  |  |  |           |  |  |  |  |     |        |        |  +--Tramea_carolina
+|  |  |  |           |  |  |  |  |     |        |     +--|
+|  |  |  |           |  |  |  |  |     |        |     |  |  +**Tramea_limbata
+|  |  |  |           |  |  |  |  |     |        |     |  +--|
+|  |  |  |           |  |  |  |  |     |        |     |     +--Tramea_virginia
+|  |  |  |           |  |  |  |  |     |        |  +--|
+|  |  |  |           |  |  |  |  |     |        |  |  +--Tramea_cophysa
+|  |  |  |           |  |  |  |  |     |        +--|
+|  |  |  |           |  |  |  |  |     |           |  +**Tramea_binotata
+|  |  |  |           |  |  |  |  |     |           +--|
+|  |  |  |           |  |  |  |  |     |              +**Tramea_lacerata
+|  |  |  |           |  |  |  |  |  +--|
+|  |  |  |           |  |  |  |  |  |  |           +--Bradinopyga_geminata
+|  |  |  |           |  |  |  |  |  |  |        +--|
+|  |  |  |           |  |  |  |  |  |  |        |  +---Hydrobasileus_croceus
+|  |  |  |           |  |  |  |  |  |  |     +--|
+|  |  |  |           |  |  |  |  |  |  |     |  +-----Zygonyx_torridus
+|  |  |  |           |  |  |  |  |  |  |  +--|
+|  |  |  |           |  |  |  |  |  |  |  |  |           +----Crocothemis_sanguinolenta
+|  |  |  |           |  |  |  |  |  |  |  |  |        +--|
+|  |  |  |           |  |  |  |  |  |  |  |  |        |  +--Trithemis_kirbyi
+|  |  |  |           |  |  |  |  |  |  |  |  |     +--|
+|  |  |  |           |  |  |  |  |  |  |  |  |     |  |        +--Trithemis_annulata
+|  |  |  |           |  |  |  |  |  |  |  |  |     |  |     +--|
+|  |  |  |           |  |  |  |  |  |  |  |  |     |  |     |  +--Trithemis_arteriosa
+|  |  |  |           |  |  |  |  |  |  |  |  |     |  |  +--|
+|  |  |  |           |  |  |  |  |  |  |  |  |     |  |  |  |  +--Trithemis_dorsalis
+|  |  |  |           |  |  |  |  |  |  |  |  |     |  |  |  +--|
+|  |  |  |           |  |  |  |  |  |  |  |  |     |  |  |     +--Trithemis_grouti
+|  |  |  |           |  |  |  |  |  |  |  |  |     |  +--|
+|  |  |  |           |  |  |  |  |  |  |  |  |     |     |  +--Trithemis_aurora
+|  |  |  |           |  |  |  |  |  |  |  |  |     |     +--|
+|  |  |  |           |  |  |  |  |  |  |  |  |     |        +--Trithemis_werneri
+|  |  |  |           |  |  |  |  |  |  |  |  |  +--|
+|  |  |  |           |  |  |  |  |  |  |  |  |  |  +--Trithemis_festiva
+|  |  |  |           |  |  |  |  |  |  |  |  +--|
+|  |  |  |           |  |  |  |  |  |  |  |     +----Trithemis_pallidinervis
+|  |  |  |           |  |  |  |  |  |  +--|
+|  |  |  |           |  |  |  |  |  |     |  +---Tauriphila_australis
+|  |  |  |           |  |  |  |  |  |     +--|
+|  |  |  |           |  |  |  |  |  |        |  +--Tramea_basilaris
+|  |  |  |           |  |  |  |  |  |        +--|
+|  |  |  |           |  |  |  |  |  |           +--Urothemis_signata
+|  |  |  |           |  |  |  |  +--|
+|  |  |  |           |  |  |  |     |  +--Diastatops_obscura
+|  |  |  |           |  |  |  |     +--|
+|  |  |  |           |  |  |  |        +-----Pantala_flavescens
+|  |  |  |           |  |  +--|
+|  |  |  |           |  |     |          +----Didymops_transversa
+|  |  |  |           |  |     |       +--|
+|  |  |  |           |  |     |       |  +--Macromia_magnifica
+|  |  |  |           |  |     |    +--|
+|  |  |  |           |  |     |    |  +---Macromia_daimoji
+|  |  |  |           |  |     +----|
+|  |  |  |           |  |          |  +--Macromia_amphigena
+|  |  |  |           |  |          +--|
+|  |  |  |           |  |             +--Macromia_moorei
+|  |  |  |           +--|
+|  |  |  |              |                           +**Anisogomphus_bivittatus
+|  |  |  |              |                       +---|
+|  |  |  |              |                       |   +--Scalmogomphus_bistrigatus
+|  |  |  |              |                    +--|
+|  |  |  |              |                    |  |  +--Paragomphus_capricornis
+|  |  |  |              |                    |  +--|
+|  |  |  |              |                    |     +--Paragomphus_lineatus
+|  |  |  |              |                 +--|
+|  |  |  |              |                 |  |     +--Trigomphus_citimus
+|  |  |  |              |                 |  +-----|
+|  |  |  |              |                 |        |  +--Trigomphus_interruptus
+|  |  |  |              |                 |        +--|
+|  |  |  |              |                 |           +--Trigomphus_melampus
+|  |  |  |              |              +--|
+|  |  |  |              |              |  |        +-----Davidius_nanus
+|  |  |  |              |              |  |     +--|
+|  |  |  |              |              |  |     |  +--Stylogomphus_suzukii
+|  |  |  |              |              |  |  +--|
+|  |  |  |              |              |  |  |  +---Sieboldius_albardae
+|  |  |  |              |              |  +--|
+|  |  |  |              |              |     +---Nepogomphus_modestus
+|  |  |  |              |           +--|
+|  |  |  |              |           |  |                 +---Anisogomphus_occipitalis
+|  |  |  |              |           |  |              +--|
+|  |  |  |              |           |  |              |  |  +--Stylurus_flavipes
+|  |  |  |              |           |  |              |  +--|
+|  |  |  |              |           |  |              |     |  +--Stylurus_plagiatus
+|  |  |  |              |           |  |              |     +--|
+|  |  |  |              |           |  |              |        |  +--Stylurus_scudderi
+|  |  |  |              |           |  |              |        +--|
+|  |  |  |              |           |  |              |           +--Stylurus_townesi
+|  |  |  |              |           |  |           +--|
+|  |  |  |              |           |  |           |  |           +--Arigomphus_lentulus
+|  |  |  |              |           |  |           |  |        +--|
+|  |  |  |              |           |  |           |  |        |  +--Arigomphus_pallidus
+|  |  |  |              |           |  |           |  |     +--|
+|  |  |  |              |           |  |           |  |     |  +**Arigomphus_submedianus
+|  |  |  |              |           |  |           |  |  +--|
+|  |  |  |              |           |  |           |  |  |  |  +--Asiagomphus_melaenops
+|  |  |  |              |           |  |           |  |  |  +--|
+|  |  |  |              |           |  |           |  |  |     +--Dromogomphus_spoliatus
+|  |  |  |              |           |  |           |  +--|
+|  |  |  |              |           |  |           |     |     +**Phanogomphus_exilis
+|  |  |  |              |           |  |           |     |  +--|
+|  |  |  |              |           |  |           |     |  |  |     +--Phanogomphus_lividus
+|  |  |  |              |           |  |           |     |  |  |  +--|
+|  |  |  |              |           |  |           |     |  |  |  |  +--Phanogomphus_spicatus
+|  |  |  |              |           |  |           |     |  |  +--|
+|  |  |  |              |           |  |           |     |  |     +**Phanogomphus_militaris
+|  |  |  |              |           |  |           |     +--|
+|  |  |  |              |           |  |           |        +--Phanogomphus_kurilis
+|  |  |  |              |           |  |        +--|
+|  |  |  |              |           |  |        |  |     +--Gomphus_graslinii
+|  |  |  |              |           |  |        |  |  +--|
+|  |  |  |              |           |  |        |  |  |  +--Gomphus_pulchellus
+|  |  |  |              |           |  |        |  +--|
+|  |  |  |              |           |  |        |     +--Shaogomphus_postocularis
+|  |  |  |              |           |  |     +--|
+|  |  |  |              |           |  |     |  +-------------Dromogomphus_spinosus
+|  |  |  |              |           |  |  +**|
+|  |  |  |              |           |  |  |  +----Nychogomphus_duaricus
+|  |  |  |              |           |  +--|
+|  |  |  |              |           |     |        +--Gomphus_vulgatissimus
+|  |  |  |              |           |     |     +--|
+|  |  |  |              |           |     |     |  +**Ophiogomphus_cecilia
+|  |  |  |              |           |     |  +--|
+|  |  |  |              |           |     |  |  |        +--Ophiogomphus_bison
+|  |  |  |              |           |     |  |  |     +--|
+|  |  |  |              |           |     |  |  |     |  +--Ophiogomphus_occidentis
+|  |  |  |              |           |     |  |  |  +--|
+|  |  |  |              |           |     |  |  |  |  +--Ophiogomphus_colubrinus
+|  |  |  |              |           |     |  |  +--|
+|  |  |  |              |           |     |  |     +--Ophiogomphus_rupinsulensis
+|  |  |  |              |           |     +--|
+|  |  |  |              |           |        +--Nihonogomphus_viridis
+|  |  |  |              |        +--|
+|  |  |  |              |        |  |  +--Nihonogomphus_ruptus
+|  |  |  |              |        |  +--|
+|  |  |  |              |        |     +--------Onychogomphus_forcipatus
+|  |  |  |              |     +--|
+|  |  |  |              |     |  |  +--Erpetogomphus_designatus
+|  |  |  |              |     |  +--|
+|  |  |  |              |     |     +--Erpetogomphus_eutainia
+|  |  |  |              |  +--|
+|  |  |  |              |  |  |     +-----Aphylla_williamsoni
+|  |  |  |              |  |  |  +--|
+|  |  |  |              |  |  |  |  |  +-------Ictinogomphus_rapax
+|  |  |  |              |  |  |  |  +--|
+|  |  |  |              |  |  |  |     |     +--Progomphus_borealis
+|  |  |  |              |  |  |  |     |  +--|
+|  |  |  |              |  |  |  |     |  |  +---Progomphus_obscurus
+|  |  |  |              |  |  |  |     +--|
+|  |  |  |              |  |  |  |        +----Progomphus_phyllochromus
+|  |  |  |              |  |  +--|
+|  |  |  |              |  |     +----Octogomphus_specularis
+|  |  |  |              +--|
+|  |  |  |                 |        +--Tachopteryx_thoreyi
+|  |  |  |                 |     +--|
+|  |  |  |                 |     |  |  +--Tanypteryx_hageni
+|  |  |  |                 |     |  +--|
+|  |  |  |                 |     |     +--Tanypteryx_pryeri
+|  |  |  |                 +-----|
+|  |  |  |                       +---Uropetala_carovei
+|  |  +--|
+|  |     |           +--Coryphaeschna_adnexa
+|  |     |        +--|
+|  |     |        |  +--Coryphaeschna_perrensi
+|  |     |     +--|
+|  |     |     |  +--Remartinia_luteipennis
+|  |     |  +--|
+|  |     |  |  +--Isoaeshna_isoceles
+|  |     +--|
+|  |        +--Oplonaeschna_armata
++--|
+   +--Basiaeschna_janata
+
+Tree in newick format:
+
+(Aeshna_caerulea:0.0536716082,(((Aeshna_canadensis:0.0052301515,(Aeshna_clepsydra:0.0231219318,((Aeshna_crenata:0.0176693073,((Aeshna_grandis:0.0030655728,Aeshna_viridis:0.0238349556):0.0075825759,Aeshna_serrata:0.0140596857):0.0172689494):0.0145295394,Aeshna_verticalis:0.0140340076):0.0030412732):0.0064857524):0.0337211707,(Aeshna_juncea:0.0226545424,Aeshna_subarctica:0.0109669390):0.0281139828):0.0052740858,((Aeshna_cyanea:0.0398861040,((Aeshna_palmata:0.0115529235,Aeshna_walkeri:0.0339638605):0.0165211012,Aeshna_umbrosa:0.0305806953):0.0101536656):0.0051104807,Aeshna_mixta:0.0425389585):0.0112478481):0.0068855715,((((Anaciaeschna_jaspidea:0.0800980394,((Rhionaeschna_bonariensis:0.0039890709,Rhionaeschna_diffinis:0.0183192003):0.0119775019,Rhionaeschna_californica:0.0616667839):0.0335218220):0.0157581789,((Caliaeschna_microstigma:0.0702821473,Cephalaeschna_orbifrons:0.0868427012):0.0280438631,Planaeschna_milnei:0.0794997388):0.0746634759):0.0047797050,(((((Anax_amazili:0.0650648347,((((Anax_concolor:0.1923255261,Anax_immaculifrons:0.0852213482):0.0144887788,Staurophlebia_reticulata:0.1839034247):0.0178945063,Anax_ephippiger:0.0924329242):0.0199217884,((Anax_guttatus:0.0267116813,(Anax_junius:0.0000010293,Anax_longipes:0.0035730330):0.0042935701):0.0140896023,((Anax_imperator:0.0011780461,Anax_parthenope:0.0095028483):0.0045639783,Anax_nigrofasciatus:0.0223961156):0.0227646602):0.0479409691):0.0337109366):0.0772205978,Anax_papuensis:0.1219217794):0.0493621747,(Austroaeschna_multipunctata:0.2504753260,(Boyeria_maclachlani:0.1591063220,Boyeria_vinosa:0.1918934717):0.1022263500):0.0243156130):0.0000028019,((Gynacantha_bayadera:0.0879358966,(Gynacantha_hyalina:0.0585672313,Gynacantha_japonica:0.1579853202):0.0541924295):0.0970238544,(Gynacantha_interioris:0.1805859328,(((((((((((((((Atrocalopteryx_atrata:0.0905730279,Matrona_basilaris:0.1698028536):0.1221015775,Neurobasis_chinensis:0.3288616574):0.1064470405,Calopteryx_virgo:0.1122358657):0.0171372037,(Calopteryx_cornelia:0.2986173553,Calopteryx_japonica:0.1372931597):0.0324906391):0.0052280385,Calopteryx_splendens:0.0528232597):0.3558784942,Hetaerina_charca:0.2964040454):0.0419611282,(Hetaerina_vulnerata:2.2526701208,(Mnais_costalis:0.0019570098,Mnais_pruinosa:0.0000025135):0.1752048430):0.0780669210):0.0290227391,((((((Aristocypha_fenestrella:0.0046938817,Aristocypha_trifasciata:0.0033609720):0.0016294000,Aristocypha_quadrimaculata:0.0039902054):0.0689959654,Heliocypha_biforata:0.1628926483):0.0582805863,Rhinocypha_unimaculata:0.0961467595):0.1377801233,Libellago_lineata:0.2814561881):0.3651618055,Vestalis_gracilis:0.3253821179):0.0000026900):0.0361658236,Allopodagrion_contortum:0.3626110896):0.0327797529,(((((((((((((Acanthagrion_gracile:0.2089536725,Homeoura_chelifera:0.2689023729):0.0813215331,Tigriagrion_aurantinigrum:0.2403449442):0.0380117064,Oxyagrion_hempeli:0.2354304042):0.0000026437,Oxyagrion_terminale:0.2339160292):0.0631376318,(((((Amphiagrion_abbreviatum:0.3309369175,(((((Enallagma_aspersum:0.0011477616,Enallagma_ebrium:0.0022635658):0.0045287710,Enallagma_boreale:0.0024121056):0.0179957080,Enallagma_cyathigerum:0.0017441090):0.0017678838,Enallagma_circulatum:0.0000023584):0.0742369393,(Enallagma_carunculatum:0.0036086521,Enallagma_praevarum:0.0049230182):0.0314098960):0.0299423839):0.0498435787,Zoniagrion_exclamationis:0.1498765921):0.1397884304,(Ischnura_aurora:0.0718716602,Ischnura_capreolus:0.2741348086):0.0518470918):0.0409202746,((((Ischnura_cervula:0.0000010293,Ischnura_perparva:0.0000010293):0.0152272751,Ischnura_verticalis:0.0112373770):0.1003552745,Ischnura_ultima:0.1107925582):0.0355639717,((((Ischnura_elegans:0.0474093336,Ischnura_fluviatilis:0.0489123371):0.0089973599,(Ischnura_rufostigma:0.0521486140,Ischnura_senegalensis:0.0827226373):0.0086737373):0.0248858609,Ischnura_ramburii:0.0696356213):0.0122815417,Ischnura_nursei:0.0575687029):0.0591692351):0.0327838806):0.0482733710,(Ischnura_forcipata:0.2074788126,Ischnura_pumilio:0.1131057854):0.0946098323):0.0259672015):0.0199533123,Proischnura_subfurcata:0.2107895130):0.0316497846,Megalagrion_oahuense:0.3833515757):0.0301609755,(Amphiallagma_parvum:0.2514521420,Mortonagrion_selenion:0.2206250150):0.0570625891):0.0633617949,(((Erythromma_lindenii:0.2278500080,(Erythromma_najas:0.1594457994,(Paracercion_hieroglyphicum:0.0000025306,Paracercion_melanotum:0.0063620999):0.2039463469):0.0386170019):0.0939492656,Pseudagrion_pruinosum:0.2512319564):0.0015717556,(((((Pseudagrion_acaciae:0.1771226019,Pseudagrion_hamoni:0.1101566487):0.1522931428,(Pseudagrion_kersteni:0.0880093372,Pseudagrion_salisburyense:0.0308301544):0.3573622475):0.0385565260,(Pseudagrion_australasiae:0.1031972791,Pseudagrion_decorum:0.2081094711):0.0847838222):0.0000026319,(Pseudagrion_microcephalum:0.1253792489,Pseudagrion_rubriceps:0.1774446815):0.0132339636):0.0262941520,Pseudagrion_spencei:0.3201476593):0.0336050064):0.0486420928):0.0654745345,(((((Coenagrion_armatum:0.0665925866,Coenagrion_lunulatum:0.0395375626):0.0283102588,Coenagrion_hastulatum:0.0899585053):0.0497796269,Coenagrion_hylas:0.0676257167):0.0220760429,Coenagrion_resolutum:0.0480728270):0.0661769634,(Coenagrion_puella:0.0008586808,Coenagrion_pulchellum:0.0000010293):0.0840984807):0.1986928403):0.0147463883,((Agriocnemis_femina:0.1015004988,Agriocnemis_pygmaea:0.0698595954):0.2376745360,((((((Argia_apicalis:0.0921405202,Argia_tibialis:0.1336228722):0.0277882208,Argia_sedula:0.2308469672):0.0494931584,Argia_immunda:0.1838417652):0.0256010000,((Argia_fumipennis:0.0942452149,Argia_nahuana:0.0515305635):0.0800628469,Argia_vivida:0.1398536677):0.0517180444):0.0280754391,Argia_moesta:0.1868041855):0.0144262856,Argia_translata:0.1458003060):0.0340241690):0.0355777084):0.0215167516,(Aeolagrion_inca:0.3467630652,((((Ceriagrion_auranticum:0.1337120196,((Ceriagrion_azureum:0.0655122729,((Ceriagrion_coromandelianum:0.0008584944,Ceriagrion_fallax:0.0233250050):0.0797932828,Ceriagrion_rubiae:0.0155343540):0.0635232299):0.0471452495,(Ceriagrion_glabrum:0.0383396721,Leptagrion_macrurum:0.3996033106):0.0901775479):0.0201577446):0.0233439415,Ceriagrion_cerinorubellum:0.0636109804):0.1290788217,((Chromagrion_conditum:0.1596873308,Pyrrhosoma_nymphula:0.0495017661):0.1069939156,(Nehalennia_irene:0.1173223876,Nehalennia_speciosa:0.0994060954):0.2316613409):0.0304829075):0.0752864338,Ceriagrion_tenellum:0.1987904460):0.0000027127):0.1330523655):0.0133864022,((((((Coeliccia_chromothorax:0.0000026946,Coeliccia_renifera:0.0011491087):0.0858591932,(Coeliccia_didyma:0.0691266967,Coeliccia_fraseri:0.1490543350):0.0403713564):0.1753087636,Platycnemis_pennipes:0.2651160189):0.0455255376,(Esme_cyaneovittata:0.1454944473,(Esme_longistyla:0.0850090699,Pseudocopera_annulata:0.4367569026):0.0807781304):0.1255271649):0.0029832981,Onychargia_atrocyana:0.3813736330):0.0207384289,(Disparoneura_quadrimaculata:0.1233781840,(Prodasineura_autumnalis:0.0000021282,Prodasineura_verticalis:0.0091453974):0.1817237599):0.1054995358):0.0000029141):0.0466302799):0.0259856270,(Bayadera_indica:0.2490093198,Epallage_fatime:0.2546333289):0.2437059943):0.0276955312,Heteragrion_inca:0.2612366144):0.1222841755,(((Chalcolestes_viridis:0.1790710769,Indolestes_cyaneus:0.1131125579):0.0368170566,(Sympecma_fusca:0.0969605253,Sympecma_paedisca:0.0438903206):0.1086268931):0.0786334096,((((Lestes_barbarus:0.1579784230,Lestes_congener:0.0839076111):0.0486968005,Lestes_virens:0.0759106584):0.0828346546,(((Lestes_disjunctus:0.0000010293,Lestes_forcipatus:0.0000010293):0.0097298837,(Lestes_rectangularis:0.0002885779,Lestes_sponsa:0.0262407520):0.0024496060):0.0133111848,Lestes_dryas:0.0370167745):0.0574127386):0.0461706416,Lestes_forficula:0.0830115895):0.0385066904):0.3179028373):0.1168562838,Epiophlebia_superstes:0.4336029711):0.0289392083,((((((Anotogaster_kuchenbeiseri:0.0337583494,Cordulegaster_brevistigma:0.0975292855):0.0387840083,(Cordulegaster_diastatops:0.0642971012,Cordulegaster_maculata:0.0353933609):0.0268149560):0.0191855532,(Cordulegaster_boltonii:0.0380124753,Anotogaster_sieboldii:0.1540690397):0.0676093228):0.0595145406,Cordulegaster_dorsalis:0.0236012696):0.3879803182,(((((((Cordulia_aenea:0.0394912707,Cordulia_shurtleffii:0.0401992892):0.0367577119,Dorocordulia_libera:0.1565492529):0.0285717775,(((Epitheca_bimaculata:0.1684176374,((((Epitheca_canis:0.0016274236,Epitheca_cynosura:0.0009321058):0.0000023487,Epitheca_semiaquea:0.0031064791):0.0013224421,Epitheca_petechialis:0.0071613151):0.0425147787,Epitheca_princeps:0.0544592887):0.0431481496):0.0424213807,Rialla_villosa:0.1955243674):0.0155766428,(Procordulia_grayi:0.1140724799,Procordulia_smithii:0.0964082052):0.0916083887):0.0267587492):0.0169801160,(((Somatochlora_alpestris:0.0097848734,(Somatochlora_arctica:0.0241283076,Somatochlora_semicircularis:0.0172761013):0.0249491940):0.0192517461,(Somatochlora_flavomaculata:0.0727268060,((Somatochlora_meridionalis:0.0020589364,Somatochlora_metallica:0.0000023370):0.0522489881,Somatochlora_viridiaenea:0.0454625526):0.0314479683):0.0203996847):0.0134945226,(Somatochlora_graeseri:0.0308629246,Somatochlora_uchidai:0.0296416388):0.0508035047):0.0811727877):0.2289705221,Epitheca_spinigera:0.5109623349):0.0000022894,(((((((Acisoma_panorpoides:0.3035863266,Nannothemis_bella:0.2973083851):0.0120452574,Rhodothemis_rufa:0.3199484921):0.0420039035,(((Elasmothemis_cannacrioides:0.3209770493,(Erythemis_collocata:0.0141200222,Erythemis_simplicicollis:0.0106694750):0.1691865584):0.0752736470,Rhodopygia_cardinalis:0.3112895257):0.0443684580,(((Erythemis_peruviana:0.0594461725,Erythemis_plebeja:0.1565270574):0.1548070176,Pantala_hymenaea:0.3118725149):0.1223738083,Erythemis_vesiculosa:0.1283584623):0.0638914318):0.0263067686):0.0730289816,(((Crocothemis_erythraea:0.1364747571,(Crocothemis_servilia:0.0047923718,Orthetrum_testaceum:0.0000021823):0.0308034014):0.1066895587,Micrathyria_hesperis:0.2569537669):0.0487106784,((((Diplacodes_bipunctata:0.1111328279,Diplacodes_trivialis:0.1321194030):0.0701141806,Diplacodes_haematodes:0.1266834373):0.1864450055,(((Neurothemis_fulvia:0.1332645858,Neurothemis_tullia:0.0406611576):0.0176269088,Neurothemis_terminata:0.1330575194):0.0367849646,Neurothemis_intermedia:0.1327602840):0.1082937439):0.0345671100,(((Diplacodes_lefebvrii:0.0717951375,Diplacodes_nebulosa:0.0419465145):0.1798226623,Bradinopyga_cornuta:0.2244624864):0.0277272513,((((Erythrodiplax_basalis:0.0955750032,(Erythrodiplax_connata:0.0146932367,(Erythrodiplax_fusca:0.0239525355,Erythrodiplax_paraguayensis:0.0350996441):0.0107574687):0.0500254814):0.1229013537,(Palpopleura_jucunda:0.0971568742,Palpopleura_sexmaculata:0.0317076594):0.1810438982):0.0320486721,Erythrodiplax_unimaculata:0.1310148269):0.0107154494,Erythrodiplax_umbrata:0.1803729815):0.0589371825):0.0106375264):0.0330293961):0.0570849172):0.0303077860,(((((((Aethriamanta_brevipennis:0.3569321229,Uracis_imbuta:0.1973863984):0.0491672261,((Miathyria_marcella:0.0991327092,Scapanea_frontalis:0.3444194737):0.0963407038,Perithemis_lais:0.1316906531):0.0586761452):0.0425129802,((Brachythemis_contaminata:0.3456227597,Zyxomma_petiolatum:0.2426058551):0.0000022537,(Pseudothemis_zonata:0.2552206954,Tholymis_tillarga:0.2463527344):0.0430247783):0.0987217560):0.0469108033,(((((Cannaphila_vibex:0.3209057768,Lathrecista_asiatica:0.1881679032):0.0003786706,Oligoclada_pachystigma:0.2883760368):0.0719246445,((Nesciothemis_farinosa:0.2541619933,(((((Orthetrum_abbotti:0.1403470947,(Orthetrum_japonicum:0.0000024922,Orthetrum_luzonicum:0.0009165900):0.0737413176):0.0269601144,Zenithoptera_fasciata:0.4485420793):0.0307668851,(((Orthetrum_brunneum:0.0000010293,Orthetrum_coerulescens:0.0000010293):0.1196597353,((Orthetrum_melania:0.0180950898,Orthetrum_triangulare:0.0178092410):0.0612014206,Orthetrum_pruinosum:0.1035883994):0.0347207537):0.0090224749,(Potamarcha_congener:0.0664241659,Tholymis_citrina:0.6773619535):0.5349251421):0.0224584693):0.0047810766,(((Orthetrum_albistylum:0.0474622773,Orthetrum_cancellatum:0.0936500084):0.0251027524,Orthetrum_glaucum:0.1253325670):0.0341543130,(((Orthetrum_brachiale:0.0000010293,Orthetrum_chrysostigma:0.0000010293):0.0351847619,Orthetrum_julia:0.0504986315):0.0335193611,Orthetrum_taeniolatum:0.1647667995):0.0146129140):0.0200388308):0.0274008027,Orthetrum_poecilops:0.1194796500):0.0617101064):0.0206188154,((Orthemis_aequilibris:0.0341168127,(Orthemis_discolor:0.0276185233,Orthemis_ferruginea:0.0598458245):0.0204761817):0.0583007356,Orthemis_cultriformis:0.1198317016):0.1635855979):0.0262317669):0.0213854267,(((Ladona_julia:0.1333153065,Plathemis_lydia:0.1973155921):0.0269768292,((Libellula_depressa:0.0581726698,Libellula_quadrimaculata:0.0210157172):0.1410978797,Libellula_fulva:0.1352808185):0.0462559372):0.0265313397,((Libellula_angelina:0.1131863498,((((((Libellula_auripennis:0.0022213822,((Libellula_axilena:0.0070721372,Libellula_vibrans:0.0047301170):0.0049189314,Libellula_incesta:0.0101173476):0.0000020522):0.0041469078,(Libellula_flavida:0.0185673604,Libellula_luctuosa:0.0100191197):0.0056910989):0.0049801878,Libellula_cyanea:0.0085960198):0.0271247539,(Libellula_forensis:0.0003155540,Libellula_pulchella:0.0190962761):0.0504529367):0.0558131301,Libellula_composita:0.1014284375):0.0222858811,Libellula_saturata:0.1362329343):0.0326676788):0.0306804677,Libellula_semifasciata:0.1680380717):0.0212404330):0.0233894115):0.0985165874,((Dasythemis_esmeralda:0.2377328526,Rhyothemis_variegata:0.1585718122):0.0346212895,((Lyriothemis_pachygastra:0.0289487426,Orthetrum_sabina:0.1133708654):0.1789351805,Rhyothemis_fuliginosa:0.1072162904):0.0546771460):0.1064795927):0.0337385036):0.0148544719,((Brachydiplax_chalybea:0.2838145351,(Brachydiplax_farinosa:0.2062871425,Brachydiplax_sobrina:0.1427860244):0.0390416208):0.0643623500,Zygonyx_iris:0.2711465946):0.0195423886):0.0187185328,(Brechmorhoga_mendax:0.2192148599,(((Micrathyria_laevigata:0.1769678367,(Micrathyria_ocellata:0.0473398610,Micrathyria_atra:0.0854213267):0.1303125562):0.0189288755,Micrathyria_stawiarskii:0.1847421583):0.0511123703,Pachydiplax_longipennis:0.2671099963):0.0316210850):0.0544025238):0.0096989808,(((((Brachymesia_furcata:0.1809145982,Brachymesia_herbida:0.1002731568):0.0966742884,(Perithemis_tenera:0.2652430626,Brachymesia_gravida:0.3069654688):0.1264817230):0.0379615948,Dythemis_fugax:0.4607351112):0.0000020243,((((Celithemis_elisa:0.0265789952,Celithemis_ornata:0.0400986681):0.1975384562,Leucorrhinia_albifrons:0.1882235062):0.0207775517,(((((Leucorrhinia_dubia:0.0055914527,Leucorrhinia_rubicunda:0.0125831296):0.0115771860,Leucorrhinia_pectoralis:0.0268815423):0.1062570678,((Leucorrhinia_glacialis:0.0199667146,(Leucorrhinia_intacta:0.0129122064,Leucorrhinia_proxima:0.0077022570):0.0021150829):0.0097080815,Leucorrhinia_hudsonica:0.0090268631):0.0614732502):0.0192258893,Leucorrhinia_frigida:0.1166040784):0.0763918362,Macrothemis_imitans:0.4195366892):0.0188851298):0.0039885290,((Sympetrum_corruptum:0.2147418837,Sympetrum_fonscolombii:0.1405309238):0.0863237763,((((((Sympetrum_croceolum:0.0923915188,Sympetrum_frequens:0.1120712117):0.0356733562,((((Sympetrum_eroticum:0.0315407431,Sympetrum_parvulum:0.0185885288):0.0424728561,Sympetrum_semicinctum:0.0431759524):0.0000028502,Sympetrum_infuscatum:0.1096453392):0.0159792440,(Sympetrum_pedemontanum:0.0658112094,Sympetrum_danae:0.0641484521):0.0173937783):0.0110230048):0.0051023720,(((Sympetrum_flaveolum:0.1119091852,((Sympetrum_internum:0.0092688815,Sympetrum_obtrusum:0.0007224163):0.0096588161,Sympetrum_rubicundulum:0.0067051181):0.1010741261):0.0155472331,Sympetrum_madidum:0.1170646504):0.0249737155,Sympetrum_costiferum:0.0347974652):0.0078058013):0.0041801256,(((Sympetrum_meridionale:0.0927064218,Sympetrum_sanguineum:0.0809594515):0.0292201466,(Sympetrum_striolatum:0.0873124321,Sympetrum_vulgatum:0.0666634380):0.0233236439):0.0265663747,Sympetrum_vicinum:0.0687923336):0.0029436415):0.0370568427,Sympetrum_illotum:0.1419103782):0.0637917580,Nesogonia_blackburni:0.0661481603):0.0211865643):0.1333439939):0.0362044217):0.0426775782,((((Tramea_abdominalis:0.0374852641,Tramea_carolina:0.1016242732):0.0084536346,(Tramea_limbata:0.0000023939,Tramea_virginia:0.0037725134):0.0445662811):0.0248142156,Tramea_cophysa:0.0850445359):0.0693718383,(Tramea_binotata:0.0000010293,Tramea_lacerata:0.0000010293):0.1017870180):0.1644565114):0.0143895567):0.0202432096):0.0189620315,((((Bradinopyga_geminata:0.1299435955,Hydrobasileus_croceus:0.2430259631):0.1159240894,Zygonyx_torridus:0.3319716803):0.0367310173,((((Crocothemis_sanguinolenta:0.3017422712,Trithemis_kirbyi:0.1295889567):0.0566355594,(((Trithemis_annulata:0.0821670214,Trithemis_arteriosa:0.0557873616):0.0281162721,(Trithemis_dorsalis:0.1174928931,Trithemis_grouti:0.0494317383):0.0278202204):0.0375665222,(Trithemis_aurora:0.0711889316,Trithemis_werneri:0.2052332789):0.0663885681):0.0060323633):0.0417936990,Trithemis_festiva:0.0907707159):0.1414125064,Trithemis_pallidinervis:0.2755835505):0.0864424333):0.0260042596,(Tauriphila_australis:0.2460822353,(Tramea_basilaris:0.0023441472,Urothemis_signata:0.0036618523):0.1635264736):0.1066327782):0.0201601322):0.0503538031,(Diastatops_obscura:0.1315009756,Pantala_flavescens:0.3593756954):0.1235331367):0.1858952031):0.0290114879,(((Didymops_transversa:0.2741135538,Macromia_magnifica:0.1061049926):0.0188264344,Macromia_daimoji:0.2368530825):0.0661036556,(Macromia_amphigena:0.2046771678,Macromia_moorei:0.1906512987):0.0791085429):0.2780827099):0.1666471768):0.0270856908,(((((((((Anisogomphus_bivittatus:0.0000020688,Scalmogomphus_bistrigatus:0.0014835722):0.2543389426,(Paragomphus_capricornis:0.1247177567,Paragomphus_lineatus:0.0627913165):0.1281500595):0.0506936300,(Trigomphus_citimus:0.0442676723,(Trigomphus_interruptus:0.0050874989,Trigomphus_melampus:0.0158591184):0.0019006511):0.3369844913):0.0340875139,(((Davidius_nanus:0.3377062586,Stylogomphus_suzukii:0.1504276756):0.1002570238,Sieboldius_albardae:0.2388233010):0.1033551640,Nepogomphus_modestus:0.2599808620):0.0274561799):0.0651031006,((((((Anisogomphus_occipitalis:0.2377331484,(Stylurus_flavipes:0.0549704063,(Stylurus_plagiatus:0.1151369859,(Stylurus_scudderi:0.0165106320,Stylurus_townesi:0.0272330052):0.0422397463):0.0271717976):0.1050427542):0.1241530636,((((Arigomphus_lentulus:0.0031629110,Arigomphus_pallidus:0.0016227137):0.0126264110,Arigomphus_submedianus:0.0000021475):0.1617822550,(Asiagomphus_melaenops:0.1208411506,Dromogomphus_spoliatus:0.1098965935):0.0561376385):0.0168277033,((Phanogomphus_exilis:0.0000026046,((Phanogomphus_lividus:0.0084734579,Phanogomphus_spicatus:0.0029755386):0.0482068336,Phanogomphus_militaris:0.0000021546):0.0026989378):0.0548527007,Phanogomphus_kurilis:0.0979318633):0.0788639064):0.0176006667):0.0119168814,((Gomphus_graslinii:0.1062304539,Gomphus_pulchellus:0.1483604618):0.0299386417,Shaogomphus_postocularis:0.0880213149):0.0219771708):0.0283366217,Dromogomphus_spinosus:0.7778228469):0.0649843962,Nychogomphus_duaricus:0.3011599621):0.0000023532,(((Gomphus_vulgatissimus:0.0009223858,Ophiogomphus_cecilia:0.0000010293):0.0790379204,(((Ophiogomphus_bison:0.0113777207,Ophiogomphus_occidentis:0.0163900245):0.0118545848,Ophiogomphus_colubrinus:0.0252742738):0.0308659059,Ophiogomphus_rupinsulensis:0.0282331630):0.0325795913):0.0613311937,Nihonogomphus_viridis:0.1342460285):0.0232518161):0.0676850628):0.0483697931,(Nihonogomphus_ruptus:0.1499222598,Onychogomphus_forcipatus:0.5180614789):0.0537336493):0.0739969730,(Erpetogomphus_designatus:0.2040705372,Erpetogomphus_eutainia:0.1822862531):0.0462016030):0.0473745884,((Aphylla_williamsoni:0.3259153520,(Ictinogomphus_rapax:0.4661861071,((Progomphus_borealis:0.0643679852,Progomphus_obscurus:0.2207923548):0.1359560964,Progomphus_phyllochromus:0.3106741659):0.1362007818):0.1230440222):0.0782678771,Octogomphus_specularis:0.3198350166):0.0445809975):0.1701469179,((Tachopteryx_thoreyi:0.1340816805,(Tanypteryx_hageni:0.0783379291,Tanypteryx_pryeri:0.0599763437):0.1155738782):0.0599087660,Uropetala_carovei:0.2451533693):0.3221542800):0.0027926880):0.0493280284):0.1851408869):0.1369845076):0.0511382664):0.0437621823,((((Coryphaeschna_adnexa:0.0444539850,Coryphaeschna_perrensi:0.2112001085):0.1396809804,Remartinia_luteipennis:0.1480332091):0.0795149644,Isoaeshna_isoceles:0.0849018203):0.0265084027,Oplonaeschna_armata:0.0892824707):0.0224564561):0.0201513237):0.0092894053,Basiaeschna_janata:0.0740934925):0.0090721866);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t run.6/run.6.treefile -p run.6/run.6.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s <alignment.phy> --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s <alignment.phy> --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sun Sep 13 13:26:52 2026
+Total CPU time used: 28714.3 seconds (7h:58m:34s)
+Total wall-clock time used: 7516.39 seconds (2h:5m:16s)
+

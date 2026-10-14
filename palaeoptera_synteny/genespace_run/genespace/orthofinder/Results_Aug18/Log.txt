@@ -1,0 +1,39 @@
+2026-08-18 10:45:30 : Started OrthoFinder version 2.5.5
+Command Line: /path/to/project/conda/envs/genespace/bin/orthofinder -f genespace/tmp -t 32 -a 1 -S diamond_ultra_sens -X -o genespace/orthofinder
+
+WorkingDirectory_Base: genespace/orthofinder/Results_Aug18/WorkingDirectory/
+
+Species used: 
+0: Aeshna_juncea.fa
+1: Anax_junius.fa
+2: Anax_strenuus.fa
+3: Archilestes_grandis.fa
+4: Baetis_atlanticus.fa
+5: Baetis_rhodani.fa
+6: Ceriagrion_tenellum.fa
+7: Cloeon_dipterum.fa
+8: Cordulegaster_boltonii.fa
+9: Ecdyonurus_torrentis.fa
+10: Ephemera_orientalis.fa
+11: Ephemera_vulgata.fa
+12: Hetaerina_titia.fa
+13: Heteragrion_aequatoriale.fa
+14: Ischnura_elegans.fa
+15: Ischnura_senegalensis.fa
+16: Orthetrum_coerulescens.fa
+17: Pantala_flavescens.fa
+18: Parafronurus_youi.fa
+19: Platycnemis_pennipes.fa
+20: Procloeon_bifidum.fa
+21: Pyrrhosoma_nymphula.fa
+22: Serratella_ignita.fa
+23: Siphlonurus_alternatus.fa
+24: Somatochlora_arctica.fa
+25: Somatochlora_meridionalis.fa
+26: Sympetrum_sanguineum.fa
+27: Sympetrum_striolatum.fa
+28: Tanypteryx_hageni.fa
+
+FN_Orthogroups: genespace/orthofinder/Results_Aug18/WorkingDirectory/clusters_OrthoFinder_I1.5.txt_id_pairs.txt
+WorkingDirectory_Trees: genespace/orthofinder/Results_Aug18/WorkingDirectory/
+2026-08-18 13:36:16 : OrthoFinder run completed

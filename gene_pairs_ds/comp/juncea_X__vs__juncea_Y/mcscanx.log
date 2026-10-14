@@ -1,0 +1,11 @@
+Reading BLAST file and pre-processing
+Generating BLAST list
+10220 matches imported (3934 discarded)
+1 pairwise comparisons
+21 alignments generated
+Pairwise collinear blocks written to ab.collinearity [0.099 seconds elapsed]
+Tandem pairs written to ab.tandem
+Writing multiple syntenic blocks to HTML files
+aa.html
+bb.html
+Done! [0.018 seconds elapsed]

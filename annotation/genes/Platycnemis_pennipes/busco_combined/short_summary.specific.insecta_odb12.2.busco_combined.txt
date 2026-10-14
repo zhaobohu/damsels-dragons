@@ -1,0 +1,17 @@
+# BUSCO version is: 6.1.0 
+# The lineage dataset is: insecta_odb12.2 (Creation date: 2026-05-13, number of genomes: 76, number of BUSCOs: 2708)
+# Summarized benchmarking in BUSCO notation for file /path/to/project/runs/PlatPenn.gene.annot/platycnemis.busco.aa
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:97.2%[S:96.5%,D:0.6%],F:0.3%,M:2.6%,n:2708	   
+	2631	Complete BUSCOs (C)			   
+	2614	Complete and single-copy BUSCOs (S)	   
+	17	Complete and duplicated BUSCOs (D)	   
+	7	Fragmented BUSCOs (F)			   
+	70	Missing BUSCOs (M)			   
+	2708	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.4

@@ -1,0 +1,5 @@
+scope	class	pairs	disp_o2o	disp_uni	ari_o2o	ari_uni
+shared range	Eph-Eph	21	19.5	18.49	0.493	0.513
+shared range	Odo-Odo	171	2.22	0.62	0.914	0.961
+all within-order	Eph-Eph	45	25.53	25.9	0.283	0.285
+all within-order	Odo-Odo	171	2.22	0.62	0.914	0.961

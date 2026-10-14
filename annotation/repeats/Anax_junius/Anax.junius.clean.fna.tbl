@@ -1,0 +1,58 @@
+==================================================
+file name: Anax.junius.clean.fna    
+sequences:          2297
+total length: 1558803724 bp  (1558734324 bp excl N/X-runs)
+GC level:         32.73 %
+bases masked:  598810726 bp ( 38.41 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements       461548    198106177 bp   12.71 %
+   SINEs:                3           65 bp    0.00 %
+   Penelope:             0            0 bp    0.00 %
+   LINEs:           387494    116632731 bp    7.48 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex     123225     50589767 bp    3.25 %
+     R1/LOA/Jockey    4226      1773440 bp    0.11 %
+     R2/R4/NeSL       2532      1210258 bp    0.08 %
+     RTE/Bov-B      118807     31418740 bp    2.02 %
+     L1/CIN4             0            0 bp    0.00 %
+   LTR elements:     74051     81473381 bp    5.23 %
+     BEL/Pao            20        33883 bp    0.00 %
+     Ty1/Copia        2296      4631622 bp    0.30 %
+     Gypsy/DIRS1     10091      6145388 bp    0.39 %
+       Retroviral        0            0 bp    0.00 %
+
+DNA transposons     142480     46511177 bp    2.98 %
+   hobo-Activator     4214      2046763 bp    0.13 %
+   Tc1-IS630-Pogo    98703     27247320 bp    1.75 %
+   En-Spm                0            0 bp    0.00 %
+   MULE-MuDR             0            0 bp    0.00 %
+   PiggyBac           7032      2946706 bp    0.19 %
+   Tourist/Harbinger   350       198810 bp    0.01 %
+   Other (Mirage,      117       122048 bp    0.01 %
+    P-element, Transib)
+
+Rolling-circles       6881      2802583 bp    0.18 %
+
+Unclassified:       711492    252366052 bp   16.19 %
+
+Total interspersed repeats:   496983406 bp   31.88 %
+
+
+Small RNA:           25391     17337748 bp    1.11 %
+
+Satellites:              0            0 bp    0.00 %
+Simple repeats:     954251     75566822 bp    4.85 %
+Low complexity:     108632      6120167 bp    0.39 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+RepeatMasker version 4.2.3 , default mode                                         
+run with rmblastn version 2.14.1+
+The query was compared to classified sequences in "Anax.junius.wgs.repeats.fna"
+FamDB: 

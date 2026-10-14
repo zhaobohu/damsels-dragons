@@ -1,0 +1,58 @@
+==================================================
+file name: Platycnemis.pennipes.clean.fna
+sequences:            88
+total length: 1793356121 bp  (1793326921 bp excl N/X-runs)
+GC level:         39.25 %
+bases masked:  799455788 bp ( 44.58 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements       875778    335250417 bp   18.69 %
+   SINEs:             6126      1244042 bp    0.07 %
+   Penelope:             0            0 bp    0.00 %
+   LINEs:           658665    241954642 bp   13.49 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex     289469     96095530 bp    5.36 %
+     R1/LOA/Jockey   17229     15250739 bp    0.85 %
+     R2/R4/NeSL       5530      4454507 bp    0.25 %
+     RTE/Bov-B      209888     87342728 bp    4.87 %
+     L1/CIN4             0            0 bp    0.00 %
+   LTR elements:    210987     92051733 bp    5.13 %
+     BEL/Pao         14385      6296490 bp    0.35 %
+     Ty1/Copia       97136     37934393 bp    2.12 %
+     Gypsy/DIRS1     39341     21876400 bp    1.22 %
+       Retroviral        0            0 bp    0.00 %
+
+DNA transposons     301953    118416448 bp    6.60 %
+   hobo-Activator   112645     34994590 bp    1.95 %
+   Tc1-IS630-Pogo    69352     28109169 bp    1.57 %
+   En-Spm                0            0 bp    0.00 %
+   MULE-MuDR             0            0 bp    0.00 %
+   PiggyBac          38880     20365274 bp    1.14 %
+   Tourist/Harbinger  1839      1075404 bp    0.06 %
+   Other (Mirage,    25681      4675908 bp    0.26 %
+    P-element, Transib)
+
+Rolling-circles      13470      5239852 bp    0.29 %
+
+Unclassified:       1029523    317478208 bp   17.70 %
+
+Total interspersed repeats:   771145073 bp   43.00 %
+
+
+Small RNA:           84771     14001301 bp    0.78 %
+
+Satellites:              0            0 bp    0.00 %
+Simple repeats:     155869      6640142 bp    0.37 %
+Low complexity:      46909      2429420 bp    0.14 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+RepeatMasker version 4.2.3 , default mode                                         
+run with rmblastn version 2.14.1+
+The query was compared to classified sequences in "Platycnemis.pennipes.wgs.repeats.fna"
+FamDB: 

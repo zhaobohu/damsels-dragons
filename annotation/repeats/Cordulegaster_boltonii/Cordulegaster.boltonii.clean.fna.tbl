@@ -1,0 +1,58 @@
+==================================================
+file name: Cordulegaster.boltonii.clean.fna
+sequences:           996
+total length: 1610706582 bp  (1610315182 bp excl N/X-runs)
+GC level:         37.37 %
+bases masked:  977683995 bp ( 60.70 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements       313500    151366022 bp    9.40 %
+   SINEs:              638       296904 bp    0.02 %
+   Penelope:             0            0 bp    0.00 %
+   LINEs:           274951    134288397 bp    8.34 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex     133945     63253921 bp    3.93 %
+     R1/LOA/Jockey   18386     20381421 bp    1.27 %
+     R2/R4/NeSL        541       195074 bp    0.01 %
+     RTE/Bov-B       40721     17475739 bp    1.08 %
+     L1/CIN4             0            0 bp    0.00 %
+   LTR elements:     37911     16780721 bp    1.04 %
+     BEL/Pao          1579      2746384 bp    0.17 %
+     Ty1/Copia           0            0 bp    0.00 %
+     Gypsy/DIRS1     14239      9436230 bp    0.59 %
+       Retroviral        0            0 bp    0.00 %
+
+DNA transposons     609724    221049223 bp   13.72 %
+   hobo-Activator   289408     97306342 bp    6.04 %
+   Tc1-IS630-Pogo   180044     67895375 bp    4.22 %
+   En-Spm                0            0 bp    0.00 %
+   MULE-MuDR          5499      1530868 bp    0.10 %
+   PiggyBac          23286      8693415 bp    0.54 %
+   Tourist/Harbinger 26368      7629134 bp    0.47 %
+   Other (Mirage,     4389      1487322 bp    0.09 %
+    P-element, Transib)
+
+Rolling-circles      62401     19361040 bp    1.20 %
+
+Unclassified:       1484535    548015217 bp   34.02 %
+
+Total interspersed repeats:   920430462 bp   57.14 %
+
+
+Small RNA:           30105     10118605 bp    0.63 %
+
+Satellites:              0            0 bp    0.00 %
+Simple repeats:     234771     21176138 bp    1.31 %
+Low complexity:      79147      6597750 bp    0.41 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+RepeatMasker version 4.2.3 , default mode                                         
+run with rmblastn version 2.14.1+
+The query was compared to classified sequences in "Cordulegaster.boltonii.wgs.repeats.fna"
+FamDB: 

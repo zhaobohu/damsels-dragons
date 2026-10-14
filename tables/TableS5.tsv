@@ -1,0 +1,7 @@
+Species A	Species B	HOGs on A's microchromosome	HOGs on B's microchromosome	Shared (observed)	Expected if independent	Fold enrichment	Retention A to B, % (k/n)	Retention B to A, % (k/n)
+Aeshna juncea	Ischnura elegans	261	246	21	2	10.6	20.0 (21/105)	44.7 (21/47)
+Aeshna juncea	Platycnemis pennipes	261	257	45	2.1	21.8	43.3 (45/104)	45.5 (45/99)
+Aeshna juncea	Tanypteryx hageni	261	133	54	1.1	50.5	47.8 (54/113)	65.9 (54/82)
+Ischnura elegans	Platycnemis pennipes	246	257	47	1.9	24.1	63.5 (47/74)	30.3 (47/155)
+Ischnura elegans	Tanypteryx hageni	246	133	20	1	19.9	54.1 (20/37)	29.9 (20/67)
+Platycnemis pennipes	Tanypteryx hageni	257	133	36	1.1	34.2	45.0 (36/80)	55.4 (36/65)

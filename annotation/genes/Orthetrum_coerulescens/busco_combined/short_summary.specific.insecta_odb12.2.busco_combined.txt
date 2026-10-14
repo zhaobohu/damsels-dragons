@@ -1,0 +1,17 @@
+# BUSCO version is: 6.1.0 
+# The lineage dataset is: insecta_odb12.2 (Creation date: 2026-05-13, number of genomes: 76, number of BUSCOs: 2708)
+# Summarized benchmarking in BUSCO notation for file /path/to/project/runs/OrthCoer.gene.annot/orthetrum.busco.aa
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:95.0%[S:92.9%,D:2.1%],F:0.9%,M:4.1%,n:2708	   
+	2572	Complete BUSCOs (C)			   
+	2515	Complete and single-copy BUSCOs (S)	   
+	57	Complete and duplicated BUSCOs (D)	   
+	24	Fragmented BUSCOs (F)			   
+	112	Missing BUSCOs (M)			   
+	2708	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.4

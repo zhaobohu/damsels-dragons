@@ -1,0 +1,105 @@
+####################################################################################################
+#### TOGA2 summary
+####################################################################################################
+TOGA2 annotated 17502 genes and 0 retrogene candidates in the query genome.
+In addition, TOGA2 identified 1155 genes classified as lost and 14 genes classified as missing in the query.
+
+Out of 15319 reference genes, 12653 (82.597%) have at least one potentially functional ortholog; of these, 9755 (63.679%) are classified as 1:1 orthologs. For 1717 (11.208%) genes, TOGA2 identified only potentially functional paralogs in the query genome.
+
+#HEADER	QueryAssembly	no. annotated query genes  	no. query retrogenes	no. lost genes in query	no. missing genes in query	no. ref genes with potentially functional orthologs	no. one2one orthologs	no. ref genes with potentially functional paralogs
+#SINGLELINESUMMARY	Aeshna_juncea.2bit	17502	0	1155	14	12653	9755	1717
+
+This data set was generated with TOGA2 version v2.0.10a and the following input files:
+* Reference genome: /path/to/project/runs/toga/genomes/Anax_junius.2bit
+* Query genome: /path/to/project/runs/toga/genomes/Aeshna_juncea.2bit
+* Genome alignment chain file: /path/to/project/runs/toga/chains/results/07_final/Anax_junius.Aeshna_juncea.allfilled.chain.gz
+* Reference annotation file: /path/to/project/runs/toga/toga2_out/tmp/input_data/reference_annotation.bed
+* Output directory: /path/to/project/runs/toga/toga2_out
+* Isoforms file: /path/to/project/runs/toga/ref_input/toga.isoforms.tsv
+* U12/non-canonical U2 intron file: /path/to/project/runs/toga/ref_input/toga.U12introns.bed
+* SpliceAI query directory: N/A
+
+TOGA2 was invoked with the following command:
+/path/to/project/programs/TOGA2/toga2.py run --ref_2bit /path/to/project/runs/toga/genomes/Anax_junius.2bit --query_2bit /path/to/project/runs/toga/genomes/Aeshna_juncea.2bit --chain_file /path/to/project/runs/toga/chains/results/07_final/Anax_junius.Aeshna_juncea.allfilled.chain.gz --ref_annotation /path/to/project/runs/toga/ref_input/toga.transcripts.bed --isoform_file /path/to/project/runs/toga/ref_input/toga.isoforms.tsv --u12_file /path/to/project/runs/toga/ref_input/toga.U12introns.bed --cesar_profile_dir /path/to/project/runs/toga/ref_input/CESAR2.0_profiles --cesar_non_canon_u2_acceptor /path/to/project/programs/TOGA2/supply/CESAR2.0/profiles/human/nonCanon_U2_acceptor.tsv --cesar_non_canon_u2_donor /path/to/project/programs/TOGA2/supply/CESAR2.0/profiles/human/nonCanon_U2_donor.tsv --no_spliceai --annotate_paralogs --parallel_strategy local --nextflow_config_dir /path/to/project/runs/toga/toga2_nfconfig --keep_nextflow_log --project_name Anax_junius_to_Aeshna_juncea -o /path/to/project/runs/toga/toga2_out -v
+
+
+For questions, please check whether the issue has already been addressed at https://github.com/hillerlab/TOGA2/issues. If not, please open a new issue.
+
+If you use these data, please cite: 
+Yury V. Malovichko et al. "Accurate, comprehensive gene annotation and ortholog identification across thousands of vertebrate genomes with TOGA2". bioRxiv 2026.06.30.735536; doi: https://doi.org/10.64898/2026.06.30.735536
+
+
+
+####################################################################################################
+#### Detailed TOGA2 summary
+####################################################################################################
+The detailed summary lists information about the orthology classification step, statistics of projections, transcripts and genes,
+and details on the orthology classification.
+
+####################################################################################################
+
+
+Orthology prediction statistics:
+	Reference transcripts level::
+		#reference transcripts subjected to classification: 15094
+		#reference transcripts with >=1 predicted ortholog: 12859 (83.942%)
+		#reference transcripts with 1 predicted ortholog: 9323 (60.859%)
+		#reference transcripts with no predicted orthologs: 2235 (14.59%)
+		#reference transcripts with no classifiable projections: 225 (1.469%)
+		#predicted processed pseudogene/retrogene projections 1065:
+	Reference genes level:
+		#reference genes with >=1 predicted ortholog: 12859 (83.942%)
+		#reference genes with 1 predicted ortholog: 9323 (60.859%)
+		#reference genes with no predicted orthologs: 2460 (16.058%)
+		#reference gene with no classifiable projections: 225 (1.469%)
+
+
+####################################################################################################
+
+
+Gene loss summary statistics:
+	loss classes considered for assessing gene presence: FI, I, PI, UL
+	Query projections level:
+		#Fully Intact (FI) - 17224 (43.715%)
+		#Intact (I) - 8740 (22.182%)
+		#Partially Intact (PI) - 641 (1.627%)
+		#Uncertain Losses (UL) - 9170 (23.274%)
+		#Lost (L) - 2723 (6.911%)
+		#Missing (M) - 34 (0.086%)
+		#projections considered present: 35775 (90.797%)
+		#projections considered lost/missing: 3626 (9.203%)
+	Reference transcripts level:
+		#Fully Intact (FI) - 10504 (68.568%)
+		#Intact (I) - 853 (5.568%)
+		#Partially Intact (PI) - 38 (0.248%)
+		#Uncertain Losses (UL) - 486 (3.173%)
+		#Lost (L) - 2260 (14.753%)
+		#Missing (M) - 253 (1.652%)
+		#trancripts considered present: 11881 (77.557%)
+		#transcripts considered lost/missing: 3438 (22.443%)
+	Reference genes level:
+		#Fully Intact (FI) - 10504 (26.659%)
+		#Intact (I) - 853 (2.165%)
+		#Partially Intact (PI) - 38 (0.096%)
+		#Uncertain Losses (UL) - 486 (1.233%)
+		#Lost (L) - 2260 (5.736%)
+		#Missing (M) - 253 (0.642%)
+		#reference genes considered present: 11881 (30.154%)
+		#reference genes considered lost/missing: 27520 (69.846%)
+
+
+####################################################################################################
+
+
+Orthology resolution:
+	#reference genes: 15319
+	#query genes: 24501
+		#with defined orthology: 17502 (71.434%)
+		#lost, missing, or lacking defined orthology: 6999 (28.566%)
+	Reference gene orthology class composition:
+		one2one: 9755 (63.679%)
+		one2many: 851 (5.555%)
+		many2one: 701 (4.576%)
+		many2many: 1346 (8.786%)
+		one2zero: 2666 (17.403%)
+

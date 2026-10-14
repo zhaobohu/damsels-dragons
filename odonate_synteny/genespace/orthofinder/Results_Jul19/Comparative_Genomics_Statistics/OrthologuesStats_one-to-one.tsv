@@ -1,0 +1,11 @@
+	Aeshna_juncea	Anax_junius	Archilestes_grandis	Cordulegaster_boltonii	Ischnura_elegans	Orthetrum_coerulescens	Pantala_flavescens	Platycnemis_pennipes	Somatochlora_arctica	Sympetrum_striolatum
+Aeshna_juncea	0.0	9619.0	8239.0	9222.0	8646.0	8825.0	8666.0	8887.0	9285.0	9031.0
+Anax_junius	9619.0	0.0	8209.0	9014.0	8448.0	8657.0	8597.0	8729.0	8920.0	8837.0
+Archilestes_grandis	8239.0	8209.0	0.0	8535.0	8490.0	8327.0	8320.0	8748.0	8542.0	8500.0
+Cordulegaster_boltonii	9222.0	9014.0	8535.0	0.0	8918.0	9256.0	9114.0	9148.0	9585.0	9465.0
+Ischnura_elegans	8646.0	8448.0	8490.0	8918.0	0.0	8785.0	8656.0	9533.0	8938.0	8974.0
+Orthetrum_coerulescens	8825.0	8657.0	8327.0	9256.0	8785.0	0.0	9526.0	8864.0	9786.0	10106.0
+Pantala_flavescens	8666.0	8597.0	8320.0	9114.0	8656.0	9526.0	0.0	8737.0	9418.0	9636.0
+Platycnemis_pennipes	8887.0	8729.0	8748.0	9148.0	9533.0	8864.0	8737.0	0.0	9162.0	9102.0
+Somatochlora_arctica	9285.0	8920.0	8542.0	9585.0	8938.0	9786.0	9418.0	9162.0	0.0	10022.0
+Sympetrum_striolatum	9031.0	8837.0	8500.0	9465.0	8974.0	10106.0	9636.0	9102.0	10022.0	0.0

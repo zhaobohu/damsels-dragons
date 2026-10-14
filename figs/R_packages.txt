@@ -1,0 +1,11 @@
+R version 4.6.1 (2026-06-24 ucrt)
+ape 5.8.1
+beeswarm 0.4.0
+data.table 1.18.4
+devEMF 4.6
+multcompView 0.1.12
+phytools 2.5.2
+rstatix 1.1.0
+svglite 2.2.2
+viridis 0.6.5
+viridisLite 0.4.3

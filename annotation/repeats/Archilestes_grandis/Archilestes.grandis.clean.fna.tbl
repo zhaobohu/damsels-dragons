@@ -1,0 +1,58 @@
+==================================================
+file name: Archilestes.grandis.clean.fna
+sequences:          1110
+total length:  938352733 bp  (937179133 bp excl N/X-runs)
+GC level:         39.14 %
+bases masked:  266600578 bp ( 28.41 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements       209529     75514242 bp    8.05 %
+   SINEs:              518        60073 bp    0.01 %
+   Penelope:             0            0 bp    0.00 %
+   LINEs:           197466     71280769 bp    7.60 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex      80412     27235074 bp    2.90 %
+     R1/LOA/Jockey    2374      1408858 bp    0.15 %
+     R2/R4/NeSL        476       285583 bp    0.03 %
+     RTE/Bov-B       63910     25918572 bp    2.76 %
+     L1/CIN4             0            0 bp    0.00 %
+   LTR elements:     11545      4173400 bp    0.44 %
+     BEL/Pao           161       148492 bp    0.02 %
+     Ty1/Copia        1710      1162135 bp    0.12 %
+     Gypsy/DIRS1      7771      2462129 bp    0.26 %
+       Retroviral        0            0 bp    0.00 %
+
+DNA transposons      54178     23667370 bp    2.52 %
+   hobo-Activator     8984      2566951 bp    0.27 %
+   Tc1-IS630-Pogo    24944     10160461 bp    1.08 %
+   En-Spm                0            0 bp    0.00 %
+   MULE-MuDR             0            0 bp    0.00 %
+   PiggyBac           2978      1197309 bp    0.13 %
+   Tourist/Harbinger   433       350733 bp    0.04 %
+   Other (Mirage,      124        39615 bp    0.00 %
+    P-element, Transib)
+
+Rolling-circles       1919       505425 bp    0.05 %
+
+Unclassified:       324395    155924462 bp   16.62 %
+
+Total interspersed repeats:   255106074 bp   27.19 %
+
+
+Small RNA:            2389       600879 bp    0.06 %
+
+Satellites:              0            0 bp    0.00 %
+Simple repeats:     169537      7799148 bp    0.83 %
+Low complexity:      44046      2589052 bp    0.28 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+RepeatMasker version 4.2.3 , default mode                                         
+run with rmblastn version 2.14.1+
+The query was compared to classified sequences in "Archilestes.grandis.wgs.repeats.fna"
+FamDB: 

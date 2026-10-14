@@ -1,0 +1,58 @@
+==================================================
+file name: Pantala.flavescens.clean.fna
+sequences:            43
+total length:  663273809 bp  (663266756 bp excl N/X-runs)
+GC level:         34.45 %
+bases masked:  135357739 bp ( 20.41 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements        47670     23128588 bp    3.49 %
+   SINEs:             3255       310178 bp    0.05 %
+   Penelope:             0            0 bp    0.00 %
+   LINEs:            43287     22040946 bp    3.32 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex      33037     18370073 bp    2.77 %
+     R1/LOA/Jockey       0            0 bp    0.00 %
+     R2/R4/NeSL        110        36863 bp    0.01 %
+     RTE/Bov-B        6489      1825570 bp    0.28 %
+     L1/CIN4             0            0 bp    0.00 %
+   LTR elements:      1128       777464 bp    0.12 %
+     BEL/Pao            18         7100 bp    0.00 %
+     Ty1/Copia          40         7740 bp    0.00 %
+     Gypsy/DIRS1       486       660051 bp    0.10 %
+       Retroviral        0            0 bp    0.00 %
+
+DNA transposons      28739     11824218 bp    1.78 %
+   hobo-Activator      547       158678 bp    0.02 %
+   Tc1-IS630-Pogo    20046      6261455 bp    0.94 %
+   En-Spm                0            0 bp    0.00 %
+   MULE-MuDR             0            0 bp    0.00 %
+   PiggyBac           3375      3726293 bp    0.56 %
+   Tourist/Harbinger  2350       198845 bp    0.03 %
+   Other (Mirage,       78        69737 bp    0.01 %
+    P-element, Transib)
+
+Rolling-circles          0            0 bp    0.00 %
+
+Unclassified:       121850     93016177 bp   14.02 %
+
+Total interspersed repeats:   127968983 bp   19.29 %
+
+
+Small RNA:            8526       974857 bp    0.15 %
+
+Satellites:              0            0 bp    0.00 %
+Simple repeats:     111798      5234996 bp    0.79 %
+Low complexity:      23829      1178903 bp    0.18 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+RepeatMasker version 4.2.3 , default mode                                         
+run with rmblastn version 2.14.1+
+The query was compared to classified sequences in "Pantala.flavescens.wgs.repeats.fna"
+FamDB: 

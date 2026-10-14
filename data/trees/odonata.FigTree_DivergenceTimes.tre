@@ -1,0 +1,693 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=591;
+	taxlabels
+	ANCH188_Polythoridae_Miocora_peraltica
+	BOY03_Polythoridae_Cora_xanthosoma
+	GEODE12746_Libellulidae_Akrothemis_risi
+	GEODE12747_Libellulidae_Amphithemis_curvistyla
+	GEODE12748_Libellulidae_Celebophlebia_dactylogastra
+	GEODE12749_Libellulidae_Celebothemis_delecollei
+	GEODE12753_Gomphidae_Lindenia_tetraphylla
+	GEODE12754_Gomphidae_Mattigomphus_pinratani
+	GEODE12755_Gomphidae_Perissogomphus_stevensi
+	GEODE17604_Austropetaliidae_Austropetalia_patricia
+	GEODE17607_Aeshnidae_Andaeschna_rufipes
+	GEODE17609_Aeshnidae_Epiaeschna_heros
+	GEODE17610_Aeshnidae_Gomphaeschna_furcillata
+	GEODE17614_Aeshnidae_Oreoaeschna_dictarix
+	GEODE17622_Macromiidae_Macromia_astarte
+	GEODE17698_Corduliidae_Dorocordulia_lepida
+	GEODE17699_Corduliidae_Dorocordulia_libera
+	GEODE17703_Corduliidae_Epitheca_cynosura
+	GEODE17704_Corduliidae_Epitheca_marginata
+	GEODE17707_Corduliidae_Epitheca_semiaquea
+	GEODE17711_Corduliidae_Guadalca_insularis
+	GEODE17712_Corduliidae_Helocordulia_selysii
+	GEODE17713_Corduliidae_Helocordulia_uhleri
+	GEODE17717_Corduliidae_Hemicordulia_fidelis
+	GEODE17720_Corduliidae_Hemicordulia_kalliste
+	GEODE17725_Libellulidae_Orthemis_macrostigma
+	GEODE17728_Libellulidae_Orthemis_sulphurata
+	GEODE17755_Libellulidae_Anatya_januaria
+	GEODE17756_Libellulidae_Antidythemis_trameiformis
+	GEODE17757_Libellulidae_Archaeophlebia_martini
+	GEODE17758_Libellulidae_Atoconeura_kenya
+	GEODE17761_Libellulidae_Boninthemis_insularis
+	GEODE17779_Corduliidae_Navicordulia_errans
+	GEODE17781_Corduliidae_Neurocordulia_virginiensis
+	GEODE17783_Corduliidae_Neurocordulia_yamaskanensis
+	GEODE17788_Corduliidae_Procordulia_jacksoniensis
+	GEODE17789_Corduliidae_Procordulia_moroensis
+	GEODE17793_Corduliidae_Neurocordulia_michaeli
+	GEODE17832_Corduliidae_Somatochlora_cingulata
+	GEODE17864_Synthemistidae_Idionyx_claudia
+	GEODE17870_Synthemistidae_Idionyx_optatus
+	GEODE17873_Synthemistidae_Lathrocordulia_metallica
+	GEODE17874_Synthemistidae_Macromidia_genialis
+	GEODE17876_Synthemistidae_Macromidia_kelloggi
+	GEODE17881_Synthemistidae_Neocordulia_griphus
+	GEODE17883_Synthemistidae_Pseudocordulia_circulairis
+	GEODE17884_Synthemistidae_Pseudocordulia_elliptica
+	GEODE17885_Synthemistidae_Archaeosynthemis_leachii
+	GEODE17887_Synthemistidae_Archaeosynthemis_orientalis
+	GEODE17888_Synthemistidae_Archaeosynthemis_spiniger
+	GEODE17889_Synthemistidae_Austrosynthemis_cyanitincta
+	GEODE17891_Synthemistidae_Eusynthemis_guttata
+	GEODE17894_Synthemistidae_Gomphomacromia_nodisticta
+	GEODE17896_Synthemistidae_Synthemis_campioni
+	GEODE17901_Synthemistidae_Synthemis_tasmanica
+	GEODE17902_Synthemistidae_Tonyosynthemis_ofarrelli
+	GEODE17903_Gomphidae_Anisogomphus_anderi
+	GEODE17904_Gomphidae_Arigomphus_furcifer
+	GEODE17909_Gomphidae_Zonophora_diversa
+	GEODE17911_Gomphidae_Cacoides_latro
+	GEODE17912_Gomphidae_Hagenius_brevistylus
+	GEODE17913_Gomphidae_Fukienogomphus_promineus
+	GEODE17914_Gomphidae_Shaogomphus_postocularis
+	GEODE17915_Gomphidae_Peruviogomphus_pearsoni
+	GEODE17917_Gomphidae_Octogomphus_specularis
+	GEODE17919_Gomphidae_Gastrogomphus_abdominalis
+	GEODE17922_Gomphidae_Melligomphus_ardens
+	GEODE17923_Gomphidae_Mergomphus_longistigma
+	GEODE17929_Libellulidae_Scapanea_frontalis
+	GEODE17933_Gomphidae_Scalmogomphus_falcatus
+	GEODE17935_Gomphidae_Anormogomphus_kiritshenkoi
+	GEODE17936_Gomphidae_Phanogompgus_exilis
+	GEODE17940_Petaluridae_Petalura_litorea
+	GEODE17943_Petaluridae_Uropetala_chiltoni
+	GEODE2652_Platycnemididae_Asthenocnemis_stephanodera
+	GEODE2711_Coenagrionidae_Luzonobasis_glauca
+	GEODE2756_Euphaeidae_Heterophaea_barbata
+	GEODE2758_Coenagrionidae_Plagulibasis_ciliata
+	GEODE7612_Libellulidae_Cannaphila_insulari
+	GEODE7624_Platycnemididae_Disparoneura_apicalis
+	GEODE7628_Libellulidae_Rhodopygia_hinei
+	GEODE7634_Gomphidae_Sinogomphus_telamon
+	GEODE7638_Libellulidae_Nannophlebia_axiagasta
+	GEODE7643_Synthemistidae_Palaeosynthemis_gracilenta
+	GEODE7650_Libellulidae_Diplacina_spec
+	GEODE7653_Platycnemididae_Esme_mudiensis
+	GEODE7655_Libellulidae_Diplacina_persephone
+	GEODE7656_Platycnemididae_Nososticta_selysi
+	GEODE7659_Libellulidae_Microtrigonia_gomphoides
+	GEODE7660_Platycnemididae_Nososticta_exul
+	GEODE7665_Lestidae_Indolestes_albicaudus
+	GEODE7666_Chlorocyphidae_Heliocypha_bisignata
+	GEODE7667_Chlorocyphidae_Libellago_greeni
+	GEODE7668_Platycnemididae_Calicnemia_pulverulans
+	GEODE7669_Aeshnidae_Amphiaeschna_ampla
+	GEODE7672_Chlorocyphidae_Cyrano_unicolor
+	GEODE7673_Platycnemididae_Calicnemia_erythromelas
+	GEODE7675_Chlorocyphidae_Disparocypha_biedermanni
+	GEODE7676_Libellulidae_Misagria_calverti
+	GEODE7678_Argiolestidae_Luzonargiolestes_baltazarae
+	GEODE7680_Synthemistidae_Palaeosynthemis_cervula
+	GEODE7681_Gomphidae_Phyllogomphoides_undulatus
+	GEODE7682_Corduliidae_Aeschnosoma_forcipula
+	GEODE7683_Euphaeidae_Anisopleura_lestoides
+	GEODE7686_Euphaeidae_Euphaea_cardinalis
+	GEODE7687_Euphaeidae_Cyclophaea_cyanifrons
+	GEODE7689_Chlorogomphidae_Chlorogomphus_spec
+	GEODE7690_Aeshnidae_Plattycantha_cornuta
+	GEODE7691_Aeshnidae_Heliaeschna_crassa
+	GEODE7692_Gomphidae_Phyllogomphoides_fuliginosus
+	GEODE7694_Euphaeidae_Euphaea_refulgens
+	GEODE7697_Coenagrionidae_Protoneura_tenuis
+	GEODE7698_Libellulidae_Erythemis_credula
+	GEODE7699_Libellulidae_Erythrodiplax_umbrata
+	GEODE7700_Libellulidae_Oligoclada_sp
+	GEODE7701_Libellulidae_Agrionoptera_insignis
+	GEODE7702_Libellulidae_Uracis_fastigiata
+	GEODE7704_Rimanellidae_Rimanella_arcana
+	GEODE7705_Calopterygidae_Noguchiphaea_yoshikoae
+	GEODE7707_Libellulidae_Elga_newtonsantosi
+	GEODE7708_Libellulidae_Plathemis_subornata
+	GEODE7709_Libellulidae_Rhyothemis_notata
+	GEODE7710_Gomphidae_Ebegomphus_sp
+	GEODE7711_Libellulidae_Celethemis_eponina
+	GEODE7712_Libellulidae_Perithemis_sp
+	GEODE7714_Libellulidae_Brachythemis_leucosticta
+	GEODE7715_Macromiidae_Phyllomacromia_picta
+	GEODE7716_Argiolestidae_Griseargiolestes_albescens
+	GEODE7718_Dicteriadidae_Dicterias_astrosanguinea
+	GEODE7719_Calopterygidae_Calopteryx_aequabilis
+	GEODE7721_Calopterygidae_Neurobasis_chinensis
+	GEODE7722_Platystictidae_Protosticta_satoi
+	GEODE7723_Synlestidae_Chlorolestes_elegans
+	GEODE7724_Platycnemididae_Coeliccia_cyanomelas
+	GEODE7725_Coenagrionidae_Mecistogaster_linearis
+	GEODE7727_Platycnemididae_Prodasineura_autumnalis
+	GEODE7728_Lestidae_Austrolestes_leda
+	GEODE7730_Lestidae_Archilestes_grandis
+	GEODE7731_Gomphidae_Ictinogomphus_pertinax
+	GEODE7732_Gomphidae_Gomphurus_externus
+	GEODE7733_Gomphidae_Tragogomphus_ellioti
+	GEODE7734_Gomphidae_Heliogomphus_scorpio
+	GEODE7735_Libellulidae_Ladona_julia
+	GEODE7736_Gomphidae_Erpetogomphus_compositus
+	GEODE7737_Synthemistidae_Choristhemis_flavoterminata
+	GEODE7738_Libellulidae_Brechmorhoga_mendax
+	GEODE7739_Libellulidae_Perithemis_tenera
+	GEODE7740_Aeshnidae_Rhionaeschna_multicolor
+	GEODE7741_Coenagrionidae_Psaironeura_tenuissima
+	GEODE7742_Heteragrionidae_Oxystigma_petiolatum
+	GEODE7743_Petaluridae_Tanypteryx_hageni
+	GEODE7744_Synthemistidae_Micromidia_convergens
+	GEODE7745_Gomphidae_Armagomphus_armiger
+	GEODE7746_Libellulidae_Paltothemis_lineatipes
+	GEODE7747_Corduliidae_Cordulia_shurtleffii
+	GEODE7748_Calopterygidae_Mnesarete_williamsoni
+	GEODE7749_Coenagrionidae_Amphiagrion_abbreviatum
+	GEODE7750_Platycnemididae_Copera_nyansana
+	GEODE7753_Coenagrionidae_Telebasis_salva
+	GEODE7754_Gomphidae_Stenogomphurus_rogersi
+	GEODE7755_Synlestidae_Episynlestes_albicauda
+	GEODE7756_Libellulidae_Pachydiplax_longipennis
+	GEODE7758_Coenagrionidae_Acanthagrion_adustum
+	GEODE7759_Libellulidae_Nannophya_australis
+	GEODE7760_Libellulidae_Austrothemis_nigrescens
+	GEODE7761_Libellulidae_Tauriphila_argo
+	GEODE7762_Libellulidae_Macrothemis_nobilis
+	GEODE7763_Gomphidae_Archaeogomphus_nanus
+	GEODE7764_Libellulidae_Miathirya_marcella
+	GEODE7765_Corduliidae_Paracordulia_sericea
+	GEODE7766_Libellulidae_Zenithoptera_fasciata
+	GEODE7767_Libellulidae_Nephepeltia_phryne
+	GEODE7768_Libellulidae_Elasmothemis_williamsoni
+	GEODE7769_Libellulidae_Argirothemis_argentea
+	GEODE7770_Libellulidae_Gynothemis_pumilia
+	GEODE7771_Synthemistidae_Lauromacromia_dubitalis
+	GEODE7772_Gomphidae_Ebegomphus_minitus
+	GEODE7773_Gomphidae_Zonophora_batesi
+	GEODE7774_Gomphidae_Desmogomphus_trigivensis
+	GEODE7775_Gomphidae_Agriogomphus_sylvicola
+	GEODE7776_Libellulidae_Micrathyria_didyma
+	GEODE7777_Libellulidae_Dithemis_nigra
+	GEODE7778_Coenagrionidae_Metaleptobasis_bicornis
+	GEODE7779_Calopterygidae_Mnesarete_cupraea
+	GEODE7780_Calopterygidae_Hetaerina_caja
+	GEODE7781_Coenagrionidae_Phasmoneura_exigua
+	GEODE7782_Coenagrionidae_Tuberculobasis_yanomami
+	GEODE7783_Coenagrionidae_Telebasis_demarara
+	GEODE7784_Coenagrionidae_Epipotoneura_nehalennia
+	GEODE7785_Coenagrionidae_Inpabasis_rosea
+	GEODE7786_Coenagrionidae_Acanthallagma_luteum
+	GEODE7787_Platystictidae_Palaemnema_brevignoni
+	GEODE7788_Dicteriadidae_Heliocharis_amazona
+	GEODE7790_Gomphidae_Antipodogomphus_acolythus
+	GEODE7791_Synthemistidae_Hesperocordulia_berthoudi
+	GEODE7792_Synthemistidae_Eusynthemis_nigra
+	GEODE7794_Coenagrionidae_Microstigma_anomalum
+	GEODE7796_Platycnemididae_Elattoneura_acuta
+	GEODE7798_Libellulidae_Palpopleura_lucia
+	GEODE7800_Libellulidae_Diplacodes_trivialis
+	GEODE7801_Libellulidae_Crocothemis_servilia
+	GEODE7802_Libellulidae_Aethriamenta_rezia
+	GEODE7803_Libellulidae_Diastatops_obscura
+	GEODE7804_Libellulidae_Tetrathemis_fraseri
+	GEODE7805_Libellulidae_Acisoma_trifidum
+	GEODE7806_Libellulidae_Orthetrum_julia
+	GEODE7807_Libellulidae_Tramea_transmarina
+	GEODE7811_Platycnemididae_Copera_marginipes
+	GEODE7812_Chlorocyphidae_Heliocypha_perforata
+	GEODE7813_Lestidae_Lestes_plagiatus
+	GEODE7815_Libellulidae_Urothemis_assignata
+	GEODE7818_Gomphidae_Aphylla_sp
+	GEODE7819_Coenagrionidae_Aeolagrion_dorsale
+	GEODE7820_Argiolestidae_Archiagiolestes_pusillissimus
+	GEODE7821_Argiolestidae_Eoargiolestes_ochraceus
+	GEODE7822_Argiolestidae_Nesolestes_radama
+	GEODE7823_Calopterygidae_Bryoplathanon_globifer
+	GEODE7826_Coenagrionidae_Aceratobasis_macilenta
+	GEODE7827_Coenagrionidae_Amphiallagma_parvum
+	GEODE7828_Coenagrionidae_Anisagrion_allopterum
+	GEODE7829_Coenagrionidae_Antiagrion_grinbergsi
+	GEODE7830_Coenagrionidae_Apanisagrion_lais
+	GEODE7832_Coenagrionidae_Caliagrion_billinghursti
+	GEODE7833_Coenagrionidae_Calvertagrion_mauffrayi
+	GEODE7835_Coenagrionidae_Cyanallagma_angelae
+	GEODE7836_Coenagrionidae_Diceratobasis_melanogaster
+	GEODE7839_Coenagrionidae_Telagrion_longum
+	GEODE7841_Coenagrionidae_Peristicta_aeneoviridis
+	GEODE7844_Coenagrionidae_Mesamphiagrion_demarmelsi
+	GEODE7848_Coenagrionidae_Oxyagrion_hermosae
+	GEODE7852_Coenagrionidae_Homeoura_lindneri
+	GEODE7854_Coenagrionidae_Leptobasis_melinogaster
+	GEODE7857_Coenagrionidae_Platystigma_astictum
+	GEODE7858_Euphaeidae_Schmidtiphaea_schmidi
+	GEODE7860_Isostictidae_Austrosticta_soror
+	GEODE7863_Megapodagrionidae_Allopodagrion_contortum
+	GEODE7864_Platycnemididae_Hylaeargia_magnifica
+	GEODE7866_Platycnemididae_Lieftinckia_malaitae
+	GEODE7868_Platycnemididae_Rhyacocnemis_prothoracica
+	GEODE7871_Platystictidae_Sinosticta_sylvatica
+	GEODE7872_Priscagrionidae_Sinocnemis_henanensis
+	GEODE7873_Synlestidae_Phylolestes_ethelae
+	GEODE7874_Thaumatoneuridae_Paraphlebia_duodecima
+	GEODE7876_Platystictidae_Ceylonosticta_lankanensis
+	GEODE7879_Coenagrionidae_Forcepsioneura_sancta
+	GEODE7880_Coenagrionidae_Denticulobasis_dunklei
+	GEODE7882_Coenagrionidae_Andinagrion_peterseni
+	NESOMASC_Synthemistidae_Nesocordulia_mascarenica
+	OD102_Calopterygidae_Matrona_basilaris
+	OD103_Coenagrionidae_Neoneura_maria
+	OD105_Coenagrionidae_Protoneura_capillaris
+	OD1074_Hemiphlebiidae_Hemiphlebia_mirabilis
+	OD1076_Epiophlebiidae_Epiophlebia_superstes
+	OD1077_Mesopodagrionidae_Mesopodagrion_sp
+	OD1079_Philogangidae_Philoganga_vetusta
+	OD107_Libellulidae_Pantala_flavescens
+	OD1083_Argiolestidae_Austroargiolestes_icteromelas
+	OD1085_Rhipidolestidae_Agriomorpha_xinglongensis
+	OD1091_Libellulidae_Brachythemis_contaminata
+	OD1094_Libellulidae_Nannophlebia_alexia
+	OD1095_Libellulidae_Sympetrum_corruptum
+	OD1101_Macromiidae_Epophthalmia_elegans
+	OD1106_Libellulidae_Zygonyx_flavicosta
+	OD1112_Austropetaliidae_Phyllopetalia_apollo
+	OD1113_Neopetaliidae_Neopetalia_punctata
+	OD1115_Austropetaliidae_Hypopetalia_pestilens
+	OD1116_Coenagrionidae_Cyanallagma_sp
+	OD1119_Philosinidae_Rhinagrion_sp
+	OD1120_Perilestidae_Perissolestes_remotus
+	OD1121_Rhipidolestidae_Agriomorpha_fusca
+	OD1122_Platycnemididae_Prodasineura_croconota
+	OD1123_Platycnemididae_Coeliccia_pyriformis
+	OD1124_Philogeniidae_Philogenia_carrillica
+	OD1125_Calopterygidae_Neurobasis_ianthinipennis
+	OD1126_Heteragrionidae_Dimeragrion_percubitale
+	OD1127_Lestidae_Orolestes_octomaculatus
+	OD1130_Philosinidae_Philosina_buchi
+	OD1132_Platycnemididae_Onychargia_atrocyana
+	OD1133_Amanipodagrionidae_Amanipodagrion_gilliesi
+	OD1135_Thaumatoneuridae_Paraphlebia_sp
+	OD1136_Protolestidae_Protolestes_fickei
+	OD1137_Tatocnemididae_Tatocnemis_malgassica
+	OD1139_Pentaphlebiidae_Pentaphlebia_mangana
+	OD1141_Thaumatoneuridae_Thaumatoneura_inopinata
+	OD1143_Platycnemididae_Mesocnemis_singularis
+	OD1146_Hypolestidae_Hypolestes_sp
+	OD1148_Amphipterygidae_Amphipteryx_agrioides
+	OD1158_Corduliidae_Pentathemis_sp
+	OD1164_Cordulegastridae_Cordulegaster_sp
+	OD1169_Synthemistidae_Gomphomacromia_paradoxa
+	OD1170_Calopterygidae_Hetaerina_americana
+	OD1172_Synthemistidae_Austrocordulia_refracta
+	OD1183_Mesagrionidae_Mesagrion_leucorhinum
+	OD120_Chlorocyphidae_Heliocypha_biseriata
+	OD122_Lestidae_Sympecma_paedisca
+	OD126_Calopterygidae_Vestalis_apicalis
+	OD1277_Isostictidae_Neosticta_fraseri
+	OD1278_Lestidae_Indolestes_cyaneus
+	OD1280_Priscagrionidae_Priscagrion_kiautai
+	OD1281_Megapodagrionidae_Teinopodagrion_meridionale
+	OD1283_Pseudolestidae_Pseudolestes_mirabilis
+	OD1298_Isostictidae_Cnemisticta_latilobata
+	OD1302_Epiophlebiidae_Epiophlebia_laidlawi
+	OD1303_Aeshnidae_Gynacanthaeschna_sikkima
+	OD1304_Cordulegastridae_Neallogaster_hermionae
+	OD1305_Synlestidae_Chlorolestes_umbratus
+	OD1306_Platycnemididae_Elattoneura_glauca
+	OD1308_Protolestidae_Protolestes_kerckhoffae
+	OD1309_Argiolestidae_Nesolestes_sp
+	OD1310_Synthemistidae_Cordulephya_pygmaea
+	OD1311_Synthemistidae_Parasynthemis_regina
+	OD1312_Isostictidae_Labidiosticta_vallisi
+	OD1314_Gomphidae_Ophiogomphus_morrisoni
+	OD1315_Chlorogomphidae_Chlorogomphus_auratus
+	OD1316_Aeshnidae_Gynacantha_gracilis
+	OD1317_Platycnemididae_Nososticta_solida
+	OD1318_Petaluridae_Petalura_gigantea
+	OD1319_Libellulidae_Macrodiplax_cora
+	OD1321_Lestidae_Lestes_disjunctus
+	OD1322_Corduliidae_Rialla_villosa
+	OD132_Euphaeidae_Euphaea_ochracea
+	OD134_Chlorocyphidae_Libellago_semiopaca
+	OD136_Coenagrionidae_Papuagrion_occipitale
+	OD146_Corduliidae_Cordulia_aenea
+	OD148_Platycnemididae_Platycnemis_pennipes
+	OD151_Devadattidae_Devadatta_podolestoides
+	OD157_Lestoideidae_Lestoidea_conjuncta
+	OD159_Isostictidae_Isosticta_robustior
+	OD162_Argiolestidae_Caledargiolestes_uniseries
+	OD35_Chlorocyphidae_Rhinocypha_tincta
+	OD43_Lestoideidae_Diphlebia_coerulescens
+	OD55_Isostictidae_Rhadinosticta_simplex
+	OD63_Lestidae_Austrolestes_annulosus
+	OD69_Gomphidae_Ictinogomphus_australis
+	OD77_Libellulidae_Rhyothemis_graphiptera
+	OD81_Synlestidae_Synlestes_weyersii
+	OD82_Libellulidae_Brachydiplax_denticauda
+	OD830_Aeshnidae_Anax_walsinghami
+	OD83_Corduliidae_Hemicordulia_australiae
+	OD85_Gomphidae_Austrogomphus_amphiclitus
+	OD96_Rhipidolestidae_Rhipidolestes_aculeatus
+	OD976_Calopterygidae_Ormenophlebia_imperatrix
+	OD99_Euphaeidae_Bayadera_brevicauda
+	PD166_Petaluridae_Tanypteryx_pryeri
+	PP330_Polythoridae_Polythore_procera
+	'RMNH.5007797_Coenagrionidae_Azuragrion_nigridorsum'
+	'RMNH.5007803_Libellulidae_Atoconeura_biordinata'
+	'RMNH.5007810_Coenagrionidae_Africallagma_glaucum'
+	'RMNH.5007835_Synlestidae_Ecchlorolestes_nylephtha'
+	'RMNH.5007870_Platycnemididae_Metacnemis_valida'
+	'RMNH.5008090_Gomphidae_Ceratogomphus_pictus'
+	'RMNH.5008153_Synthemistidae_Syncordulia_gracilis'
+	'RMNH.5008306_Libellulidae_Neurothemis_fluctuans'
+	'RMNH.5008334_Argiolestidae_Podolestes_orientalis'
+	'RMNH.5008397_Platystictidae_Telosticta_ulubaram'
+	'RMNH.5009376_Gomphidae_Onychogomphus_styx'
+	'RMNH.5009494_Euphaeidae_Epallage_fatime'
+	'RMNH.5009497_Corduliidae_Corduliochlora_borisi'
+	'RMNH.5010307_Coenagrionidae_Proischnura_polychromatica'
+	'RMNH.5011399_Gomphidae_Stylurus_flavipes'
+	'RMNH.5011406_Platycnemididae_Macrocnemis_gracilis'
+	'RMNH.5011411_Libellulidae_Notolibellula_bicolor'
+	'RMNH.5011412_Libellulidae_Microtrigonia_curvata'
+	'RMNH.5011413_Libellulidae_Bironides_glochidion'
+	'RMNH.5011415_Gomphidae_Austroepigomphus_prearuptus'
+	'RMNH.5011424_Lestoideidae_Diphlebia_euphaeoides'
+	'RMNH.5011429_Gomphidae_Hemigomphus_comitatus'
+	'RMNH.5011432_Synthemistidae_Tonyosynthemis_claviculata'
+	'RMNH.5011475_Isostictidae_Oristicta_filicicola'
+	'RMNH.5011478_Gomphidae_Pleiogomphus_prasinus'
+	'RMNH.5011485_Synlestidae_Chorismagrion_risi'
+	'RMNH.5011576_Aeshnidae_Austrogynacantha_heterogena'
+	'RMNH.5011578_Synthemistidae_Metaphya_tillyardi'
+	'RMNH.5011582_Isostictidae_Tanymecosticta_leptalea'
+	'RMNH.INS.228976_Libellulidae_Tetrathemis_irregularis'
+	'RMNH.INS.228999_Libellulidae_Raphismia_bispina'
+	'RMNH.INS.229080_Gomphidae_Macrogomphus_quadratus'
+	'RMNH.INS.229208_Coenagrionidae_Oreocnemis_phoenix'
+	'RMNH.INS.229243_Isostictidae_Selysioneura_capreola'
+	'RMNH.INS.229282_Platycnemididae_Paracnemis_alluaudi'
+	'RMNH.INS.229291_Platycnemididae_Torrenticnemis_filicornis'
+	'RMNH.INS.500093_Pentaphlebiidae_Pentaphlebia_stahli'
+	'RMNH.INS.500162_Platycnemididae_Allocnemis_contraria'
+	'RMNH.INS.500397_Argiolestidae_Allolestes_maclachlani'
+	'RMNH.INS.500398_Coenagrionidae_Leptocnemis_cyanops'
+	'RMNH.INS.500513_Platycnemididae_Lochmaeocnemis_malacodora'
+	'RMNH.INS.500518_Corduliidae_Procordulia_leopoldi'
+	'RMNH.INS.500525_Synthemistidae_Palaeosynthemis_primigenia'
+	'RMNH.INS.500580_Platycnemididae_Palaiargia_charmosyna'
+	'RMNH.INS.500592_Libellulidae_Huonia_epinephela'
+	'RMNH.INS.500639_Platycnemididae_Idiocnemis_obliterata'
+	'RMNH.INS.500644_Libellulidae_Protorthemis_coronata'
+	'RMNH.INS.500853_Argiolestidae_Eorgiolestes_ochraceus'
+	'RMNH.INS.500854_Argiolestidae_Trineuragrion_percostale'
+	'RMNH.INS.500862_Argiolestidae_Podopteryx_selysii'
+	'RMNH.INS.500989_Chlorocyphidae_Libellago_aurantiaca'
+	'RMNH.INS.501024_Chlorocyphidae_Sundacypha_petiolata'
+	'RMNH.INS.501070_Calopterygidae_Echo_modesta'
+	'RMNH.INS.501089_Euphaeidae_Dysphaea_dimidiata'
+	'RMNH.INS.501123_Libellulidae_Acisoma_panorpoides'
+	'RMNH.INS.501127_Devadattidae_Devadatta_argyoides'
+	'RMNH.INS.501152_Libellulidae_Pseudothemis_jorina'
+	'RMNH.INS.501184_Gomphidae_Phaenandrogomphus_asthenes'
+	'RMNH.INS.501189_Libellulidae_Aethriamanta_brevipennis'
+	'RMNH.INS.501196_Libellulidae_Rhodothemis_rufa'
+	'RMNH.INS.501275_Libellulidae_Orchithemis_xanthosoma'
+	'RMNH.INS.501284_Libellulidae_Brachygonia_oculata'
+	'RMNH.INS.501296_Libellulidae_Tholymis_tillarga'
+	'RMNH.INS.501373_Libellulidae_Chalybeothemis_fluviatilis'
+	'RMNH.INS.501377_Libellulidae_Zyxomma_petiolatum'
+	'RMNH.INS.501398_Libellulidae_Pornothemis_serrata'
+	'RMNH.INS.501444_Gomphidae_Libyogomphus_christinae'
+	'RMNH.INS.501518_Gomphidae_Microgomphus_camerunensis'
+	'RMNH.INS.501662_Libellulidae_Eleuthemis_buettikoferi'
+	'RMNH.INS.501973_Argiolestidae_Argiolestes_muller'
+	'RMNH.INS.501977_Platycnemididae_Arrhenocnemis_parvibullis'
+	'RMNH.INS.501979_Coenagrionidae_Thaumatagrion_funereum'
+	'RMNH.INS.501990_Argiolestidae_Pyrrhargiolestes_aulicus'
+	'RMNH.INS.501995_Platycnemididae_Cyanocnemis_aureofrons'
+	'RMNH.INS.502054_Calopterygidae_Caliphaea_confusa'
+	'RMNH.INS.502064_Rhipidolestidae_Rhipidolestes_truncatidens'
+	'RMNH.INS.502075_Argiolestidae_Metagrion_ornatus'
+	'RMNH.INS.502077_Argiolestidae_Miniargiolestes_minimus'
+	'RMNH.INS.502084_Argiolestidae_Archiargioletes_parvulus'
+	'RMNH.INS.502121_Libellulidae_Oxythemis_phoenicosceles'
+	'RMNH.INS.502132_Calopterygidae_Phaon_iridipennis'
+	'RMNH.INS.502150_Libellulidae_Chalcostephia_flavifrons'
+	'RMNH.INS.502177_Libellulidae_Notiothemis_robertsi'
+	'RMNH.INS.502225_Libellulidae_Aethiothemis_erythromelas'
+	'RMNH.INS.502232_Aeshnidae_Gynacantha_victoriae'
+	'RMNH.INS.502285_Libellulidae_Cyanothemis_simpsoni'
+	'RMNH.INS.502287_Libellulidae_Micromacromia_camerunica'
+	'RMNH.INS.502304_Libellulidae_Parazyxomma_flavicans'
+	'RMNH.INS.502305_Libellulidae_Hadrothemis_camarensis'
+	'RMNH.INS.502324_Synthemistidae_Neophya_rutherfordi'
+	'RMNH.INS.502394_Gomphidae_Lestinogomphus_congoensis'
+	'RMNH.INS.502397_Libellulidae_Malgassophlebia_bispina'
+	'RMNH.INS.502400_Libellulidae_Nesciothemis_farinosa'
+	'RMNH.INS.502555_Gomphidae_Gomphidia_gamblesi'
+	'RMNH.INS.502847_Libellulidae_Thermochoria_jeanneli'
+	'RMNH.INS.502891_Gomphidae_Nepogomphoides_stuhlmanni'
+	'RMNH.INS.503108_Gomphidae_Diastatomma_gamblesi'
+	'RMNH.INS.503116_Calopterygidae_Sapho_fumosa'
+	'RMNH.INS.503184_Synthemistidae_Idomacromia_proavita'
+	'RMNH.INS.503407_Argiolestidae_Caledargiolestes_sarasini'
+	'RMNH.INS.503416_Libellulidae_Lyriothemis_cleis'
+	'RMNH.INS.503419_Libellulidae_Nesoxenia_lineata'
+	'RMNH.INS.503523_Gomphidae_Sieboldius_japponicus'
+	'RMNH.INS.503524_Gomphidae_Acrogomphus_jubilaris'
+	'RMNH.INS.503604_Coenagrionidae_Archibasis_viola'
+	'RMNH.INS.503619_Coenagrionidae_Aciagrion_borneense'
+	'RMNH.INS.503929_Platycnemididae_Calicnemia_chaseni'
+	'RMNH.INS.503939_Libellulidae_Hydrobasileus_croceus'
+	'RMNH.INS.503943_Libellulidae_Indothemis_limbata'
+	'RMNH.INS.503944_Platycnemididae_Pseudocopera_ciliata'
+	'RMNH.INS.503951_Coenagrionidae_Argiocnemis_rubescens'
+	'RMNH.INS.503957_Libellulidae_Potamarcha_congener'
+	'RMNH.INS.503963_Libellulidae_Lathrecista_asiatica'
+	'RMNH.INS.503964_Libellulidae_Urothemis_signata'
+	'RMNH.INS.504032_Libellulidae_Onychothemis_culminicola'
+	'RMNH.INS.504039_Libellulidae_Orchithemis_pulcherrima'
+	'RMNH.INS.504459_Libellulidae_Hemistigma_albipunctum'
+	'RMNH.INS.504852_Coenagrionidae_Austrocoenagrion_lyelli'
+	'RMNH.INS.504908_Aeshnidae_Telephlebia_godeffroyi'
+	'RMNH.INS.504910_Synthemistidae_Synthemis_eustalacta'
+	'RMNH.INS.504941_Aeshnidae_Notoaeschna_sagittata'
+	'RMNH.INS.504961_Gomphidae_Austrogomphus_ochraceus'
+	'RMNH.INS.504965_Aeshnidae_Acanthaeschna_victoria'
+	'RMNH.INS.504999_Libellulidae_Orthetrum_cancellatum'
+	'RMNH.INS.505016_Aeshnidae_Anax_imperator'
+	'RMNH.INS.505017_Aeshnidae_Isoaeshna_isoceles'
+	'RMNH.INS.505254_Coenagrionidae_Austrocnemis_splendida'
+	'RMNH.INS.505345_Chlorocyphidae_Platycypha_caligata'
+	'RMNH.INS.505354_Libellulidae_Trithetrum_navasi'
+	'RMNH.INS.505362_Libellulidae_Crocothemis_erythraea'
+	'RMNH.INS.505380_Libellulidae_Olpogastra_lugubris'
+	'RMNH.INS.505397_Gomphidae_Neurogomphus_cocytius'
+	'RMNH.INS.505547_Libellulidae_Porpax_risi'
+	'RMNH.INS.505588_Libellulidae_Diplacodes_lefebvrii'
+	'RMNH.INS.505652_Libellulidae_Bradinopyga_cornuta'
+	'RMNH.INS.505653_Gomphidae_Notogomphus_praetorius'
+	'RMNH.INS.505717_Polythoridae_Chalcopteryx_rutilans'
+	'RMNH.INS.505736_Chlorocyphidae_Aristocypha_fenestrella'
+	'RMNH.INS.505747_Calopterygidae_Vestalaria_smaragdina'
+	'RMNH.INS.505754_Gomphidae_Amphigomphus_somnuki'
+	'RMNH.INS.505757_Euphaeidae_Anisopleura_furcata'
+	'RMNH.INS.505806_Calopterygidae_Psolodesmus_kuroiwae'
+	'RMNH.INS.505817_Euphaeidae_Cryptophaea_vietnamensis'
+	'RMNH.INS.505846_Platycnemididae_Arabicnemis_caerulea'
+	'RMNH.INS.505880_Libellulidae_Tapeinothemis_boharti'
+	'RMNH.INS.506145_Argiolestidae_Neurolestes_trinervis'
+	'RMNH.INS.506163_Chlorocyphidae_Africocypha_lacuselephantum'
+	'RMNH.INS.506232_Platycnemididae_Matticnemis_doi'
+	'RMNH.INS.506247_Synthemistidae_Macromidia_fulva'
+	'RMNH.INS.506254_Libellulidae_Camacinia_gigantea'
+	'RMNH.INS.506261_Platystictidae_Telosticta_bidayuh'
+	'RMNH.INS.506264_Gomphidae_Leptogomphus_coomansi'
+	'RMNH.INS.506290_Libellulidae_Cratilla_lineata'
+	'RMNH.INS.506367_Gomphidae_Megalogomphus_icterops'
+	'RMNH.INS.506492_Platystictidae_Sinosticta_ogatai'
+	'RMNH.INS.506617_Synthemistidae_Idionyx_philippa'
+	'RMNH.INS.506657_Corduliidae_Heteronaias_heterodoxa'
+	'RMNH.INS.506835_Philosinidae_Rhinagrion_macrocephalum'
+	'RMNH.INS.506912_Aeshnidae_Indaeschna_grubaueri'
+	'RMNH.INS.507392_Libellulidae_Leucorrhinia_rubicunda'
+	'RMNH.INS.507400_Libellulidae_Libellula_depressa'
+	'RMNH.INS.507402_Aeshnidae_Brachytron_pratense'
+	'RMNH.INS.507439_Libellulidae_Libellula_quadrimaculata'
+	'RMNH.INS.507448_Lestidae_Chalcolestes_viridis'
+	'RMNH.INS.507465_Libellulidae_Sympetrum_danae'
+	'RMNH.INS.507492_Libellulidae_Nannodiplax_rubra'
+	'RMNH.INS.507519_Gomphidae_Ophiogomphus_cecilia'
+	'RMNH.INS.507528_Aeshnidae_Boyeria_cretensis'
+	'RMNH.INS.507529_Libellulidae_Trithemis_annulata'
+	'RMNH.INS.507551_Libellulidae_Selysiothemis_nigra'
+	'RMNH.INS.507575_Macromiidae_Macromia_splendens'
+	'RMNH.INS.507576_Synthemistidae_Oxygastra_curtisii'
+	'RMNH.INS.507659_Platystictidae_Drepanosticta_actaeon'
+	'RMNH.INS.507703_Coenagrionidae_Stenagrion_dubium'
+	'RMNH.INS.507707_Chlorocyphidae_Rhinoneura_villosipes'
+	'RMNH.INS.507722_Calopterygidae_Matronoides_cyaneipennis'
+	'RMNH.INS.507746_Libellulidae_Hylaeothemis_clementia'
+	'RMNH.INS.507799_Calopterygidae_Vestalis_amaryllis'
+	'RMNH.INS.507831_Libellulidae_Tyriobapta_torrida'
+	'RMNH.INS.507929_Gomphidae_Phyllogomphus_annulus'
+	'RMNH.INS.508001_Libellulidae_Zygonyx_torridus'
+	'RMNH.INS.508012_Gomphidae_Paragomphus_genei'
+	'RMNH.INS.508201_Platycnemididae_Arabineura_khalidi'
+	'RMNH.INS.508447_Libellulidae_Palpopleura_sexmaculata'
+	'RMNH.INS.508515_Libellulidae_Nannophyopsis_clara'
+	'RMNH.INS.508528_Chlorogomphidae_Watanabeopetalia_usignata'
+	'RMNH.INS.508536_Cordulegastridae_Anotogaster_sieboldii'
+	'RMNH.INS.508545_Gomphidae_Trigomphus_beatus'
+	'RMNH.INS.508607_Calopterygidae_Mnais_mneme'
+	'RMNH.INS.508616_Calopterygidae_Atrocalopteryx_melli'
+	'RMNH.INS.508624_Gomphidae_Fukienogomphus_promineus'
+	'RMNH.INS.508632_Synlestidae_Megalestes_heros'
+	'RMNH.INS.508637_Platycnemididae_Indocnemis_orang'
+	'RMNH.INS.508661_Gomphidae_Lamelligomphus_camelus'
+	'RMNH.INS.508662_Gomphidae_Lamelligomphus_sinicus'
+	'RMNH.INS.508663_Gomphidae_Nihonogomphus_semanticus'
+	'RMNH.INS.508672_Gomphidae_Nepogomphus_walli'
+	'RMNH.INS.508674_Calopterygidae_Archineura_incarnata'
+	'RMNH.INS.508691_Gomphidae_Asiagomphus_hainanensis'
+	'RMNH.INS.508700_Gomphidae_Labrogomphus_torvus'
+	'RMNH.INS.508746_Synlestidae_Nubiolestes_diotima'
+	'RMNH.INS.508794_Platycnemididae_Stenocnemis_pachystigma'
+	'RMNH.INS.508797_Libellulidae_Neodythemis_afra'
+	'RMNH.INS.508833_Chlorocyphidae_Stenocypha_gracilis'
+	'RMNH.INS.508844_Calopterygidae_Umma_longistigma'
+	'RMNH.INS.509134_Gomphidae_Euthygomphus_koxingai'
+	'RMNH.INS.509144_Gomphidae_Davidius_bicornutus'
+	'RMNH.INS.509145_Aeshnidae_Cephalaeschna_obversa'
+	'RMNH.INS.509146_Gomphidae_Sinictinogomphus_clavatus'
+	'RMNH.INS.509207_Gomphidae_Burmagomphus_divaricatus'
+	'RMNH.INS.509787_Coenagrionidae_Coenagriocnemis_rufipes'
+	'RMNH.INS.509795_Libellulidae_Thalassothemis_marchali'
+	'RMNH.INS.509800_Coenagrionidae_Coenagriocnemis_insularis'
+	'RMNH.INS.509920_Gomphidae_Lamelligomphus_castor'
+	'RMNH.INS.509971_Gomphidae_Orientogomphus_minor'
+	'RMNH.INS.543752_Argiolestidae_Wahnesia_kirbyi'
+	'RMNH.INS.554426_Gomphidae_Mastigogomphus_chapini'
+	'RMNH.INS.554510_Gomphidae_Cornigomphus_guineensis'
+	'RMNH.INS.557636_Coenagrionidae_Pericnemis_stictica'
+	'RMNH.INS.559644_Platycnemididae_Spesbona_angusta'
+	'RMNH.INS.559789_Libellulidae_Zygonoides_fuelleborni'
+	'RMNH.INS.559802_Gomphidae_Crenigomphus_hartmanni'
+	RU123_Synthemistidae_Lauromacromia_bedei
+	RU126_Synthemistidae_Lauromacromia_spnov
+	RU139_Corduliidae_Neocordulia_volxemi
+	SRR1695233_Ephemeroptera_Ecdyonurus_insignis
+	SRR921569_Ephemeroptera_Baetis_sp
+	SRR921591_Ephemeroptera_Ephemera_danica
+	SRR921596_Ephemeroptera_Eurylophella_sp
+	SRR921608_Ephemeroptera_Isonychia_bicolor
+	TM154_Polythoridae_Polythore_gigantea
+	TM155_Heteragrionidae_Heteragrion_tatama
+	TM170_Aeshnidae_Remartinia_luteipennis
+	TM201_Philogeniidae_Philogenia_martae
+	TM207_Libellulidae_Brechmorhoga_vivax
+	TM305_Coenagrionidae_Acanthagrion_trilobatum
+	TM332_Libellulidae_Cannaphila_vibex
+	TM342_Libellulidae_Macrothemis_pseudimitans
+	TM392_Aeshnidae_Rhionaeschna_joannisi
+	TM404_Heteragrionidae_Heteragrion_erythrogastrum
+	TM409_Libellulidae_Rhophygia_hinei
+	TM41_Corduliidae_Neocordulia_batesi
+	TM532_Libellulidae_Erythemis_plebeja
+	TM581_Aeshnidae_Andaeschna_occidentalis
+	TMCH16_Coenagrionidae_Protoneura_amatoria
+	UAE1_Polythoridae_Euthore_fassli
+;
+end;
+
+begin trees;
+	tree _1 = [&U] (((((((((((((((((((((((((((((((((((GEODE7708_Libellulidae_Plathemis_subornata:0.133353,'RMNH.INS.507400_Libellulidae_Libellula_depressa':0.133353)[&95%HPD={0.0743426,0.213668}]:0.07106,GEODE7735_Libellulidae_Ladona_julia:0.204413)[&95%HPD={0.113502,0.279042}]:0.074406,('RMNH.INS.502121_Libellulidae_Oxythemis_phoenicosceles':0.163711,'RMNH.INS.502400_Libellulidae_Nesciothemis_farinosa':0.163711)[&95%HPD={0.0773489,0.26308}]:0.115108)[&95%HPD={0.199935,0.381095}]:0.062956,(GEODE7806_Libellulidae_Orthetrum_julia:0.235923,'RMNH.INS.504999_Libellulidae_Orthetrum_cancellatum':0.235923)[&95%HPD={0.0879309,0.362952}]:0.105851)[&95%HPD={0.261224,0.431351}]:0.039182,((((GEODE17761_Libellulidae_Boninthemis_insularis:0.125954,'RMNH.INS.503416_Libellulidae_Lyriothemis_cleis':0.125954)[&95%HPD={0.0717937,0.198159}]:0.069495,GEODE12747_Libellulidae_Amphithemis_curvistyla:0.195449)[&95%HPD={0.112668,0.272849}]:0.106336,('RMNH.INS.501275_Libellulidae_Orchithemis_xanthosoma':0.157735,'RMNH.INS.504039_Libellulidae_Orchithemis_pulcherrima':0.157735)[&95%HPD={0.0714571,0.256729}]:0.14405)[&95%HPD={0.210141,0.396664}]:0.042922,'RMNH.INS.501398_Libellulidae_Pornothemis_serrata':0.344707)[&95%HPD={0.263344,0.440385}]:0.036249)[&95%HPD={0.299107,0.46568}]:0.045711,('RMNH.INS.502225_Libellulidae_Aethiothemis_erythromelas':0.222617,'RMNH.INS.507439_Libellulidae_Libellula_quadrimaculata':0.222617)[&95%HPD={0.0862694,0.377969}]:0.20405)[&95%HPD={0.33063,0.50872}]:0.033687,'RMNH.INS.502305_Libellulidae_Hadrothemis_camarensis':0.460354)[&95%HPD={0.349706,0.544347}]:0.045657,(('RMNH.INS.507746_Libellulidae_Hylaeothemis_clementia':0.217413,'RMNH.INS.508797_Libellulidae_Neodythemis_afra':0.217413)[&95%HPD={0.0905425,0.374926}]:0.097611,'RMNH.INS.502287_Libellulidae_Micromacromia_camerunica':0.315024)[&95%HPD={0.154651,0.470218}]:0.190988)[&95%HPD={0.371416,0.594912}]:0.044843,(((((GEODE17725_Libellulidae_Orthemis_macrostigma:0.153123,GEODE17728_Libellulidae_Orthemis_sulphurata:0.153123)[&95%HPD={0.0769113,0.244523}]:0.105144,GEODE7676_Libellulidae_Misagria_calverti:0.258267)[&95%HPD={0.149029,0.373548}]:0.083099,(GEODE7612_Libellulidae_Cannaphila_insulari:0.168269,TM332_Libellulidae_Cannaphila_vibex:0.168269)[&95%HPD={0.0789515,0.365112}]:0.173097)[&95%HPD={0.223826,0.488263}]:0.065271,(((GEODE7701_Libellulidae_Agrionoptera_insignis:0.142199,'RMNH.5011411_Libellulidae_Notolibellula_bicolor':0.142199)[&95%HPD={0.068978,0.234172}]:0.065257,'RMNH.INS.500644_Libellulidae_Protorthemis_coronata':0.207456)[&95%HPD={0.106887,0.327085}]:0.144142,('RMNH.INS.503419_Libellulidae_Nesoxenia_lineata':0.152648,'RMNH.INS.503963_Libellulidae_Lathrecista_asiatica':0.152648)[&95%HPD={0.0672088,0.265131}]:0.19895)[&95%HPD={0.22758,0.47846}]:0.055039)[&95%HPD={0.291828,0.527425}]:0.061399,((GEODE7800_Libellulidae_Diplacodes_trivialis:0.28136,'RMNH.INS.503957_Libellulidae_Potamarcha_congener':0.28136)[&95%HPD={0.117634,0.446281}]:0.128019,'RMNH.INS.506290_Libellulidae_Cratilla_lineata':0.409379)[&95%HPD={0.262789,0.555809}]:0.058657)[&95%HPD={0.328658,0.577272}]:0.082818)[&95%HPD={0.413773,0.65241}]:0.041357,(GEODE7650_Libellulidae_Diplacina_spec:0.286229,GEODE7655_Libellulidae_Diplacina_persephone:0.286229)[&95%HPD={0.0881471,0.517035}]:0.305982)[&95%HPD={0.431921,0.721128}]:0.044548,((((((((GEODE7801_Libellulidae_Crocothemis_servilia:0.194703,'RMNH.INS.505362_Libellulidae_Crocothemis_erythraea':0.194703)[&95%HPD={0.0813904,0.320344}]:0.089343,'RMNH.INS.503943_Libellulidae_Indothemis_limbata':0.284046)[&95%HPD={0.159323,0.43456}]:0.038612,('RMNH.5008306_Libellulidae_Neurothemis_fluctuans':0.133647,'RMNH.INS.507492_Libellulidae_Nannodiplax_rubra':0.133647)[&95%HPD={0.0524179,0.246309}]:0.189011)[&95%HPD={0.189189,0.458929}]:0.049513,((GEODE7698_Libellulidae_Erythemis_credula:0.130797,GEODE7699_Libellulidae_Erythrodiplax_umbrata:0.130797)[&95%HPD={0.064779,0.227281}]:0.170972,GEODE17755_Libellulidae_Anatya_januaria:0.30177)[&95%HPD={0.168894,0.437165}]:0.070401)[&95%HPD={0.238763,0.508683}]:0.059657,(((GEODE7798_Libellulidae_Palpopleura_lucia:0.119815,'RMNH.INS.508447_Libellulidae_Palpopleura_sexmaculata':0.119815)[&95%HPD={0.0690497,0.179647}]:0.08646,'RMNH.INS.505588_Libellulidae_Diplacodes_lefebvrii':0.206275)[&95%HPD={0.119377,0.298974}]:0.095412,('RMNH.INS.502847_Libellulidae_Thermochoria_jeanneli':0.157559,'RMNH.INS.504459_Libellulidae_Hemistigma_albipunctum':0.157559)[&95%HPD={0.0640178,0.293269}]:0.144128)[&95%HPD={0.171689,0.423443}]:0.130141)[&95%HPD={0.29194,0.56669}]:0.042007,'RMNH.INS.505652_Libellulidae_Bradinopyga_cornuta':0.473834)[&95%HPD={0.315435,0.616299}]:0.061558,GEODE7702_Libellulidae_Uracis_fastigiata:0.535392)[&95%HPD={0.375418,0.696244}]:0.027817,((((('RMNH.INS.502285_Libellulidae_Cyanothemis_simpsoni':0.143203,'RMNH.INS.505547_Libellulidae_Porpax_risi':0.143203)[&95%HPD={0.0738907,0.266568}]:0.114281,'RMNH.INS.501196_Libellulidae_Rhodothemis_rufa':0.257484)[&95%HPD={0.136162,0.382708}]:0.123865,(GEODE7805_Libellulidae_Acisoma_trifidum:0.201148,'RMNH.INS.501123_Libellulidae_Acisoma_panorpoides':0.201148)[&95%HPD={0.0747521,0.353309}]:0.180201)[&95%HPD={0.22995,0.533164}]:0.088524,((GEODE7628_Libellulidae_Rhodopygia_hinei:0.164559,TM409_Libellulidae_Rhophygia_hinei:0.164559)[&95%HPD={0.0688772,0.302668}]:0.147813,TM532_Libellulidae_Erythemis_plebeja:0.312372)[&95%HPD={0.143685,0.495818}]:0.157501)[&95%HPD={0.298168,0.612328}]:0.05326,GEODE7759_Libellulidae_Nannophya_australis:0.523133)[&95%HPD={0.363572,0.655648}]:0.040076)[&95%HPD={0.392664,0.710369}]:0.07355)[&95%HPD={0.432015,0.7811}]:0.035239,(((((GEODE7761_Libellulidae_Tauriphila_argo:0.128887,GEODE7764_Libellulidae_Miathirya_marcella:0.128887)[&95%HPD={0.0631952,0.205833}]:0.147359,GEODE17756_Libellulidae_Antidythemis_trameiformis:0.276246)[&95%HPD={0.136997,0.408563}]:0.091134,((GEODE7815_Libellulidae_Urothemis_assignata:0.146616,OD1091_Libellulidae_Brachythemis_contaminata:0.146616)[&95%HPD={0.0657557,0.245645}]:0.081057,GEODE7807_Libellulidae_Tramea_transmarina:0.227673)[&95%HPD={0.118214,0.352178}]:0.139707)[&95%HPD={0.209119,0.526568}]:0.078402,'RMNH.INS.503939_Libellulidae_Hydrobasileus_croceus':0.445782)[&95%HPD={0.247424,0.621746}]:0.101253,'RMNH.INS.506254_Libellulidae_Camacinia_gigantea':0.547035)[&95%HPD={0.33593,0.773308}]:0.124963)[&95%HPD={0.46966,0.842961}]:0.032909,((((((((((GEODE12749_Libellulidae_Celebothemis_delecollei:0.10273,'RMNH.INS.505380_Libellulidae_Olpogastra_lugubris':0.10273)[&95%HPD={0.0485887,0.16404}]:0.067982,'RMNH.INS.504032_Libellulidae_Onychothemis_culminicola':0.170712)[&95%HPD={0.101763,0.251078}]:0.086103,GEODE7768_Libellulidae_Elasmothemis_williamsoni:0.256815)[&95%HPD={0.156473,0.350155}]:0.049238,'RMNH.INS.559789_Libellulidae_Zygonoides_fuelleborni':0.306052)[&95%HPD={0.192164,0.413604}]:0.047402,((GEODE17757_Libellulidae_Archaeophlebia_martini:0.147762,'RMNH.INS.502397_Libellulidae_Malgassophlebia_bispina':0.147762)[&95%HPD={0.0710649,0.24885}]:0.053144,'RMNH.INS.501662_Libellulidae_Eleuthemis_buettikoferi':0.200906)[&95%HPD={0.113378,0.324156}]:0.152548)[&95%HPD={0.226869,0.462644}]:0.088208,(GEODE17758_Libellulidae_Atoconeura_kenya:0.321043,'RMNH.5007803_Libellulidae_Atoconeura_biordinata':0.321043)[&95%HPD={0.14675,0.48459}]:0.12062)[&95%HPD={0.282183,0.564012}]:0.064314,(OD1106_Libellulidae_Zygonyx_flavicosta:0.236005,'RMNH.INS.508001_Libellulidae_Zygonyx_torridus':0.236005)[&95%HPD={0.084283,0.398746}]:0.269972)[&95%HPD={0.33439,0.638353}]:0.049332,((((GEODE7659_Libellulidae_Microtrigonia_gomphoides:0.208464,'RMNH.5011412_Libellulidae_Microtrigonia_curvata':0.208464)[&95%HPD={0.0752609,0.360298}]:0.109331,('RMNH.5011413_Libellulidae_Bironides_glochidion':0.165551,'RMNH.INS.500592_Libellulidae_Huonia_epinephela':0.165551)[&95%HPD={0.0693687,0.301428}]:0.152243)[&95%HPD={0.173085,0.459739}]:0.065556,((GEODE7638_Libellulidae_Nannophlebia_axiagasta:0.138326,OD1094_Libellulidae_Nannophlebia_alexia:0.138326)[&95%HPD={0.0609315,0.236377}]:0.096404,GEODE12748_Libellulidae_Celebophlebia_dactylogastra:0.23473)[&95%HPD={0.120274,0.357591}]:0.148621)[&95%HPD={0.237316,0.515683}]:0.094931,('RMNH.INS.507529_Libellulidae_Trithemis_annulata':0.154863,'RMNH.INS.509795_Libellulidae_Thalassothemis_marchali':0.154863)[&95%HPD={0.0606152,0.306748}]:0.323419)[&95%HPD={0.318679,0.608836}]:0.077026)[&95%HPD={0.364602,0.681466}]:0.036848,OD107_Libellulidae_Pantala_flavescens:0.592157)[&95%HPD={0.390014,0.737712}]:0.049847,((GEODE7804_Libellulidae_Tetrathemis_fraseri:0.15431,'RMNH.INS.228976_Libellulidae_Tetrathemis_irregularis':0.15431)[&95%HPD={0.0624158,0.292951}]:0.110273,'RMNH.INS.502177_Libellulidae_Notiothemis_robertsi':0.264583)[&95%HPD={0.115487,0.447178}]:0.377421)[&95%HPD={0.422819,0.791864}]:0.062903)[&95%HPD={0.48696,0.878877}]:0.035312,((((GEODE7700_Libellulidae_Oligoclada_sp:0.142673,GEODE7803_Libellulidae_Diastatops_obscura:0.142673)[&95%HPD={0.0260026,0.257437}]:0.11166,(GEODE7712_Libellulidae_Perithemis_sp:0.129923,GEODE7739_Libellulidae_Perithemis_tenera:0.129923)[&95%HPD={0.0641296,0.222643}]:0.12441)[&95%HPD={0.13702,0.422474}]:0.140377,('RMNH.INS.501373_Libellulidae_Chalybeothemis_fluviatilis':0.267381,'RMNH.INS.505354_Libellulidae_Trithetrum_navasi':0.267381)[&95%HPD={0.0955922,0.455235}]:0.127328)[&95%HPD={0.232698,0.568051}]:0.114728,(((GEODE7802_Libellulidae_Aethriamenta_rezia:0.117149,'RMNH.INS.501189_Libellulidae_Aethriamanta_brevipennis':0.117149)[&95%HPD={0.0377306,0.21929}]:0.087882,'RMNH.INS.503964_Libellulidae_Urothemis_signata':0.205031)[&95%HPD={0.110208,0.339154}]:0.164308,(OD1319_Libellulidae_Macrodiplax_cora:0.192518,'RMNH.INS.507551_Libellulidae_Selysiothemis_nigra':0.192518)[&95%HPD={0.081874,0.317196}]:0.17682)[&95%HPD={0.212432,0.527821}]:0.140099)[&95%HPD={0.316266,0.684029}]:0.230782)[&95%HPD={0.480805,0.916891}]:0.042015,((((((((GEODE7738_Libellulidae_Brechmorhoga_mendax:0.12225,TM207_Libellulidae_Brechmorhoga_vivax:0.12225)[&95%HPD={0.0610914,0.211778}]:0.060365,GEODE7746_Libellulidae_Paltothemis_lineatipes:0.182615)[&95%HPD={0.0880787,0.285121}]:0.084102,GEODE17929_Libellulidae_Scapanea_frontalis:0.266717)[&95%HPD={0.151441,0.36658}]:0.092689,(GEODE7762_Libellulidae_Macrothemis_nobilis:0.187908,TM342_Libellulidae_Macrothemis_pseudimitans:0.187908)[&95%HPD={0.0781349,0.313031}]:0.171498)[&95%HPD={0.247543,0.463777}]:0.047163,(GEODE7707_Libellulidae_Elga_newtonsantosi:0.294787,GEODE7770_Libellulidae_Gynothemis_pumilia:0.294787)[&95%HPD={0.12673,0.460186}]:0.111782)[&95%HPD={0.2745,0.523247}]:0.07166,GEODE7777_Libellulidae_Dithemis_nigra:0.478229)[&95%HPD={0.33079,0.635876}]:0.090168,(((GEODE7767_Libellulidae_Nephepeltia_phryne:0.133452,GEODE7776_Libellulidae_Micrathyria_didyma:0.133452)[&95%HPD={0.0706325,0.221772}]:0.0743,GEODE7756_Libellulidae_Pachydiplax_longipennis:0.207752)[&95%HPD={0.0986185,0.336773}]:0.110363,GEODE7766_Libellulidae_Zenithoptera_fasciata:0.318115)[&95%HPD={0.181438,0.502705}]:0.250281)[&95%HPD={0.382558,0.754225}]:0.079558,GEODE7769_Libellulidae_Argirothemis_argentea:0.647954)[&95%HPD={0.438483,0.862406}]:0.134281)[&95%HPD={0.518747,0.978461}]:0.027444,(((((GEODE7714_Libellulidae_Brachythemis_leucosticta:0.13845,'RMNH.INS.502304_Libellulidae_Parazyxomma_flavicans':0.13845)[&95%HPD={0.0712822,0.213757}]:0.093915,'RMNH.INS.501152_Libellulidae_Pseudothemis_jorina':0.232364)[&95%HPD={0.134704,0.367063}]:0.109998,('RMNH.INS.501296_Libellulidae_Tholymis_tillarga':0.14281,'RMNH.INS.501377_Libellulidae_Zyxomma_petiolatum':0.14281)[&95%HPD={0.0730507,0.247318}]:0.199552)[&95%HPD={0.200489,0.486609}]:0.059643,GEODE12746_Libellulidae_Akrothemis_risi:0.402005)[&95%HPD={0.234178,0.575614}]:0.147627,((OD82_Libellulidae_Brachydiplax_denticauda:0.174422,'RMNH.INS.502150_Libellulidae_Chalcostephia_flavifrons':0.174422)[&95%HPD={0.0649675,0.322472}]:0.054695,('RMNH.INS.228999_Libellulidae_Raphismia_bispina':0.17334,'RMNH.INS.501284_Libellulidae_Brachygonia_oculata':0.17334)[&95%HPD={0.0748957,0.329824}]:0.055776)[&95%HPD={0.111835,0.374443}]:0.320515)[&95%HPD={0.299149,0.774587}]:0.260048)[&95%HPD={0.534273,1.02583}]:0.039753,'RMNH.INS.505880_Libellulidae_Tapeinothemis_boharti':0.849433)[&95%HPD={0.563352,1.0944}]:0.049038,(((GEODE7709_Libellulidae_Rhyothemis_notata:0.164174,OD77_Libellulidae_Rhyothemis_graphiptera:0.164174)[&95%HPD={0.0459967,0.334697}]:0.197304,'RMNH.INS.507831_Libellulidae_Tyriobapta_torrida':0.361478)[&95%HPD={0.141772,0.618737}]:0.151309,'RMNH.INS.508515_Libellulidae_Nannophyopsis_clara':0.512788)[&95%HPD={0.24368,0.834464}]:0.385683)[&95%HPD={0.621449,1.20568}]:0.03392,GEODE7760_Libellulidae_Austrothemis_nigrescens:0.932391)[&95%HPD={0.659435,1.24856}]:0.060968,((OD1095_Libellulidae_Sympetrum_corruptum:0.295847,'RMNH.INS.507465_Libellulidae_Sympetrum_danae':0.295847)[&95%HPD={0.0852104,0.555212}]:0.105989,GEODE7711_Libellulidae_Celethemis_eponina:0.401836)[&95%HPD={0.129991,0.703645}]:0.591523)[&95%HPD={0.716447,1.32133}]:0.076227,'RMNH.INS.507392_Libellulidae_Leucorrhinia_rubicunda':1.069585)[&95%HPD={0.788218,1.42274}]:0.127432,(GEODE7682_Corduliidae_Aeschnosoma_forcipula:0.171183,OD1158_Corduliidae_Pentathemis_sp:0.171183)[&95%HPD={0.059586,0.371607}]:1.025835)[&95%HPD={0.956688,1.59464}]:0.164648,(((((((((GEODE17703_Corduliidae_Epitheca_cynosura:0.1708,GEODE17707_Corduliidae_Epitheca_semiaquea:0.1708)[&95%HPD={0.0730897,0.298462}]:0.07347,GEODE17704_Corduliidae_Epitheca_marginata:0.244271)[&95%HPD={0.10567,0.408243}]:0.157641,((GEODE17781_Corduliidae_Neurocordulia_virginiensis:0.134197,GEODE17783_Corduliidae_Neurocordulia_yamaskanensis:0.134197)[&95%HPD={0.0680094,0.236186}]:0.115419,GEODE17793_Corduliidae_Neurocordulia_michaeli:0.249616)[&95%HPD={0.125097,0.394794}]:0.152296)[&95%HPD={0.255761,0.58457}]:0.114702,(GEODE17712_Corduliidae_Helocordulia_selysii:0.308422,GEODE17713_Corduliidae_Helocordulia_uhleri:0.308422)[&95%HPD={0.108801,0.510139}]:0.208192)[&95%HPD={0.360762,0.716637}]:0.137419,(((GEODE17698_Corduliidae_Dorocordulia_lepida:0.170452,GEODE17699_Corduliidae_Dorocordulia_libera:0.170452)[&95%HPD={0.0684372,0.297009}]:0.202096,(GEODE7747_Corduliidae_Cordulia_shurtleffii:0.188224,OD146_Corduliidae_Cordulia_aenea:0.188224)[&95%HPD={0.0717039,0.336893}]:0.184323)[&95%HPD={0.173756,0.5529}]:0.089287,(GEODE17832_Corduliidae_Somatochlora_cingulata:0.222497,'RMNH.5009497_Corduliidae_Corduliochlora_borisi':0.222497)[&95%HPD={0.0775195,0.411759}]:0.239337)[&95%HPD={0.270335,0.698513}]:0.192198)[&95%HPD={0.472005,0.894364}]:0.119726,OD1322_Corduliidae_Rialla_villosa:0.773759)[&95%HPD={0.543027,1.04916}]:0.115554,((((((GEODE17720_Corduliidae_Hemicordulia_kalliste:0.131998,OD83_Corduliidae_Hemicordulia_australiae:0.131998)[&95%HPD={0.0683325,0.221591}]:0.101256,GEODE17717_Corduliidae_Hemicordulia_fidelis:0.233255)[&95%HPD={0.127901,0.354771}]:0.087317,'RMNH.INS.500518_Corduliidae_Procordulia_leopoldi':0.320572)[&95%HPD={0.190542,0.453316}]:0.092262,GEODE17789_Corduliidae_Procordulia_moroensis:0.412835)[&95%HPD={0.245658,0.570609}]:0.123252,GEODE17788_Corduliidae_Procordulia_jacksoniensis:0.536086)[&95%HPD={0.344419,0.806}]:0.145081,(GEODE17711_Corduliidae_Guadalca_insularis:0.325035,'RMNH.INS.506657_Corduliidae_Heteronaias_heterodoxa':0.325035)[&95%HPD={0.0879996,0.591026}]:0.356133)[&95%HPD={0.43864,0.946643}]:0.208146)[&95%HPD={0.63571,1.2679}]:0.173574,(GEODE17779_Corduliidae_Navicordulia_errans:0.36378,GEODE7765_Corduliidae_Paracordulia_sericea:0.36378)[&95%HPD={0.091628,0.672882}]:0.699107)[&95%HPD={0.757429,1.56689}]:0.065856,'RMNH.5011578_Synthemistidae_Metaphya_tillyardi':1.128743)[&95%HPD={0.819307,1.63868}]:0.232923)[&95%HPD={1.17024,1.72603}]:0.074376,'RMNH.INS.502324_Synthemistidae_Neophya_rutherfordi':1.436041)[&95%HPD={1.25771,1.81594}]:0.100784,((GEODE17874_Synthemistidae_Macromidia_genialis:0.193241,'RMNH.INS.506247_Synthemistidae_Macromidia_fulva':0.193241)[&95%HPD={0.0660527,0.384946}]:0.265131,GEODE17876_Synthemistidae_Macromidia_kelloggi:0.458372)[&95%HPD={0.146173,0.884039}]:1.078452)[&95%HPD={1.30216,1.86636}]:0.158181,((RU123_Synthemistidae_Lauromacromia_bedei:0.208139,RU126_Synthemistidae_Lauromacromia_spnov:0.208139)[&95%HPD={0.0729572,0.390055}]:0.304842,GEODE7771_Synthemistidae_Lauromacromia_dubitalis:0.512981)[&95%HPD={0.157585,0.986436}]:1.182024)[&95%HPD={1.41644,2.02195}]:0.184141,(((((((GEODE17881_Synthemistidae_Neocordulia_griphus:0.138218,TM41_Corduliidae_Neocordulia_batesi:0.138218)[&95%HPD={0.0674977,0.240356}]:0.095027,RU139_Corduliidae_Neocordulia_volxemi:0.233245)[&95%HPD={0.104713,0.374801}]:0.02924,'RMNH.INS.503184_Synthemistidae_Idomacromia_proavita':0.262484)[&95%HPD={0.118868,0.406308}]:0.11825,NESOMASC_Synthemistidae_Nesocordulia_mascarenica:0.380735)[&95%HPD={0.201458,0.589106}]:0.103862,'RMNH.INS.507576_Synthemistidae_Oxygastra_curtisii':0.484597)[&95%HPD={0.260237,0.733169}]:0.252209,'RMNH.5008153_Synthemistidae_Syncordulia_gracilis':0.736805)[&95%HPD={0.346378,1.17925}]:0.173776,(((GEODE7715_Macromiidae_Phyllomacromia_picta:0.171152,OD1101_Macromiidae_Epophthalmia_elegans:0.171152)[&95%HPD={0.0602279,0.316913}]:0.225223,(GEODE17622_Macromiidae_Macromia_astarte:0.275098,'RMNH.INS.507575_Macromiidae_Macromia_splendens':0.275098)[&95%HPD={0.0895282,0.446939}]:0.121277)[&95%HPD={0.188239,0.591873}]:0.263123,((GEODE17870_Synthemistidae_Idionyx_optatus:0.213318,'RMNH.INS.506617_Synthemistidae_Idionyx_philippa':0.213318)[&95%HPD={0.075677,0.391929}]:0.225577,GEODE17864_Synthemistidae_Idionyx_claudia:0.438895)[&95%HPD={0.148598,0.772393}]:0.220604)[&95%HPD={0.327314,1.05751}]:0.251082)[&95%HPD={0.505135,1.34118}]:0.968565)[&95%HPD={1.61724,2.22488}]:0.19211,(((GEODE17873_Synthemistidae_Lathrocordulia_metallica:0.199582,OD1310_Synthemistidae_Cordulephya_pygmaea:0.199582)[&95%HPD={0.100359,0.32761}]:0.135913,OD1172_Synthemistidae_Austrocordulia_refracta:0.335495)[&95%HPD={0.199406,0.492834}]:0.577991,(GEODE7744_Synthemistidae_Micromidia_convergens:0.321195,GEODE7791_Synthemistidae_Hesperocordulia_berthoudi:0.321195)[&95%HPD={0.0828549,0.635961}]:0.592291)[&95%HPD={0.347508,1.83858}]:1.15777)[&95%HPD={1.74897,2.40694}]:0.131697,(((((((GEODE17896_Synthemistidae_Synthemis_campioni:0.174934,OD1311_Synthemistidae_Parasynthemis_regina:0.174934)[&95%HPD={0.0614441,0.337385}]:0.175305,(GEODE17901_Synthemistidae_Synthemis_tasmanica:0.167757,'RMNH.INS.504910_Synthemistidae_Synthemis_eustalacta':0.167757)[&95%HPD={0.0757756,0.297542}]:0.182481)[&95%HPD={0.207549,0.527653}]:0.216692,((GEODE7737_Synthemistidae_Choristhemis_flavoterminata:0.16872,GEODE7792_Synthemistidae_Eusynthemis_nigra:0.16872)[&95%HPD={0.072454,0.300393}]:0.206337,GEODE17891_Synthemistidae_Eusynthemis_guttata:0.375056)[&95%HPD={0.192605,0.538792}]:0.191874)[&95%HPD={0.362887,1.23285}]:0.274549,(((GEODE17885_Synthemistidae_Archaeosynthemis_leachii:0.179145,GEODE17887_Synthemistidae_Archaeosynthemis_orientalis:0.179145)[&95%HPD={0.080516,0.330199}]:0.184629,GEODE17888_Synthemistidae_Archaeosynthemis_spiniger:0.363774)[&95%HPD={0.134605,0.612852}]:0.290053,((GEODE7643_Synthemistidae_Palaeosynthemis_gracilenta:0.181853,GEODE7680_Synthemistidae_Palaeosynthemis_cervula:0.181853)[&95%HPD={0.0707529,0.343273}]:0.153108,'RMNH.INS.500525_Synthemistidae_Palaeosynthemis_primigenia':0.334961)[&95%HPD={0.144641,0.54516}]:0.318865)[&95%HPD={0.374353,0.959275}]:0.187653)[&95%HPD={0.529111,1.36354}]:0.323655,((GEODE17902_Synthemistidae_Tonyosynthemis_ofarrelli:0.329437,'RMNH.5011432_Synthemistidae_Tonyosynthemis_claviculata':0.329437)[&95%HPD={0.0769286,0.668918}]:0.619862,GEODE17889_Synthemistidae_Austrosynthemis_cyanitincta:0.949299)[&95%HPD={0.629875,1.46262}]:0.215835)[&95%HPD={0.692355,1.56752}]:0.070331,(GEODE17894_Synthemistidae_Gomphomacromia_nodisticta:0.697709,OD1169_Synthemistidae_Gomphomacromia_paradoxa:0.697709)[&95%HPD={0.131416,1.44675}]:0.537756)[&95%HPD={0.756733,1.63609}]:0.472416,(GEODE17883_Synthemistidae_Pseudocordulia_circulairis:0.254707,GEODE17884_Synthemistidae_Pseudocordulia_elliptica:0.254707)[&95%HPD={0.0683896,0.540213}]:1.453174)[&95%HPD={1.09831,2.15311}]:0.495072)[&95%HPD={1.8596,2.51631}]:0.188484,((((OD1304_Cordulegastridae_Neallogaster_hermionae:0.239946,'RMNH.INS.508536_Cordulegastridae_Anotogaster_sieboldii':0.239946)[&95%HPD={0.0862594,0.433317}]:0.19373,OD1164_Cordulegastridae_Cordulegaster_sp:0.433675)[&95%HPD={0.232997,0.697159}]:0.423799,OD1113_Neopetaliidae_Neopetalia_punctata:0.857474)[&95%HPD={0.358194,1.43331}]:0.514997,((GEODE7689_Chlorogomphidae_Chlorogomphus_spec:0.234859,OD1315_Chlorogomphidae_Chlorogomphus_auratus:0.234859)[&95%HPD={0.080334,0.489649}]:0.293037,'RMNH.INS.508528_Chlorogomphidae_Watanabeopetalia_usignata':0.527896)[&95%HPD={0.188812,1.11618}]:0.844576)[&95%HPD={0.896555,1.96695}]:1.018966)[&95%HPD={2.05331,2.67721}]:0.243324,((((((((((((((GEODE12755_Gomphidae_Perissogomphus_stevensi:0.232641,GEODE17933_Gomphidae_Scalmogomphus_falcatus:0.232641)[&95%HPD={0.0850992,0.421191}]:0.105054,'RMNH.INS.505754_Gomphidae_Amphigomphus_somnuki':0.337695)[&95%HPD={0.118559,0.564835}]:0.261955,(('RMNH.INS.506367_Gomphidae_Megalogomphus_icterops':0.202323,'RMNH.INS.509971_Gomphidae_Orientogomphus_minor':0.202323)[&95%HPD={0.0795359,0.356522}]:0.220923,'RMNH.INS.503524_Gomphidae_Acrogomphus_jubilaris':0.423246)[&95%HPD={0.137598,0.891428}]:0.176404)[&95%HPD={0.294666,1.26671}]:0.213097,((((GEODE17922_Gomphidae_Melligomphus_ardens:0.137605,'RMNH.INS.508661_Gomphidae_Lamelligomphus_camelus':0.137605)[&95%HPD={0.0691317,0.230838}]:0.112122,'RMNH.INS.509920_Gomphidae_Lamelligomphus_castor':0.249727)[&95%HPD={0.127993,0.38425}]:0.185217,'RMNH.INS.508662_Gomphidae_Lamelligomphus_sinicus':0.434944)[&95%HPD={0.19396,0.775785}]:0.13941,'RMNH.INS.508672_Gomphidae_Nepogomphus_walli':0.574354)[&95%HPD={0.23174,1.07522}]:0.238393)[&95%HPD={0.460951,1.48093}]:0.137663,(OD1314_Gomphidae_Ophiogomphus_morrisoni:0.239903,'RMNH.INS.507519_Gomphidae_Ophiogomphus_cecilia':0.239903)[&95%HPD={0.0738328,0.486333}]:0.710507)[&95%HPD={0.631356,1.60793}]:0.185792,((GEODE7736_Gomphidae_Erpetogomphus_compositus:0.090005,'RMNH.INS.508663_Gomphidae_Nihonogomphus_semanticus':0.090005)[&95%HPD={0.0510598,0.183141}]:0.496218,'RMNH.INS.501184_Gomphidae_Phaenandrogomphus_asthenes':0.586223)[&95%HPD={0.195837,0.964712}]:0.54998)[&95%HPD={0.721253,1.8212}]:0.151642,(((('RMNH.5009376_Gomphidae_Onychogomphus_styx':0.152283,'RMNH.INS.501444_Gomphidae_Libyogomphus_christinae':0.152283)[&95%HPD={0.0726142,0.261437}]:0.148122,'RMNH.INS.554510_Gomphidae_Cornigomphus_guineensis':0.300405)[&95%HPD={0.143469,0.472553}]:0.182653,(GEODE7733_Gomphidae_Tragogomphus_ellioti:0.200781,'RMNH.INS.502891_Gomphidae_Nepogomphoides_stuhlmanni':0.200781)[&95%HPD={0.073453,0.360217}]:0.282277)[&95%HPD={0.28939,0.759069}]:0.130079,('RMNH.INS.508012_Gomphidae_Paragomphus_genei':0.253512,'RMNH.INS.559802_Gomphidae_Crenigomphus_hartmanni':0.253512)[&95%HPD={0.0774331,0.491658}]:0.359625)[&95%HPD={0.348163,0.929158}]:0.674707)[&95%HPD={0.809298,1.90894}]:0.585129,(((((OD85_Gomphidae_Austrogomphus_amphiclitus:0.189529,'RMNH.5011478_Gomphidae_Pleiogomphus_prasinus':0.189529)[&95%HPD={0.0638536,0.376493}]:0.214393,'RMNH.INS.504961_Gomphidae_Austrogomphus_ochraceus':0.403922)[&95%HPD={0.154086,0.696532}]:0.868891,(GEODE7790_Gomphidae_Antipodogomphus_acolythus:0.184463,'RMNH.5011415_Gomphidae_Austroepigomphus_prearuptus':0.184463)[&95%HPD={0.0354831,0.412212}]:1.08835)[&95%HPD={0.824942,1.82387}]:0.088116,(('RMNH.5008090_Gomphidae_Ceratogomphus_pictus':0.216596,'RMNH.INS.507929_Gomphidae_Phyllogomphus_annulus':0.216596)[&95%HPD={0.0669406,0.486289}]:0.536229,'RMNH.INS.502394_Gomphidae_Lestinogomphus_congoensis':0.752824)[&95%HPD={0.143687,1.47572}]:0.608105)[&95%HPD={0.903447,1.90353}]:0.39797,(((GEODE7710_Gomphidae_Ebegomphus_sp:0.186947,GEODE7772_Gomphidae_Ebegomphus_minitus:0.186947)[&95%HPD={0.0737274,0.366855}]:0.116067,GEODE7775_Gomphidae_Agriogomphus_sylvicola:0.303014)[&95%HPD={0.114861,0.541061}]:0.218642,GEODE7763_Gomphidae_Archaeogomphus_nanus:0.521657)[&95%HPD={0.201833,0.982061}]:1.237242)[&95%HPD={1.40009,2.04935}]:0.114075)[&95%HPD={1.65068,2.08075}]:0.09548,((((((((GEODE17904_Gomphidae_Arigomphus_furcifer:0.192752,GEODE17936_Gomphidae_Phanogompgus_exilis:0.192752)[&95%HPD={0.083938,0.355673}]:0.165988,(GEODE7732_Gomphidae_Gomphurus_externus:0.180494,GEODE7754_Gomphidae_Stenogomphurus_rogersi:0.180494)[&95%HPD={0.0744782,0.327849}]:0.178246)[&95%HPD={0.157586,0.5567}]:0.13671,GEODE17914_Gomphidae_Shaogomphus_postocularis:0.49545)[&95%HPD={0.243845,0.754272}]:0.240331,((GEODE17919_Gomphidae_Gastrogomphus_abdominalis:0.156791,'RMNH.INS.508691_Gomphidae_Asiagomphus_hainanensis':0.156791)[&95%HPD={0.0594555,0.322746}]:0.234785,'RMNH.INS.509207_Gomphidae_Burmagomphus_divaricatus':0.391575)[&95%HPD={0.162447,0.604636}]:0.344207)[&95%HPD={0.351867,1.31985}]:0.320915,((GEODE17935_Gomphidae_Anormogomphus_kiritshenkoi:0.228608,'RMNH.5011399_Gomphidae_Stylurus_flavipes':0.228608)[&95%HPD={0.0765395,0.478575}]:0.443493,('RMNH.INS.505397_Gomphidae_Neurogomphus_cocytius':0.386463,'RMNH.INS.554426_Gomphidae_Mastigogomphus_chapini':0.386463)[&95%HPD={0.087287,0.81502}]:0.285638)[&95%HPD={0.186934,1.47004}]:0.384596)[&95%HPD={0.665139,1.6527}]:0.437658,(((GEODE12754_Gomphidae_Mattigomphus_pinratani:0.239595,GEODE17903_Gomphidae_Anisogomphus_anderi:0.239595)[&95%HPD={0.0837378,0.425727}]:0.139575,'RMNH.INS.505653_Gomphidae_Notogomphus_praetorius':0.379171)[&95%HPD={0.164128,0.725645}]:0.325292,'RMNH.INS.508700_Gomphidae_Labrogomphus_torvus':0.704463)[&95%HPD={0.284548,1.36152}]:0.789892)[&95%HPD={0.954624,1.91332}]:0.332588,(GEODE17923_Gomphidae_Mergomphus_longistigma:0.342713,'RMNH.INS.509134_Gomphidae_Euthygomphus_koxingai':0.342713)[&95%HPD={0.0723817,0.765057}]:1.484229)[&95%HPD={1.6832,1.98246}]:0.084511,(((GEODE17913_Gomphidae_Fukienogomphus_promineus:0.15833,'RMNH.INS.508624_Gomphidae_Fukienogomphus_promineus':0.15833)[&95%HPD={0.0614237,0.288199}]:0.189467,'RMNH.INS.508545_Gomphidae_Trigomphus_beatus':0.347796)[&95%HPD={0.132295,0.622686}]:0.101458,'RMNH.INS.229080_Gomphidae_Macrogomphus_quadratus':0.449255)[&95%HPD={0.210811,0.802718}]:1.462199)[&95%HPD={1.81256,2.0365}]:0.057)[&95%HPD={1.86014,2.09248}]:0.086646,((GEODE7734_Gomphidae_Heliogomphus_scorpio:0.221378,'RMNH.INS.501518_Gomphidae_Microgomphus_camerunensis':0.221378)[&95%HPD={0.0678791,0.468668}]:1.662283,'RMNH.INS.506264_Gomphidae_Leptogomphus_coomansi':1.88366)[&95%HPD={0.964435,2.25057}]:0.171439)[&95%HPD={1.9026,2.18488}]:0.113852,(GEODE17912_Gomphidae_Hagenius_brevistylus:0.359952,'RMNH.INS.503523_Gomphidae_Sieboldius_japponicus':0.359952)[&95%HPD={0.0720531,1.04589}]:1.809)[&95%HPD={2.00489,2.3394}]:0.10582,((GEODE17917_Gomphidae_Octogomphus_specularis:0.220439,GEODE7634_Gomphidae_Sinogomphus_telamon:0.220439)[&95%HPD={0.0831993,0.42924}]:0.147726,'RMNH.INS.509144_Gomphidae_Davidius_bicornutus':0.368165)[&95%HPD={0.117631,0.653788}]:1.906607)[&95%HPD={2.09755,2.47322}]:0.065116,((((((((GEODE7731_Gomphidae_Ictinogomphus_pertinax:0.181804,OD69_Gomphidae_Ictinogomphus_australis:0.181804)[&95%HPD={0.0765233,0.320266}]:0.150202,'RMNH.INS.509146_Gomphidae_Sinictinogomphus_clavatus':0.332005)[&95%HPD={0.102697,0.663863}]:0.075188,'RMNH.INS.502555_Gomphidae_Gomphidia_gamblesi':0.407193)[&95%HPD={0.175294,0.733812}]:0.142322,(GEODE12753_Gomphidae_Lindenia_tetraphylla:0.224918,'RMNH.INS.503108_Gomphidae_Diastatomma_gamblesi':0.224918)[&95%HPD={0.0822133,0.414166}]:0.324596)[&95%HPD={0.262323,1.28129}]:0.173383,GEODE17911_Gomphidae_Cacoides_latro:0.722897)[&95%HPD={0.327943,1.51013}]:0.289918,(((GEODE7681_Gomphidae_Phyllogomphoides_undulatus:0.171456,GEODE7818_Gomphidae_Aphylla_sp:0.171456)[&95%HPD={0.0714245,0.334674}]:0.365473,GEODE17915_Gomphidae_Peruviogomphus_pearsoni:0.536929)[&95%HPD={0.213465,0.963285}]:0.247448,GEODE7692_Gomphidae_Phyllogomphoides_fuliginosus:0.784377)[&95%HPD={0.441374,1.60503}]:0.228438)[&95%HPD={0.597623,1.7885}]:0.336437,((GEODE17909_Gomphidae_Zonophora_diversa:0.279261,GEODE7773_Gomphidae_Zonophora_batesi:0.279261)[&95%HPD={0.0816181,0.568589}]:0.148005,GEODE7774_Gomphidae_Desmogomphus_trigivensis:0.427266)[&95%HPD={0.165348,0.843814}]:0.921985)[&95%HPD={0.979469,1.97162}]:0.352336,(GEODE7745_Gomphidae_Armagomphus_armiger:0.331273,'RMNH.5011429_Gomphidae_Hemigomphus_comitatus':0.331273)[&95%HPD={0.070986,0.776401}]:1.370314)[&95%HPD={1.20243,2.22151}]:0.6383)[&95%HPD={2.14505,2.56319}]:0.151727,(((GEODE17940_Petaluridae_Petalura_litorea:0.206295,OD1318_Petaluridae_Petalura_gigantea:0.206295)[&95%HPD={0.0719565,0.417366}]:0.364259,GEODE17943_Petaluridae_Uropetala_chiltoni:0.570554)[&95%HPD={0.170084,1.17869}]:0.957417,(GEODE7743_Petaluridae_Tanypteryx_hageni:0.382931,PD166_Petaluridae_Tanypteryx_pryeri:0.382931)[&95%HPD={0.0861886,0.837893}]:1.14504)[&95%HPD={1.14932,2.05789}]:0.963643)[&95%HPD={2.29417,2.72708}]:0.143146)[&95%HPD={2.38996,2.84668}]:0.105897,(((((((((((GEODE17607_Aeshnidae_Andaeschna_rufipes:0.115199,TM581_Aeshnidae_Andaeschna_occidentalis:0.115199)[&95%HPD={0.049196,0.187969}]:0.109413,GEODE7669_Aeshnidae_Amphiaeschna_ampla:0.224613)[&95%HPD={0.117409,0.348577}]:0.128687,(GEODE7740_Aeshnidae_Rhionaeschna_multicolor:0.183483,TM392_Aeshnidae_Rhionaeschna_joannisi:0.183483)[&95%HPD={0.0768542,0.325908}]:0.169817)[&95%HPD={0.176386,0.597421}]:0.103084,'RMNH.INS.506912_Aeshnidae_Indaeschna_grubaueri':0.456384)[&95%HPD={0.266045,0.778131}]:0.18924,(((OD830_Aeshnidae_Anax_walsinghami:0.237466,'RMNH.INS.505016_Aeshnidae_Anax_imperator':0.237466)[&95%HPD={0.0818354,0.388725}]:0.076216,('RMNH.INS.505017_Aeshnidae_Isoaeshna_isoceles':0.203393,TM170_Aeshnidae_Remartinia_luteipennis:0.203393)[&95%HPD={0.0925639,0.317644}]:0.110288)[&95%HPD={0.146579,0.446459}]:0.106342,GEODE17614_Aeshnidae_Oreoaeschna_dictarix:0.420023)[&95%HPD={0.22368,0.604122}]:0.225601)[&95%HPD={0.388234,1.28592}]:0.139496,(((GEODE7690_Aeshnidae_Plattycantha_cornuta:0.165889,GEODE7691_Aeshnidae_Heliaeschna_crassa:0.165889)[&95%HPD={0.0692151,0.318125}]:0.203294,'RMNH.5011576_Aeshnidae_Austrogynacantha_heterogena':0.369183)[&95%HPD={0.137418,0.588576}]:0.141662,(OD1316_Aeshnidae_Gynacantha_gracilis:0.193279,'RMNH.INS.502232_Aeshnidae_Gynacantha_victoriae':0.193279)[&95%HPD={0.0715453,0.372449}]:0.317567)[&95%HPD={0.186878,0.798224}]:0.274273)[&95%HPD={0.453095,1.5036}]:0.104328,(GEODE17609_Aeshnidae_Epiaeschna_heros:0.308745,'RMNH.INS.507402_Aeshnidae_Brachytron_pratense':0.308745)[&95%HPD={0.0939482,0.584758}]:0.580703)[&95%HPD={0.578555,1.74286}]:0.146575,((OD1303_Aeshnidae_Gynacanthaeschna_sikkima:0.230282,'RMNH.INS.509145_Aeshnidae_Cephalaeschna_obversa':0.230282)[&95%HPD={0.0700118,0.463191}]:0.48884,'RMNH.INS.507528_Aeshnidae_Boyeria_cretensis':0.719122)[&95%HPD={0.137194,1.71201}]:0.3169)[&95%HPD={0.681716,1.9046}]:0.071438,(('RMNH.INS.504941_Aeshnidae_Notoaeschna_sagittata':0.206186,'RMNH.INS.504965_Aeshnidae_Acanthaeschna_victoria':0.206186)[&95%HPD={0.0651122,0.433689}]:0.261245,'RMNH.INS.504908_Aeshnidae_Telephlebia_godeffroyi':0.467431)[&95%HPD={0.105934,0.892442}]:0.64003)[&95%HPD={0.747516,1.98724}]:0.539984,GEODE17610_Aeshnidae_Gomphaeschna_furcillata:1.647445)[&95%HPD={1.13454,2.2506}]:0.65077,((OD1112_Austropetaliidae_Phyllopetalia_apollo:0.27891,OD1115_Austropetaliidae_Hypopetalia_pestilens:0.27891)[&95%HPD={0.0698369,0.688143}]:0.3206,GEODE17604_Austropetaliidae_Austropetalia_patricia:0.599509)[&95%HPD={0.151463,1.45873}]:1.698706)[&95%HPD={1.63041,2.82774}]:0.442443)[&95%HPD={2.44763,2.99838}]:0.160117,(OD1076_Epiophlebiidae_Epiophlebia_superstes:0.329506,OD1302_Epiophlebiidae_Epiophlebia_laidlawi:0.329506)[&95%HPD={0.0634899,0.799332}]:2.571269)[&95%HPD={2.59831,3.12934}]:0.236544,(((((((((((((((((((((((GEODE7758_Coenagrionidae_Acanthagrion_adustum:0.157168,GEODE7819_Coenagrionidae_Aeolagrion_dorsale:0.157168)[&95%HPD={0.0778896,0.257377}]:0.0772,GEODE7786_Coenagrionidae_Acanthallagma_luteum:0.234367)[&95%HPD={0.131541,0.353588}]:0.050645,(GEODE7848_Coenagrionidae_Oxyagrion_hermosae:0.142699,TM305_Coenagrionidae_Acanthagrion_trilobatum:0.142699)[&95%HPD={0.0658008,0.254534}]:0.142314)[&95%HPD={0.170356,0.400497}]:0.066245,((GEODE7836_Coenagrionidae_Diceratobasis_melanogaster:0.146733,OD1116_Coenagrionidae_Cyanallagma_sp:0.146733)[&95%HPD={0.0728605,0.247743}]:0.105641,(GEODE7852_Coenagrionidae_Homeoura_lindneri:0.134361,GEODE7882_Coenagrionidae_Andinagrion_peterseni:0.134361)[&95%HPD={0.0658781,0.243309}]:0.118013)[&95%HPD={0.144742,0.375074}]:0.098883)[&95%HPD={0.233382,0.470861}]:0.055568,GEODE7844_Coenagrionidae_Mesamphiagrion_demarmelsi:0.406825)[&95%HPD={0.2852,0.537376}]:0.069032,GEODE7749_Coenagrionidae_Amphiagrion_abbreviatum:0.475857)[&95%HPD={0.340963,0.604817}]:0.09705,((((GEODE7833_Coenagrionidae_Calvertagrion_mauffrayi:0.126898,GEODE7839_Coenagrionidae_Telagrion_longum:0.126898)[&95%HPD={0.0657725,0.202559}]:0.052428,GEODE7854_Coenagrionidae_Leptobasis_melinogaster:0.179326)[&95%HPD={0.101578,0.277228}]:0.10242,(GEODE7782_Coenagrionidae_Tuberculobasis_yanomami:0.206949,GEODE7880_Coenagrionidae_Denticulobasis_dunklei:0.206949)[&95%HPD={0.0894829,0.341221}]:0.074797)[&95%HPD={0.168515,0.388904}]:0.117754,(GEODE7828_Coenagrionidae_Anisagrion_allopterum:0.194587,GEODE7830_Coenagrionidae_Apanisagrion_lais:0.194587)[&95%HPD={0.0781137,0.344519}]:0.204912)[&95%HPD={0.25578,0.519099}]:0.173408)[&95%HPD={0.415219,0.697924}]:0.064794,((((('RMNH.5007797_Coenagrionidae_Azuragrion_nigridorsum':0.104802,'RMNH.INS.503619_Coenagrionidae_Aciagrion_borneense':0.104802)[&95%HPD={0.014887,0.168987}]:0.106704,('RMNH.5007810_Coenagrionidae_Africallagma_glaucum':0.110015,'RMNH.5010307_Coenagrionidae_Proischnura_polychromatica':0.110015)[&95%HPD={0.0481169,0.186498}]:0.101492)[&95%HPD={0.138333,0.309407}]:0.111454,GEODE7827_Coenagrionidae_Amphiallagma_parvum:0.322961)[&95%HPD={0.201011,0.470509}]:0.068931,('RMNH.INS.509787_Coenagrionidae_Coenagriocnemis_rufipes':0.149897,'RMNH.INS.509800_Coenagrionidae_Coenagriocnemis_insularis':0.149897)[&95%HPD={0.0680481,0.282334}]:0.241995)[&95%HPD={0.251402,0.545548}]:0.144316,('RMNH.INS.501979_Coenagrionidae_Thaumatagrion_funereum':0.234508,'RMNH.INS.505254_Coenagrionidae_Austrocnemis_splendida':0.234508)[&95%HPD={0.0831939,0.447715}]:0.3017)[&95%HPD={0.336186,0.688762}]:0.101492)[&95%HPD={0.460322,0.755658}]:0.095545,'RMNH.INS.503951_Coenagrionidae_Argiocnemis_rubescens':0.733246)[&95%HPD={0.509332,0.851279}]:0.062591,(GEODE7832_Coenagrionidae_Caliagrion_billinghursti:0.126273,'RMNH.INS.503604_Coenagrionidae_Archibasis_viola':0.126273)[&95%HPD={0.0087971,0.253238}]:0.669564)[&95%HPD={0.602311,0.933166}]:0.056147,'RMNH.INS.507703_Coenagrionidae_Stenagrion_dubium':0.851984)[&95%HPD={0.626464,1.00804}]:0.05978,'RMNH.INS.504852_Coenagrionidae_Austrocoenagrion_lyelli':0.911764)[&95%HPD={0.658657,1.0889}]:0.091186,GEODE7829_Coenagrionidae_Antiagrion_grinbergsi:1.002951)[&95%HPD={0.700175,1.22009}]:0.173479,((((((((GEODE7725_Coenagrionidae_Mecistogaster_linearis:0.135525,GEODE7857_Coenagrionidae_Platystigma_astictum:0.135525)[&95%HPD={0.0670441,0.254661}]:0.068979,GEODE7794_Coenagrionidae_Microstigma_anomalum:0.204504)[&95%HPD={0.0975972,0.328811}]:0.104179,GEODE7785_Coenagrionidae_Inpabasis_rosea:0.308683)[&95%HPD={0.175482,0.497662}]:0.138699,(GEODE7778_Coenagrionidae_Metaleptobasis_bicornis:0.241873,GEODE7835_Coenagrionidae_Cyanallagma_angelae:0.241873)[&95%HPD={0.0774812,0.410777}]:0.205509)[&95%HPD={0.297626,0.70092}]:0.18735,((GEODE2711_Coenagrionidae_Luzonobasis_glauca:0.165565,'RMNH.INS.557636_Coenagrionidae_Pericnemis_stictica':0.165565)[&95%HPD={0.0661947,0.306165}]:0.204885,(GEODE2758_Coenagrionidae_Plagulibasis_ciliata:0.207122,OD136_Coenagrionidae_Papuagrion_occipitale:0.207122)[&95%HPD={0.0871199,0.334098}]:0.163328)[&95%HPD={0.224263,0.564084}]:0.264281)[&95%HPD={0.451693,0.861317}]:0.067864,(GEODE7753_Coenagrionidae_Telebasis_salva:0.192992,GEODE7783_Coenagrionidae_Telebasis_demarara:0.192992)[&95%HPD={0.0700407,0.396762}]:0.509603)[&95%HPD={0.515824,0.957845}]:0.151226,'RMNH.INS.229208_Coenagrionidae_Oreocnemis_phoenix':0.853821)[&95%HPD={0.591318,1.13502}]:0.08212,(((((((GEODE7697_Coenagrionidae_Protoneura_tenuis:0.110975,TMCH16_Coenagrionidae_Protoneura_amatoria:0.110975)[&95%HPD={0.0644691,0.175137}]:0.041414,OD105_Coenagrionidae_Protoneura_capillaris:0.152389)[&95%HPD={0.0877658,0.230968}]:0.063566,GEODE7784_Coenagrionidae_Epipotoneura_nehalennia:0.215955)[&95%HPD={0.121886,0.301354}]:0.055789,GEODE7841_Coenagrionidae_Peristicta_aeneoviridis:0.271744)[&95%HPD={0.158946,0.369975}]:0.081007,OD103_Coenagrionidae_Neoneura_maria:0.352751)[&95%HPD={0.225504,0.483847}]:0.118183,((GEODE7826_Coenagrionidae_Aceratobasis_macilenta:0.164323,GEODE7879_Coenagrionidae_Forcepsioneura_sancta:0.164323)[&95%HPD={0.0700473,0.304427}]:0.155125,GEODE7741_Coenagrionidae_Psaironeura_tenuissima:0.319448)[&95%HPD={0.147983,0.475482}]:0.151486)[&95%HPD={0.292653,0.643197}]:0.174337,GEODE7781_Coenagrionidae_Phasmoneura_exigua:0.645271)[&95%HPD={0.421928,0.946571}]:0.29067)[&95%HPD={0.642413,1.19588}]:0.240489)[&95%HPD={0.807546,1.4064}]:0.049525,'RMNH.INS.500398_Coenagrionidae_Leptocnemis_cyanops':1.225955)[&95%HPD={0.814176,1.43289}]:0.157786,(((((((((GEODE7660_Platycnemididae_Nososticta_exul:0.157283,OD1317_Platycnemididae_Nososticta_solida:0.157283)[&95%HPD={0.0712219,0.273527}]:0.049182,GEODE7656_Platycnemididae_Nososticta_selysi:0.206464)[&95%HPD={0.0961375,0.343429}]:0.128307,(GEODE7796_Platycnemididae_Elattoneura_acuta:0.201435,OD1306_Platycnemididae_Elattoneura_glauca:0.201435)[&95%HPD={0.0911351,0.370643}]:0.133336)[&95%HPD={0.162143,0.52059}]:0.053199,((GEODE7624_Platycnemididae_Disparoneura_apicalis:0.19409,'RMNH.INS.508201_Platycnemididae_Arabineura_khalidi':0.19409)[&95%HPD={0.0742654,0.348522}]:0.096784,(GEODE7727_Platycnemididae_Prodasineura_autumnalis:0.212943,OD1122_Platycnemididae_Prodasineura_croconota:0.212943)[&95%HPD={0.0873895,0.370373}]:0.077931)[&95%HPD={0.14503,0.452454}]:0.097095)[&95%HPD={0.213197,0.585151}]:0.123086,GEODE7653_Platycnemididae_Esme_mudiensis:0.511055)[&95%HPD={0.291148,0.740606}]:0.180454,(((GEODE7750_Platycnemididae_Copera_nyansana:0.188069,GEODE7811_Platycnemididae_Copera_marginipes:0.188069)[&95%HPD={0.0760437,0.326898}]:0.063827,'RMNH.INS.559644_Platycnemididae_Spesbona_angusta':0.251896)[&95%HPD={0.0917792,0.406281}]:0.136254,((OD148_Platycnemididae_Platycnemis_pennipes:0.166394,'RMNH.INS.503944_Platycnemididae_Pseudocopera_ciliata':0.166394)[&95%HPD={0.0701415,0.291224}]:0.077124,'RMNH.INS.506232_Platycnemididae_Matticnemis_doi':0.243518)[&95%HPD={0.0995185,0.39559}]:0.144632)[&95%HPD={0.219844,0.578402}]:0.303359)[&95%HPD={0.499068,0.943671}]:0.129384,((((OD1123_Platycnemididae_Coeliccia_pyriformis:0.161342,'RMNH.INS.508637_Platycnemididae_Indocnemis_orang':0.161342)[&95%HPD={0.0698966,0.286353}]:0.166427,GEODE7724_Platycnemididae_Coeliccia_cyanomelas:0.327769)[&95%HPD={0.158881,0.511407}]:0.095176,GEODE2652_Platycnemididae_Asthenocnemis_stephanodera:0.422945)[&95%HPD={0.224655,0.65972}]:0.277612,((GEODE7668_Platycnemididae_Calicnemia_pulverulans:0.256755,'RMNH.INS.503929_Platycnemididae_Calicnemia_chaseni':0.256755)[&95%HPD={0.081744,0.450823}]:0.218187,GEODE7673_Platycnemididae_Calicnemia_erythromelas:0.474943)[&95%HPD={0.171184,0.722908}]:0.225615)[&95%HPD={0.467577,0.953584}]:0.120335)[&95%HPD={0.618474,1.05894}]:0.146913,((((((((('RMNH.INS.229291_Platycnemididae_Torrenticnemis_filicornis':0.095805,'RMNH.INS.500513_Platycnemididae_Lochmaeocnemis_malacodora':0.095805)[&95%HPD={0.0350119,0.145603}]:0.037162,'RMNH.INS.501995_Platycnemididae_Cyanocnemis_aureofrons':0.132967)[&95%HPD={0.084185,0.201402}]:0.055107,'RMNH.INS.500639_Platycnemididae_Idiocnemis_obliterata':0.188074)[&95%HPD={0.119759,0.276794}]:0.074901,GEODE7868_Platycnemididae_Rhyacocnemis_prothoracica:0.262975)[&95%HPD={0.179468,0.360311}]:0.033464,'RMNH.5011406_Platycnemididae_Macrocnemis_gracilis':0.296439)[&95%HPD={0.196013,0.396944}]:0.085033,(GEODE7864_Platycnemididae_Hylaeargia_magnifica:0.184266,'RMNH.INS.500580_Platycnemididae_Palaiargia_charmosyna':0.184266)[&95%HPD={0.0755314,0.310949}]:0.197206)[&95%HPD={0.262322,0.492798}]:0.099684,'RMNH.INS.501977_Platycnemididae_Arrhenocnemis_parvibullis':0.481156)[&95%HPD={0.333803,0.632587}]:0.08001,GEODE7866_Platycnemididae_Lieftinckia_malaitae:0.561165)[&95%HPD={0.379582,0.71281}]:0.165038,((((OD1143_Platycnemididae_Mesocnemis_singularis:0.14001,'RMNH.5007870_Platycnemididae_Metacnemis_valida':0.14001)[&95%HPD={0.0772614,0.21537}]:0.07417,'RMNH.INS.505846_Platycnemididae_Arabicnemis_caerulea':0.21418)[&95%HPD={0.141857,0.290348}]:0.095924,'RMNH.INS.508794_Platycnemididae_Stenocnemis_pachystigma':0.310105)[&95%HPD={0.218985,0.426922}]:0.219809,'RMNH.INS.500162_Platycnemididae_Allocnemis_contraria':0.529914)[&95%HPD={0.32323,0.72236}]:0.196289)[&95%HPD={0.474681,0.953338}]:0.241603)[&95%HPD={0.75499,1.18858}]:0.098525,(OD1132_Platycnemididae_Onychargia_atrocyana:0.354264,'RMNH.INS.229282_Platycnemididae_Paracnemis_alluaudi':0.354264)[&95%HPD={0.0812426,0.72421}]:0.712067)[&95%HPD={0.844931,1.32322}]:0.31741)[&95%HPD={0.956546,1.6464}]:0.221527,(((((OD55_Isostictidae_Rhadinosticta_simplex:0.124443,'RMNH.5011582_Isostictidae_Tanymecosticta_leptalea':0.124443)[&95%HPD={0.0606964,0.215585}]:0.099217,GEODE7860_Isostictidae_Austrosticta_soror:0.22366)[&95%HPD={0.121712,0.342057}]:0.068651,((OD1312_Isostictidae_Labidiosticta_vallisi:0.116794,'RMNH.5011475_Isostictidae_Oristicta_filicicola':0.116794)[&95%HPD={0.0587654,0.202848}]:0.075517,OD1277_Isostictidae_Neosticta_fraseri:0.192311)[&95%HPD={0.1039,0.314639}]:0.099999)[&95%HPD={0.169726,0.427077}]:0.124173,(OD159_Isostictidae_Isosticta_robustior:0.281635,'RMNH.INS.229243_Isostictidae_Selysioneura_capreola':0.281635)[&95%HPD={0.0884856,0.491604}]:0.134848)[&95%HPD={0.233753,0.643051}]:0.114903,OD1298_Isostictidae_Cnemisticta_latilobata:0.531386)[&95%HPD={0.292524,0.87431}]:1.073881)[&95%HPD={1.27237,1.88542}]:0.098577,(((((((((((((GEODE7721_Calopterygidae_Neurobasis_chinensis:0.128,OD1125_Calopterygidae_Neurobasis_ianthinipennis:0.128)[&95%HPD={0.0609103,0.223019}]:0.0853,'RMNH.INS.507722_Calopterygidae_Matronoides_cyaneipennis':0.2133)[&95%HPD={0.0999293,0.345735}]:0.05287,(OD102_Calopterygidae_Matrona_basilaris:0.147996,'RMNH.INS.508616_Calopterygidae_Atrocalopteryx_melli':0.147996)[&95%HPD={0.0709669,0.258786}]:0.118174)[&95%HPD={0.154215,0.42196}]:0.085853,GEODE7719_Calopterygidae_Calopteryx_aequabilis:0.352022)[&95%HPD={0.225772,0.530768}]:0.111803,((('RMNH.INS.505806_Calopterygidae_Psolodesmus_kuroiwae':0.182463,'RMNH.INS.508607_Calopterygidae_Mnais_mneme':0.182463)[&95%HPD={0.0752403,0.319998}]:0.106283,'RMNH.INS.508674_Calopterygidae_Archineura_incarnata':0.288746)[&95%HPD={0.114021,0.465911}]:0.071675,'RMNH.INS.501070_Calopterygidae_Echo_modesta':0.360421)[&95%HPD={0.217981,0.574145}]:0.103405)[&95%HPD={0.306799,0.640649}]:0.114645,((OD126_Calopterygidae_Vestalis_apicalis:0.168234,'RMNH.INS.507799_Calopterygidae_Vestalis_amaryllis':0.168234)[&95%HPD={0.0705095,0.284036}]:0.163639,'RMNH.INS.505747_Calopterygidae_Vestalaria_smaragdina':0.331873)[&95%HPD={0.16013,0.484546}]:0.246598)[&95%HPD={0.410039,0.730687}]:0.048441,(('RMNH.INS.503116_Calopterygidae_Sapho_fumosa':0.17505,'RMNH.INS.508844_Calopterygidae_Umma_longistigma':0.17505)[&95%HPD={0.0647189,0.299471}]:0.162892,'RMNH.INS.502132_Calopterygidae_Phaon_iridipennis':0.337943)[&95%HPD={0.154578,0.513365}]:0.288969)[&95%HPD={0.449993,0.769374}]:0.10522,'RMNH.INS.502054_Calopterygidae_Caliphaea_confusa':0.732132)[&95%HPD={0.51908,0.919382}]:0.105214,GEODE7705_Calopterygidae_Noguchiphaea_yoshikoae:0.837346)[&95%HPD={0.623141,1.03427}]:0.127252,(((GEODE7748_Calopterygidae_Mnesarete_williamsoni:0.18704,GEODE7823_Calopterygidae_Bryoplathanon_globifer:0.18704)[&95%HPD={0.0726351,0.338722}]:0.173954,(GEODE7779_Calopterygidae_Mnesarete_cupraea:0.202277,GEODE7780_Calopterygidae_Hetaerina_caja:0.202277)[&95%HPD={0.0707991,0.390127}]:0.158717)[&95%HPD={0.178479,0.583294}]:0.320823,(OD1170_Calopterygidae_Hetaerina_americana:0.351373,OD976_Calopterygidae_Ormenophlebia_imperatrix:0.351373)[&95%HPD={0.0954769,0.615025}]:0.330443)[&95%HPD={0.360001,0.992629}]:0.282781)[&95%HPD={0.705141,1.16612}]:0.195847,((((((((GEODE7666_Chlorocyphidae_Heliocypha_bisignata:0.134988,OD120_Chlorocyphidae_Heliocypha_biseriata:0.134988)[&95%HPD={0.0711289,0.210334}]:0.090989,GEODE7812_Chlorocyphidae_Heliocypha_perforata:0.225977)[&95%HPD={0.11346,0.341665}]:0.118851,'RMNH.INS.505736_Chlorocyphidae_Aristocypha_fenestrella':0.344828)[&95%HPD={0.215326,0.505368}]:0.053678,((OD35_Chlorocyphidae_Rhinocypha_tincta:0.141231,'RMNH.INS.507707_Chlorocyphidae_Rhinoneura_villosipes':0.141231)[&95%HPD={0.0630474,0.253839}]:0.099169,'RMNH.INS.501024_Chlorocyphidae_Sundacypha_petiolata':0.2404)[&95%HPD={0.106379,0.389228}]:0.158106)[&95%HPD={0.255267,0.553142}]:0.098649,((GEODE7667_Chlorocyphidae_Libellago_greeni:0.119151,'RMNH.INS.500989_Chlorocyphidae_Libellago_aurantiaca':0.119151)[&95%HPD={0.0270628,0.213675}]:0.268197,OD134_Chlorocyphidae_Libellago_semiopaca:0.387348)[&95%HPD={0.199866,0.599836}]:0.109807)[&95%HPD={0.34636,0.691659}]:0.124502,GEODE7675_Chlorocyphidae_Disparocypha_biedermanni:0.621657)[&95%HPD={0.401548,0.838395}]:0.11161,(('RMNH.INS.505345_Chlorocyphidae_Platycypha_caligata':0.233257,'RMNH.INS.506163_Chlorocyphidae_Africocypha_lacuselephantum':0.233257)[&95%HPD={0.0755358,0.438007}]:0.159438,'RMNH.INS.508833_Chlorocyphidae_Stenocypha_gracilis':0.392695)[&95%HPD={0.144985,0.671904}]:0.340572)[&95%HPD={0.514251,0.965674}]:0.185179,GEODE7672_Chlorocyphidae_Cyrano_unicolor:0.918446)[&95%HPD={0.701354,1.12958}]:0.241999)[&95%HPD={0.923457,1.42497}]:0.147964,((((((((('RMNH.INS.502075_Argiolestidae_Metagrion_ornatus':0.159229,'RMNH.INS.543752_Argiolestidae_Wahnesia_kirbyi':0.159229)[&95%HPD={0.0782591,0.253014}]:0.079392,'RMNH.INS.501990_Argiolestidae_Pyrrhargiolestes_aulicus':0.238621)[&95%HPD={0.140098,0.372725}]:0.114609,(OD1083_Argiolestidae_Austroargiolestes_icteromelas:0.136043,'RMNH.INS.500862_Argiolestidae_Podopteryx_selysii':0.136043)[&95%HPD={0.0607172,0.257393}]:0.217186)[&95%HPD={0.239294,0.46403}]:0.106533,(((GEODE7820_Argiolestidae_Archiagiolestes_pusillissimus:0.192902,'RMNH.INS.502084_Argiolestidae_Archiargioletes_parvulus':0.192902)[&95%HPD={0.0942809,0.27946}]:0.152327,'RMNH.INS.502077_Argiolestidae_Miniargiolestes_minimus':0.345228)[&95%HPD={0.241474,0.455102}]:0.058752,'RMNH.INS.501973_Argiolestidae_Argiolestes_muller':0.403981)[&95%HPD={0.280201,0.534778}]:0.055782)[&95%HPD={0.343115,0.596758}]:0.156572,(((GEODE7821_Argiolestidae_Eoargiolestes_ochraceus:0.168888,'RMNH.INS.500853_Argiolestidae_Eorgiolestes_ochraceus':0.168888)[&95%HPD={0.0757337,0.287803}]:0.195488,(OD162_Argiolestidae_Caledargiolestes_uniseries:0.213706,'RMNH.INS.503407_Argiolestidae_Caledargiolestes_sarasini':0.213706)[&95%HPD={0.0916111,0.36065}]:0.15067)[&95%HPD={0.207997,0.510026}]:0.072255,'RMNH.INS.500854_Argiolestidae_Trineuragrion_percostale':0.436631)[&95%HPD={0.275368,0.589865}]:0.179703)[&95%HPD={0.459114,0.798125}]:0.071036,GEODE7716_Argiolestidae_Griseargiolestes_albescens:0.68737)[&95%HPD={0.531637,0.906701}]:0.090428,GEODE7678_Argiolestidae_Luzonargiolestes_baltazarae:0.777798)[&95%HPD={0.592862,0.985358}]:0.069984,((((GEODE7822_Argiolestidae_Nesolestes_radama:0.085672,OD1309_Argiolestidae_Nesolestes_sp:0.085672)[&95%HPD={0.0043385,0.156476}]:0.166026,'RMNH.5008334_Argiolestidae_Podolestes_orientalis':0.251699)[&95%HPD={0.0993644,0.402761}]:0.140259,'RMNH.INS.506145_Argiolestidae_Neurolestes_trinervis':0.391958)[&95%HPD={0.234416,0.538983}]:0.200394,'RMNH.INS.500397_Argiolestidae_Allolestes_maclachlani':0.592352)[&95%HPD={0.364706,0.776622}]:0.25543)[&95%HPD={0.636436,1.04845}]:0.210918,(GEODE7863_Megapodagrionidae_Allopodagrion_contortum:0.278846,OD1281_Megapodagrionidae_Teinopodagrion_meridionale:0.278846)[&95%HPD={0.0709445,0.558101}]:0.779854)[&95%HPD={0.790623,1.31361}]:0.249709)[&95%HPD={0.93824,1.53815}]:0.203108,(((OD1119_Philosinidae_Rhinagrion_sp:0.216843,'RMNH.INS.506835_Philosinidae_Rhinagrion_macrocephalum':0.216843)[&95%HPD={0.0679711,0.42111}]:0.130028,OD1130_Philosinidae_Philosina_buchi:0.346871)[&95%HPD={0.125502,0.624398}]:0.139549,OD1079_Philogangidae_Philoganga_vetusta:0.48642)[&95%HPD={0.205691,0.812953}]:1.025097)[&95%HPD={1.1576,1.88579}]:0.192328)[&95%HPD={1.41424,1.98701}]:0.094373,((((((((((GEODE7686_Euphaeidae_Euphaea_cardinalis:0.13703,GEODE7694_Euphaeidae_Euphaea_refulgens:0.13703)[&95%HPD={0.0688382,0.231941}]:0.07059,OD132_Euphaeidae_Euphaea_ochracea:0.20762)[&95%HPD={0.106331,0.317342}]:0.099892,GEODE7687_Euphaeidae_Cyclophaea_cyanifrons:0.307512)[&95%HPD={0.18808,0.438404}]:0.114772,((GEODE7683_Euphaeidae_Anisopleura_lestoides:0.139909,'RMNH.INS.505757_Euphaeidae_Anisopleura_furcata':0.139909)[&95%HPD={0.0661121,0.239102}]:0.143952,GEODE2756_Euphaeidae_Heterophaea_barbata:0.283861)[&95%HPD={0.153997,0.396972}]:0.138424)[&95%HPD={0.293845,0.550384}]:0.093068,'RMNH.INS.501089_Euphaeidae_Dysphaea_dimidiata':0.515352)[&95%HPD={0.336965,0.668024}]:0.082372,(((GEODE7858_Euphaeidae_Schmidtiphaea_schmidi:0.163558,'RMNH.INS.505817_Euphaeidae_Cryptophaea_vietnamensis':0.163558)[&95%HPD={0.06991,0.294376}]:0.15034,OD99_Euphaeidae_Bayadera_brevicauda:0.313898)[&95%HPD={0.147496,0.491377}]:0.185475,'RMNH.5009494_Euphaeidae_Epallage_fatime':0.499373)[&95%HPD={0.314523,0.737834}]:0.09835)[&95%HPD={0.43262,0.800568}]:0.116902,((OD43_Lestoideidae_Diphlebia_coerulescens:0.170852,'RMNH.5011424_Lestoideidae_Diphlebia_euphaeoides':0.170852)[&95%HPD={0.0679533,0.331435}]:0.220834,OD157_Lestoideidae_Lestoidea_conjuncta:0.391686)[&95%HPD={0.188389,0.659552}]:0.322939)[&95%HPD={0.551514,0.916901}]:0.127553,OD1283_Pseudolestidae_Pseudolestes_mirabilis:0.842178)[&95%HPD={0.67371,1.00328}]:0.201426,((((OD1085_Rhipidolestidae_Agriomorpha_xinglongensis:0.239925,OD1121_Rhipidolestidae_Agriomorpha_fusca:0.239925)[&95%HPD={0.0786156,0.407863}]:0.166284,(OD96_Rhipidolestidae_Rhipidolestes_aculeatus:0.181541,'RMNH.INS.502064_Rhipidolestidae_Rhipidolestes_truncatidens':0.181541)[&95%HPD={0.0696842,0.340064}]:0.224668)[&95%HPD={0.242927,0.663357}]:0.065897,((GEODE7874_Thaumatoneuridae_Paraphlebia_duodecima:0.181585,OD1135_Thaumatoneuridae_Paraphlebia_sp:0.181585)[&95%HPD={0.0776078,0.335315}]:0.084388,OD1141_Thaumatoneuridae_Thaumatoneura_inopinata:0.265973)[&95%HPD={0.136579,0.445368}]:0.206133)[&95%HPD={0.30977,0.751749}]:0.155646,((OD151_Devadattidae_Devadatta_podolestoides:0.195151,'RMNH.INS.501127_Devadattidae_Devadatta_argyoides':0.195151)[&95%HPD={0.0635525,0.412286}]:0.09955,OD1148_Amphipterygidae_Amphipteryx_agrioides:0.294701)[&95%HPD={0.104294,0.512428}]:0.333052)[&95%HPD={0.388244,0.905338}]:0.415851)[&95%HPD={0.821834,1.34468}]:0.307421,(OD1077_Mesopodagrionidae_Mesopodagrion_sp:0.457503,OD1133_Amanipodagrionidae_Amanipodagrion_gilliesi:0.457503)[&95%HPD={0.109416,0.975414}]:0.893521)[&95%HPD={0.963535,1.70771}]:0.447193)[&95%HPD={1.47518,2.03117}]:0.199915,(((((((TM155_Heteragrionidae_Heteragrion_tatama:0.158723,TM404_Heteragrionidae_Heteragrion_erythrogastrum:0.158723)[&95%HPD={0.0653008,0.298761}]:0.097762,GEODE7742_Heteragrionidae_Oxystigma_petiolatum:0.256485)[&95%HPD={0.112099,0.449051}]:0.094186,OD1126_Heteragrionidae_Dimeragrion_percubitale:0.350672)[&95%HPD={0.175261,0.57835}]:0.253305,(OD1124_Philogeniidae_Philogenia_carrillica:0.226429,TM201_Philogeniidae_Philogenia_martae:0.226429)[&95%HPD={0.0764397,0.425997}]:0.377548)[&95%HPD={0.333435,0.898168}]:0.234398,(((GEODE7788_Dicteriadidae_Heliocharis_amazona:0.182354,OD1146_Hypolestidae_Hypolestes_sp:0.182354)[&95%HPD={0.0703908,0.370806}]:0.143441,GEODE7718_Dicteriadidae_Dicterias_astrosanguinea:0.325794)[&95%HPD={0.147036,0.502393}]:0.162225,OD1183_Mesagrionidae_Mesagrion_leucorhinum:0.488019)[&95%HPD={0.234184,0.802005}]:0.350356)[&95%HPD={0.460524,1.22343}]:0.459471,((((((PP330_Polythoridae_Polythore_procera:0.132533,TM154_Polythoridae_Polythore_gigantea:0.132533)[&95%HPD={0.0400011,0.250128}]:0.143637,ANCH188_Polythoridae_Miocora_peraltica:0.27617)[&95%HPD={0.147012,0.68883}]:0.135207,UAE1_Polythoridae_Euthore_fassli:0.411377)[&95%HPD={0.257991,0.751715}]:0.077414,BOY03_Polythoridae_Cora_xanthosoma:0.488791)[&95%HPD={0.318607,0.814154}]:0.243888,'RMNH.INS.505717_Polythoridae_Chalcopteryx_rutilans':0.732679)[&95%HPD={0.446741,1.20657}]:0.211098,GEODE7704_Rimanellidae_Rimanella_arcana:0.943777)[&95%HPD={0.564436,1.41337}]:0.354069)[&95%HPD={0.860405,1.80887}]:0.252011,(((OD1136_Protolestidae_Protolestes_fickei:0.284314,OD1308_Protolestidae_Protolestes_kerckhoffae:0.284314)[&95%HPD={0.0901347,0.527004}]:0.121586,(OD1139_Pentaphlebiidae_Pentaphlebia_mangana:0.262131,'RMNH.INS.500093_Pentaphlebiidae_Pentaphlebia_stahli':0.262131)[&95%HPD={0.086761,0.454012}]:0.143768)[&95%HPD={0.196868,0.678071}]:0.130602,OD1137_Tatocnemididae_Tatocnemis_malgassica:0.536501)[&95%HPD={0.239615,0.859362}]:1.013356)[&95%HPD={1.0039,2.03055}]:0.448275)[&95%HPD={1.63327,2.25316}]:0.131658,(GEODE7872_Priscagrionidae_Sinocnemis_henanensis:0.385984,OD1280_Priscagrionidae_Priscagrion_kiautai:0.385984)[&95%HPD={0.0747992,0.907214}]:1.743807)[&95%HPD={1.73525,2.44666}]:0.250388,(((((('RMNH.5008397_Platystictidae_Telosticta_ulubaram':0.117706,'RMNH.INS.506261_Platystictidae_Telosticta_bidayuh':0.117706)[&95%HPD={0.0608466,0.216022}]:0.087341,'RMNH.INS.507659_Platystictidae_Drepanosticta_actaeon':0.205047)[&95%HPD={0.111734,0.328333}]:0.05027,GEODE7722_Platystictidae_Protosticta_satoi:0.255317)[&95%HPD={0.126785,0.403028}]:0.085,GEODE7787_Platystictidae_Palaemnema_brevignoni:0.340317)[&95%HPD={0.163309,0.54223}]:0.169682,GEODE7876_Platystictidae_Ceylonosticta_lankanensis:0.509999)[&95%HPD={0.257257,0.855063}]:0.826031,(GEODE7871_Platystictidae_Sinosticta_sylvatica:0.253378,'RMNH.INS.506492_Platystictidae_Sinosticta_ogatai':0.253378)[&95%HPD={0.0690243,0.502599}]:1.082653)[&95%HPD={0.489315,2.28963}]:1.044148)[&95%HPD={1.8784,2.81555}]:0.403349,((((((((GEODE7728_Lestidae_Austrolestes_leda:0.120467,OD63_Lestidae_Austrolestes_annulosus:0.120467)[&95%HPD={0.0646568,0.19079}]:0.087048,OD1278_Lestidae_Indolestes_cyaneus:0.207514)[&95%HPD={0.107812,0.318513}]:0.096324,GEODE7665_Lestidae_Indolestes_albicaudus:0.303839)[&95%HPD={0.170239,0.457847}]:0.107456,(OD1127_Lestidae_Orolestes_octomaculatus:0.155451,'RMNH.INS.507448_Lestidae_Chalcolestes_viridis':0.155451)[&95%HPD={0.0680011,0.291794}]:0.255843)[&95%HPD={0.211499,0.623965}]:0.310556,((GEODE7730_Lestidae_Archilestes_grandis:0.185051,OD1321_Lestidae_Lestes_disjunctus:0.185051)[&95%HPD={0.0760093,0.331123}]:0.143826,GEODE7813_Lestidae_Lestes_plagiatus:0.328878)[&95%HPD={0.115257,0.601743}]:0.392972)[&95%HPD={0.438769,1.32039}]:0.170614,OD122_Lestidae_Sympecma_paedisca:0.892464)[&95%HPD={0.549255,1.48327}]:0.117995,((((((GEODE7723_Synlestidae_Chlorolestes_elegans:0.128128,'RMNH.INS.508746_Synlestidae_Nubiolestes_diotima':0.128128)[&95%HPD={0.0578157,0.227508}]:0.074729,OD1305_Synlestidae_Chlorolestes_umbratus:0.202857)[&95%HPD={0.0956276,0.331582}]:0.10215,(GEODE7873_Synlestidae_Phylolestes_ethelae:0.164204,'RMNH.5007835_Synlestidae_Ecchlorolestes_nylephtha':0.164204)[&95%HPD={0.0714281,0.287703}]:0.140803)[&95%HPD={0.151043,0.478133}]:0.205447,((GEODE7755_Synlestidae_Episynlestes_albicauda:0.170741,'RMNH.5011485_Synlestidae_Chorismagrion_risi':0.170741)[&95%HPD={0.073287,0.300201}]:0.064037,OD81_Synlestidae_Synlestes_weyersii:0.234778)[&95%HPD={0.104869,0.379987}]:0.275676)[&95%HPD={0.27863,0.785545}]:0.257224,'RMNH.INS.508632_Synlestidae_Megalestes_heros':0.767678)[&95%HPD={0.414141,1.3072}]:0.14823,OD1120_Perilestidae_Perissolestes_remotus:0.915909)[&95%HPD={0.490291,1.4613}]:0.09455)[&95%HPD={0.614652,1.58574}]:0.481048,OD1074_Hemiphlebiidae_Hemiphlebia_mirabilis:1.491506)[&95%HPD={0.732251,2.3138}]:1.292021)[&95%HPD={2.33233,3.19183}]:0.353791)[&95%HPD={2.90784,3.25187}]:0.030723,(((SRR1695233_Ephemeroptera_Ecdyonurus_insignis:0.207306,SRR921608_Ephemeroptera_Isonychia_bicolor:0.207306)[&95%HPD={0.0696683,0.423848}]:0.602431,(SRR921591_Ephemeroptera_Ephemera_danica:0.241689,SRR921596_Ephemeroptera_Eurylophella_sp:0.241689)[&95%HPD={0.0738039,0.459346}]:0.568048)[&95%HPD={0.239695,2.14669}]:1.747634,SRR921569_Ephemeroptera_Baetis_sp:2.557371)[&95%HPD={1.09139,3.2649}]:0.610671)[&95%HPD={2.92592,3.31779}];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute="95%HPD";
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

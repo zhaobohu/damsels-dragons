@@ -1,0 +1,58 @@
+==================================================
+file name: Somatochlora.arctica.clean.fna
+sequences:          3580
+total length: 2516230215 bp  (2516171415 bp excl N/X-runs)
+GC level:         33.89 %
+bases masked: 1585830016 bp ( 63.02 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements       1098076    443576797 bp   17.63 %
+   SINEs:            36714      7350410 bp    0.29 %
+   Penelope:             0            0 bp    0.00 %
+   LINEs:           837846    369310468 bp   14.68 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex     393158    165019871 bp    6.56 %
+     R1/LOA/Jockey   12445     12326058 bp    0.49 %
+     R2/R4/NeSL       7039      4032088 bp    0.16 %
+     RTE/Bov-B      182546    113158731 bp    4.50 %
+     L1/CIN4             0            0 bp    0.00 %
+   LTR elements:    223516     66915919 bp    2.66 %
+     BEL/Pao          3277      3563314 bp    0.14 %
+     Ty1/Copia        7026      4107152 bp    0.16 %
+     Gypsy/DIRS1     40997     27662502 bp    1.10 %
+       Retroviral        0            0 bp    0.00 %
+
+DNA transposons     459374    183270401 bp    7.28 %
+   hobo-Activator   165320     66826406 bp    2.66 %
+   Tc1-IS630-Pogo   130123     52305412 bp    2.08 %
+   En-Spm                0            0 bp    0.00 %
+   MULE-MuDR           308        68918 bp    0.00 %
+   PiggyBac          53023     19882059 bp    0.79 %
+   Tourist/Harbinger 26910      6424154 bp    0.26 %
+   Other (Mirage,     9774      2012676 bp    0.08 %
+    P-element, Transib)
+
+Rolling-circles      14082      3644430 bp    0.14 %
+
+Unclassified:       1993818    863737122 bp   34.33 %
+
+Total interspersed repeats:  1490584320 bp   59.24 %
+
+
+Small RNA:          102083     33150677 bp    1.32 %
+
+Satellites:              0            0 bp    0.00 %
+Simple repeats:     340298     54183729 bp    2.15 %
+Low complexity:      71001      4266860 bp    0.17 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+RepeatMasker version 4.2.3 , default mode                                         
+run with rmblastn version 2.14.1+
+The query was compared to classified sequences in "Somatochlora.arctica.wgs.repeats.fna"
+FamDB: 

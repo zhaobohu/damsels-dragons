@@ -1,0 +1,58 @@
+==================================================
+file name: Orthetrum.coerulescens.clean.fna
+sequences:          3353
+total length: 1338287935 bp  (1337487135 bp excl N/X-runs)
+GC level:         36.36 %
+bases masked:  603689408 bp ( 45.11 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements       335951    124630076 bp    9.31 %
+   SINEs:            19177      2149738 bp    0.16 %
+   Penelope:             0            0 bp    0.00 %
+   LINEs:           289282    110846396 bp    8.28 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex     206140     68594656 bp    5.13 %
+     R1/LOA/Jockey    3982      3346177 bp    0.25 %
+     R2/R4/NeSL       6657      2988884 bp    0.22 %
+     RTE/Bov-B       40835     26499866 bp    1.98 %
+     L1/CIN4             0            0 bp    0.00 %
+   LTR elements:     27492     11633942 bp    0.87 %
+     BEL/Pao          3566      1158647 bp    0.09 %
+     Ty1/Copia        4134      1849582 bp    0.14 %
+     Gypsy/DIRS1      3040      3886360 bp    0.29 %
+       Retroviral        0            0 bp    0.00 %
+
+DNA transposons     103446     43507715 bp    3.25 %
+   hobo-Activator    21743      6073069 bp    0.45 %
+   Tc1-IS630-Pogo    30966     12342503 bp    0.92 %
+   En-Spm                0            0 bp    0.00 %
+   MULE-MuDR             0            0 bp    0.00 %
+   PiggyBac          10493      5134536 bp    0.38 %
+   Tourist/Harbinger 30370     11773553 bp    0.88 %
+   Other (Mirage,      170       117266 bp    0.01 %
+    P-element, Transib)
+
+Rolling-circles        116        47239 bp    0.00 %
+
+Unclassified:       585903    418095149 bp   31.24 %
+
+Total interspersed repeats:   586232940 bp   43.80 %
+
+
+Small RNA:           42077      9407477 bp    0.70 %
+
+Satellites:              0            0 bp    0.00 %
+Simple repeats:     140178      6665338 bp    0.50 %
+Low complexity:      27070      1336414 bp    0.10 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+RepeatMasker version 4.2.3 , default mode                                         
+run with rmblastn version 2.14.1+
+The query was compared to classified sequences in "Orthetrum.coerulescens.wgs.repeats.fna"
+FamDB: 

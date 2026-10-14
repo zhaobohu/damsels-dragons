@@ -1,0 +1,58 @@
+==================================================
+file name: Sympetrum.striolatum.clean.fna
+sequences:           551
+total length: 1349614149 bp  (1349544149 bp excl N/X-runs)
+GC level:         35.19 %
+bases masked:  586947682 bp ( 43.49 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements       325755    132664816 bp    9.83 %
+   SINEs:              178        15821 bp    0.00 %
+   Penelope:             0            0 bp    0.00 %
+   LINEs:           273206    101316163 bp    7.51 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex     146463     54376958 bp    4.03 %
+     R1/LOA/Jockey    7028      3763584 bp    0.28 %
+     R2/R4/NeSL       5616      1562161 bp    0.12 %
+     RTE/Bov-B       37383     15513532 bp    1.15 %
+     L1/CIN4          1279      1226344 bp    0.09 %
+   LTR elements:     52371     31332832 bp    2.32 %
+     BEL/Pao          4895      3251154 bp    0.24 %
+     Ty1/Copia        6271      4640275 bp    0.34 %
+     Gypsy/DIRS1     16345     12815507 bp    0.95 %
+       Retroviral        0            0 bp    0.00 %
+
+DNA transposons     189368     71848562 bp    5.32 %
+   hobo-Activator    39780     13828662 bp    1.02 %
+   Tc1-IS630-Pogo    61609     24361737 bp    1.81 %
+   En-Spm                0            0 bp    0.00 %
+   MULE-MuDR           428       128405 bp    0.01 %
+   PiggyBac          14038      8036908 bp    0.60 %
+   Tourist/Harbinger 31916      7304226 bp    0.54 %
+   Other (Mirage,     7365      1775768 bp    0.13 %
+    P-element, Transib)
+
+Rolling-circles       4258      1792570 bp    0.13 %
+
+Unclassified:       832857    360998667 bp   26.75 %
+
+Total interspersed repeats:   565512045 bp   41.90 %
+
+
+Small RNA:           44460     10660977 bp    0.79 %
+
+Satellites:              0            0 bp    0.00 %
+Simple repeats:     158139      7468607 bp    0.55 %
+Low complexity:      30425      1513483 bp    0.11 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+RepeatMasker version 4.2.3 , default mode                                         
+run with rmblastn version 2.14.1+
+The query was compared to classified sequences in "Sympetrum.striolatum.wgs.repeats.fna"
+FamDB: 

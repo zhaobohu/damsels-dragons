@@ -1,0 +1,17 @@
+# BUSCO version is: 6.1.0 
+# The lineage dataset is: insecta_odb12.2 (Creation date: 2026-05-13, number of genomes: 76, number of BUSCOs: 2708)
+# Summarized benchmarking in BUSCO notation for file /path/to/project/runs/CordBolt.gene.annot/cordulegaster.busco.aa
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:96.4%[S:95.5%,D:1.0%],F:0.5%,M:3.1%,n:2708	   
+	2611	Complete BUSCOs (C)			   
+	2585	Complete and single-copy BUSCOs (S)	   
+	26	Complete and duplicated BUSCOs (D)	   
+	13	Fragmented BUSCOs (F)			   
+	84	Missing BUSCOs (M)			   
+	2708	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.4

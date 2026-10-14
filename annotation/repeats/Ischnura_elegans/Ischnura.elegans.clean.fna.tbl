@@ -1,0 +1,58 @@
+==================================================
+file name: Ischnura.elegans.clean.fna
+sequences:           110
+total length: 1722738530 bp  (1722658430 bp excl N/X-runs)
+GC level:         38.49 %
+bases masked:  750744150 bp ( 43.58 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements       655355    235607214 bp   13.68 %
+   SINEs:              207        28809 bp    0.00 %
+   Penelope:             0            0 bp    0.00 %
+   LINEs:           464768    152697570 bp    8.86 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex     158674     53307651 bp    3.09 %
+     R1/LOA/Jockey    8994      6395434 bp    0.37 %
+     R2/R4/NeSL       5102      2957012 bp    0.17 %
+     RTE/Bov-B      156996     53842044 bp    3.13 %
+     L1/CIN4             0            0 bp    0.00 %
+   LTR elements:    190380     82880835 bp    4.81 %
+     BEL/Pao          7131      6432533 bp    0.37 %
+     Ty1/Copia       43557     21450739 bp    1.25 %
+     Gypsy/DIRS1     71377     32249755 bp    1.87 %
+       Retroviral        0            0 bp    0.00 %
+
+DNA transposons     232904    102334203 bp    5.94 %
+   hobo-Activator    46497     19396734 bp    1.13 %
+   Tc1-IS630-Pogo    88014     30674120 bp    1.78 %
+   En-Spm                0            0 bp    0.00 %
+   MULE-MuDR           224        46000 bp    0.00 %
+   PiggyBac          25888     18566522 bp    1.08 %
+   Tourist/Harbinger 14463      3486655 bp    0.20 %
+   Other (Mirage,     1908      1561797 bp    0.09 %
+    P-element, Transib)
+
+Rolling-circles      18253     10884120 bp    0.63 %
+
+Unclassified:       1466884    384540389 bp   22.32 %
+
+Total interspersed repeats:   722481806 bp   41.94 %
+
+
+Small RNA:           55519      8849691 bp    0.51 %
+
+Satellites:              0            0 bp    0.00 %
+Simple repeats:     147702      6521799 bp    0.38 %
+Low complexity:      37399      2006734 bp    0.12 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+RepeatMasker version 4.2.3 , default mode                                         
+run with rmblastn version 2.14.1+
+The query was compared to classified sequences in "Ischnura.elegans.wgs.repeats.fna"
+FamDB: 

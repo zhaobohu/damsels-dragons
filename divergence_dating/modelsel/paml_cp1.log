@@ -1,0 +1,73 @@
+IQ-TREE version 3.1.3 for Linux x86 64-bit built Jul 26 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    qbd184 (AVX512, FMA3, 250 GB RAM)
+Command: iqtree3 -s cp1.phy -te topo.tre -m MF -mset JC,K80,F81,HKY,TN,GTR -mrate E,G --prefix paml_cp1 -T 1 -redo
+Seed:    665916 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Aug 21 21:53:53 2026
+Kernel:  AVX+FMA - 1 threads (1 CPU cores detected)
+
+Reading alignment file cp1.phy ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00991893 secs using 25.69% CPU
+Alignment has 11 sequences with 17741 columns, 3462 distinct patterns
+3819 parsimony-informative, 2242 singleton sites, 11680 constant sites
+                        Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 6.8903e-05 secs using 50.8% CPU
+   1  Aeshna_juncea_neoX       18.42%    passed     63.08%
+   2  Aeshna_juncea_neoY       18.42%    passed     57.88%
+   3  Anax_junius              18.29%    passed     91.41%
+   4  Somatochlora_arctica     18.49%    passed     94.66%
+   5  Cordulegaster_boltonii   18.05%    passed     85.36%
+   6  Sympetrum_striolatum     18.83%    passed     98.48%
+   7  Orthetrum_coerulescens   19.33%    passed     74.87%
+   8  Pantala_flavescens       24.77%    failed      0.02%
+   9  Ischnura_elegans         15.56%    passed      7.18%
+  10  Platycnemis_pennipes     15.03%    failed      0.15%
+  11  Archilestes_grandis      17.73%    passed     34.49%
+****  TOTAL                    18.45%  2 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 0.000133991 secs using 52.24% CPU
+
+Reading input tree file topo.tre ... rooted tree
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Time for fast ML tree search: 0.146 seconds
+
+NOTE: ModelFinder requires 4 MB RAM!
+ModelFinder will test up to 24 DNA models (sample size: 17741 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Akaike Information Criterion:           GTR+F+G4
+Corrected Akaike Information Criterion: GTR+F+G4
+Bayesian Information Criterion:         GTR+F+G4
+Best-fit model: GTR+F+G4 chosen according to BIC
+
+All model information printed to paml_cp1.model.gz
+CPU time for ModelFinder: 1.146 seconds (0h:0m:1s)
+Wall-clock time for ModelFinder: 1.156 seconds (0h:0m:1s)
+
+NOTE: 4 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -72892.103
+Optimal log-likelihood: -72892.101
+Rate parameters:  A-C: 2.00720  A-G: 2.05240  A-T: 1.46279  C-G: 0.73753  C-T: 4.36742  G-T: 1.00000
+Base frequencies:  A: 0.313  C: 0.183  G: 0.322  T: 0.182
+Gamma shape alpha: 0.449
+Parameters optimization took 1 rounds (0.022 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -72892.101
+Total tree length: 0.945
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 1.178 sec (0h:0m:1s)
+Total wall-clock time used: 1.190 sec (0h:0m:1s)
+
+Analysis results written to: 
+  IQ-TREE report:                paml_cp1.iqtree
+  Tree used for ModelFinder:     paml_cp1.treefile
+  Screen log file:               paml_cp1.log
+
+Date and Time: Fri Aug 21 21:53:54 2026
