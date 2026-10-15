@@ -9,8 +9,9 @@
 #
 # 13_figures.R on every map, then get_numbers.R clades (reads the 15_timeslice.R tables),
 # so submit it after 15_timeslice.sbatch:
-#   jid=$(sbatch --parsable 15_timeslice.sbatch)
+#   jid=$(sbatch --parsable 15_timeslice.sbatch | grep -oE '^[0-9]+' | tail -1)
 #   sbatch --dependency=afterok:$jid 13_figures.sbatch
+# (the grep drops the "Using default partition..." lines some clusters print with the job id)
 
 set -eoux pipefail
 mkdir -p logs
